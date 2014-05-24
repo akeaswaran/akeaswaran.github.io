@@ -1,0 +1,23 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Akshay Easwaran
+tagline:          'Developer &nbsp;&bull;&nbsp; Student &nbsp;'
+description:      'A personal blog for <a href="https://twitter.com/akeaswaran" target="_blank">Akshay Easwaran</a>.'
+url:              http://shivadoc.github.io
+paginate:         5
+
+author:
+  name:           'Akshay Easwaran'
+  url:            https://twitter.com/akeaswaran
+
+# Custom vars
+version:          0.0.1
+
+github:
+  repo:           https://github.com/shivadoc/shivadoc.github.io
