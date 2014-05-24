@@ -1,4 +1,4 @@
-shivadoc.github.io - My Personal Site
+akeaswaran.github.io - My Personal Site
 ==================
 
 This is a personal site I've built using Jekyll and [Poole](https://demo.getpoole.com/).
