@@ -15,7 +15,7 @@ This site utilizes a sliding sidebar built by [Poole's](https://github.com/poole
 * A link back to this home page
 * A link to my about page
 * A link to my [Twitter profile](https://twitter.com/akeaswaran)
-* And a link to this site's [project on Github](https://github.com/shivadoc/shivadoc.github.io/), where readers can open issues and make their own sites like this.
+* And a link to this site's [project on Github](https://github.com/akeaswaran/akeaswaran.github.io), where readers can open issues and make their own sites like this.
 
 ### Browser support
 
