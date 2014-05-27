@@ -7,11 +7,11 @@ For the past few months, I have been helping my friend [Brian Tung](https://twit
 
 ### Summary
 
-[Flyte](https://twitter.com/getflyte), as mentioned before, is a brand-new Twitter client for iOS, optimized for the iPhone 5 and up and developed for iOS 7 (although the app does scale down for 3.5" devices). As per the App Store description:
+[Flyte](https://twitter.com/getflyte), as mentioned before, is a brand-new Twitter client for iOS, optimized for iPhone 5 and up and developed for iOS 7 (although the app does scale down for 3.5" devices). As per the App Store description:
 
 >It's built to fit your personal style, whatever that may be. Are you tired of client upon client all looking the same? Then leave those boring black and white apps behind and discover a world of color!
 
-And Brian has really hit the nail on the head with that one, seeing as Flyte adapts to any custom wallpaper you put behind it. For example:
+And Brian has really hit the nail on the head with that one, seeing as Flyte adapts its colors and UI elements to any custom wallpaper you put behind them. For example:
 
 ![Example 1](https://cloud.githubusercontent.com/assets/3195522/3098386/3c1e0ada-e5eb-11e3-9e34-724eef600086.png)
 
