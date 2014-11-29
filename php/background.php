@@ -4,9 +4,11 @@
     <head>
         <link rel="stylesheet" href="background.css">
         <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
-    </head>
-    <title>Background - Akshay Easwaran</title>
-    <body>
+    </head>';
+    echo '
+    <title>Background - Akshay Easwaran</title>';
+    echo
+    '<body>
         <div id="headerTitle">
             <h1>Akshay Easwaran</h1>
         </div>
@@ -16,9 +18,9 @@
             <a href="background.html" id="backgroundTab">Background</a>
             <a href="projects.html" id="projectsTab">Projects</a>
             <a href="keynote/index.html" id="keynoteTab">Keynote</a>
-        </div>
-
-         <div id="educationContainer">
+        </div>';
+    echo
+         '<div id="educationContainer">
             <h3>Education</h3>
             <div id="eduText">
                 <p>In four years at Milton High School, I have taken multiple AP and Honors Courses in all subjects, with a total of 11 AP-level classes, 9 additional Honors-level classes, and 2 dual-enrollment college courses. Among them:</p>
@@ -36,9 +38,10 @@
                     <li>Georgia Tech - Calculus II-III</li>
                     <li>Georgia Perimeter College - English Literature II-III</li>
             </div>
-        </div>
+        </div>';
 
-        <div id="techBackgroundContainer">
+    echo
+        '<div id="techBackgroundContainer">
             <h3>Technical Background</h3>
             <div id="backgroundText">
                 <p>I am self-taught and well-versed in the following programming languages:</p>
@@ -47,9 +50,9 @@
                 <li>Apex/VisualForce</li>
                 <li>HTML/CSS</li>
             </div>
-        </div>
-
-        <div id="employmentContainer">
+        </div>';
+    echo
+        '<div id="employmentContainer">
             <h3>Employment History</h3>
             <div id="employmentText">
                 <li id="csURL">July - September 2013: <a href="http://cloudsherpas.com/">CloudSherpas, Inc.</a> - iOS Developer (Intern)</li>
