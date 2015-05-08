@@ -1,103 +1,91 @@
-/* Space out content a bit */
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote {
+	margin: 75px; padding: 0; border: 0;
+}
+
 body {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background: #020206;
+	font: 14px Helvetica, Sans-Serif; line-height: 24px; color: #ffffff;
+	background: rgb(25, 25, 25);
 }
 
-.nav-pills li a:hover {
-  background-color: #292C33;
-  color: #E4E4E4;
+#app-store {
+    width: 168px;
+    height: 58px;
+    background: url(images/app-store.png);
+    background-size:100%;  
+    float: left;
+    z-index: 10;
 }
 
-/* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
-.marketing,
-.footer {
-  padding-right: 15px;
-  padding-left: 15px;
+#container {
+	width: 960px; margin: 0 auto 24px auto; background: #EBEBEB; 
+    position: relative;
 }
 
-/* Custom page header */
-.header {
-  padding-bottom: 20px;
-  border-bottom: 1px solid #292C33;
-}
-/* Make the masthead heading the same height as the navigation */
-.header h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 40px;
+a {
+	color: #EBEBEB; text-decoration: none;
 }
 
-/* Custom page footer */
-.footer {
-  padding-top: 19px;
-  color: #777;
-  border-top: 1px solid #292C33;
-  text-align: center;
+a:hover {
+		color: #d4dee3;
+}
+    
+header h1 {
+	margin: 54px 0 0 25px; 
 }
 
-/* Customize container */
-@media (min-width: 768px) {
-  .container {
-    max-width: 730px;
-  }
+header nav {
+	float: left;
+	margin: 25px 0 17px 0;
 }
-.container-narrow > hr {
-  margin: 30px 0;
+	header nav ul li {
+		float: left; list-style: none;
+		width: 58px; margin: 0 0 0 98px;
+	}
+		header nav ul li a {
+			text-transform: uppercase;	
+		}
+    #feature {
+	clear: both; height: 600px; overflow: hidden; margin: 0 0 48px 0;
+	background: #000;
+    
+    background:url(images/COUNTR.png);
+    background-size:96%;
 }
+	
+	#feature img {
+		float: right; margin: 0px 0 0 0;
+	}
+	#feature-info {
+		float: right; margin: 490px 10px 10px 510px;
+        color:#000;
 
-/* Main marketing message and sign up button */
-.jumbotron {
-  text-align: center;
-  border-bottom: 1px solid #292C33;
-  background-color: #292C33;
-  color: #E4E4E4;
+	}
+		#feature-info p {
+			margin: 0 0 15px 0; font-size: 16px;
+		}
+	
+    footer {
+	width: 960px; margin: 0 auto; height: 80px;
+    align-content: center;
+	font-size: 12px;
+   
 }
-.jumbotron .btn {
-  padding: 14px 24px;
-  font-size: 21px;
-}
-
-/* Supporting marketing content */
-.text-container {
-  margin: 40px 0;
-}
-.text-container h4 {
-  margin-top: 28px;
-  color: white;
-}
-.text-container p {
-  color: #E4E4E4;
-}
-
-.marketing {
-  margin: 40px 0;
-}
-.marketing h4 {
-  margin-top: 28px;
-  color: white;
-}
-.marketing p {
-  color: #E4E4E4;
-}
-
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-  /* Remove the padding we set earlier */
-  .header,
-  .marketing,
-  .footer {
-    padding-right: 0;
-    padding-left: 0;
-  }
-  /* Space out the masthead */
-  .header {
-    margin-bottom: 30px;
-  }
-  /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    border-bottom: 0;
-  }
-}
+	footer #copyright {
+		float: right; margin: 0 0 0 22px;
+	}
+	
+	footer ul {
+        margin: 0 0 0 134px; list-style: none; overflow: hidden;
+        float: left;
+		
+	}
+		footer li {
+			float: left; margin: 0 10px 0 10px;
+            
+		}
+	
+	footer #back-top {
+		float: right; margin: 0 22px 0 0;
+        
+	}
+		
