@@ -25,7 +25,7 @@ hr.light {
 }
 
 a {
-    color: #E7AE27;
+    color: #fff;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -33,7 +33,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #eb3812;
+    color: #fff;
 }
 
 h1,
@@ -399,9 +399,9 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-    border-color: #ed431f;
+    border-color: #F7B92A;
     color: #fff;
-    background-color: #ee4b28;
+    background-color: #F7B92A;
 }
 
 .btn-primary:active,
