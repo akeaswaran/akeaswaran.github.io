@@ -93,14 +93,27 @@
                           email.save(null, {
                           success: function(object) {
                             $('#successAlert').attr('class','alert alert-success alert-dismissible');
+                              var data = { 
+                                    email: getEmail()
+                              };
+                              
+                              Parse.Cloud.run("sendIntroEmail", data, {
+                                  success: function(object) {
+                                    console.log('Intro email sent successfully to ' + getEmail());
+                                  },
+                                  error: function(object, error) {
+                                    console.log('Something went wrong: ' + error);
+                                  }
+                              });
                           },
                           error: function(model, error) {
                             $('#warningAlert').attr('class','alert alert-danger alert-dismissible');
+                            console.log('Something went wrong: ' + error);
                           }
                         });
                     } else {
-                        console.log(getEmail() + ' ' + validateEmail());
                         $('#warningAlert').attr('class','alert alert-danger alert-dismissible');
+                        console.log('Something went wrong: the entered email address is invalid');
                     }
                 });
             });
