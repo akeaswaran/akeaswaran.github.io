@@ -1,47 +1,110 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8" />
-<title>Countr | The Countdown App</title>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- The above 2 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Countr | The Countdown App</title>
+        <link rel="stylesheet" href="js/bootstrap/css/bootstrap.min.css">
+        <link href="main.css" rel="stylesheet"/>
+    </head>
 
-<link href="main.css" rel="stylesheet" />
+    <body>
+    
+        
+        <div class="container">
+            <div class="row">
+                <img class="main-img" src="images/COUNTRPhone.png">
+                <div class="col-xs-4 titles">
+                    <h1>Countr</h1>
+                    <h2>The Countdown App</h2>
+                </div>
+                <div class="row">
+                    <div class="col-xs-4 forms">
+                        <form class="form-inline" role="form">
+                          <h3>Sign up to get updates from Countr's developers!</h3>
+                          <p>(Don't worry - we promise not to spam you.)</p>
+                          <div class="form-group">
+                            <label for="emailEntry" class="sr-only">Email address</label>
+                            <input type="email" class="form-control" id="emailEntry" placeholder="Email" value="">
+                            <button type="submit" class="btn btn-primary" id="submitButton">Submit</button>
+                          </div>
+                        </form> 
+                        <div id ="warningAlert" class="alert alert-danger alert-dismissible hide" role="alert" aria-hidden="false">
+                            <button type="button" class="close" data-dismiss="alert"><span aria-hidden="false">&times;</span><span class="sr-only">Close</span></button>
+                          <strong>Error!</strong> Check your email and try again!
+                        </div>        
+                        <div id ="successAlert" class="alert alert-success alert-dismissible hide" role="alert" aria-hidden="true">
+                            <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                          <strong>Sign-up successful!</strong> You'll now get emails from Countr's Developers!
+                        </div>
+                    </div>
+                </div>
+			</div>
+        </div>
+        
+        <footer class="bs-docs-footer">
+		  <div class="container">
+            <p>© 2015 Akshay Easwaran</p>
+		    <ul class="bs-docs-footer-links text-muted">
+		      <li><a href="mailto:countrdevelopers@gmail.com">Contact Us</a></li>
+		      <li><a href="https://itunes.apple.com/us/app/countr-the-countdown-app/id991230442?ls=1&mt=8">App Store</a></li>
+		    </ul>
+		  </div>
+		</footer>
+        
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/bootstrap/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.4.2.min.js"></script>
+        
+          <script type="text/javascript">
+            $(document).ready(function() {
+              
+                function getEmail() {
+                    var emailText = $('#emailEntry').val();
+                    return emailText;
+                }
+              
+                function validateEmail() 
+                {
+                 if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(getEmail()))
+                  {
+                    return (true)
+                  }
+                    return (false)
+                }
+                
+                $('#emailEntry').on('submit', function(event) {
+                    event.preventDefault();
+                    console.log($(this).val);
+                });
 
-</head>
-
-<body>
-<div id="container">
-	
-	
-    <section id="feature">
-		
-		<div id="feature-info">
-			
-			<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-			<a href="https://itunes.apple.com/us/app/countr-the-countdown-app/id991230442?ls=1&mt=8" id="app-store"></a>
-            
-		</div>
-	</section>
-    </div>
-
-<footer>
-	<ul style="margin: 0 auto; content-align:center;">
-		<li><a href="index.html">Home</a></li>
-        <li><a href="mailto:miltondevcrew@gmail.com">Support</a></li>
-        <li><a href="https://itunes.apple.com/us/app/countr-the-countdown-app/id991230442?ls=1&mt=8">App Store</a></li>
-	</ul>
-    <p id="copyright" style="color:white;">Copyright &copy; 2015 Akshay Easwaran.</p>
-</footer>
-
-
-</body>
+                $('#submitButton').click(function(event) {
+                    event.preventDefault();
+                    $('#successAlert').attr('class','alert alert-success alert-dismissible hide');
+                    $('#warningAlert').attr('class','alert alert-danger alert-dismissible hide');
+                    if(getEmail() != null && getEmail() != '' && validateEmail()) {
+                        Parse.initialize("eDxafJJ7OYKu7R3HK8tTKfUvAUkwkJVpBQbhMxRs", "7J9k8bZIhlKumAIjouZgDqklE5bOj0VuGx4VTpaw");
+                        var Email = Parse.Object.extend("Email");
+                        var email = new Email();
+                        email.set("emailAddress", getEmail());
+                          email.save(null, {
+                          success: function(object) {
+                            $('#successAlert').attr('class','alert alert-success alert-dismissible');
+                          },
+                          error: function(model, error) {
+                            $('#warningAlert').attr('class','alert alert-danger alert-dismissible');
+                          }
+                        });
+                    } else {
+                        console.log(getEmail() + ' ' + validateEmail());
+                        $('#warningAlert').attr('class','alert alert-danger alert-dismissible');
+                    }
+                });
+            });
+              
+        </script>
+    </body>
 </html>
-
-<style type="text/css">
-
-a:link {color: #EBEBEB; }
-a:active {color: rgb(150, 19, 5);  }
-a:visited {color: #A3A6A6; }
-a:hover {color: #75747E; }
-
-
-</style>
