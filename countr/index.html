@@ -62,6 +62,8 @@
           <script type="text/javascript">
             $(document).ready(function() {
                 Parse.initialize("eDxafJJ7OYKu7R3HK8tTKfUvAUkwkJVpBQbhMxRs", "7J9k8bZIhlKumAIjouZgDqklE5bOj0VuGx4VTpaw");
+                var Email = Parse.Object.extend("Email");
+                
                 function getEmail() {
                     var emailText = $('#emailEntry').val();
                     return emailText;
@@ -77,25 +79,21 @@
                 }
                 
                 function emailIsUnique(emailAddress) {
-                    var Email = Parse.Object.extend("Email");
                     var query = new Parse.Query(Email);
-                    var resultsLength;
                     query.equalTo("emailAddress", emailAddress);
-                    query.find({
-                      success: function(results)                              
-                      {
-                           resultsLength = results.length;                                     
-                      }  
+                    var returnableResult;
+                    query.first({
+                      success: function(object) {
+                        if (object) {
+                          returnableResult = false;
+                        } else {
+                          returnableResult = true;
+                        }
+                      },
+                      error: function(error) {
+                        returnableResult = false;
+                      }
                     });
-                    
-                   if (resultsLength > 0) 
-                   {                    
-                       return (false)
-                   }                 
-                   else     
-                   {                 
-                       return (true)
-                   }  
                 }
                 
                 $('#emailEntry').on('submit', function(event) {
@@ -108,37 +106,49 @@
                     $('#successAlert').attr('class','alert alert-success alert-dismissible hide');
                     $('#warningAlert').attr('class','alert alert-danger alert-dismissible hide');
                     if(getEmail() != null && getEmail() != '' && validateEmail()) {
-                        if (emailIsUnique(getEmail())) {
-                            var Email = Parse.Object.extend("Email");
-                            var email = new Email();
-                            email.set("emailAddress", getEmail());
-                            email.save(null, {
-                              success: function(object) {
-                                $('#successAlert').attr('class','alert alert-success alert-dismissible');
-                                  var data = { 
-                                        email: getEmail()
-                                  };
+                        
+                        var query = new Parse.Query(Email);
+                        query.equalTo("emailAddress", getEmail());
+                        var returnableResult;
+                        query.first({
+                          success: function(object) {
+                            if (!object) {
+                                var email = new Email();
+                                email.set("emailAddress", getEmail());
+                                email.save(null, {
+                                  success: function(object) {
+                                    $('#successAlert').attr('class','alert alert-success alert-dismissible');
+                                      var data = { 
+                                            email: getEmail()
+                                      };
 
-                                  Parse.Cloud.run("sendIntroEmail", data, {
-                                      success: function(object) {
-                                        console.log('Intro email sent successfully to ' + getEmail());
-                                      },
-                                      error: function(object, error) {
-                                        console.log('Something went wrong: ' + error);
-                                      }
-                                  });
-                              },
-                              error: function(model, error) {
-                                $('#warningAlert').html("<button type=\"button\" class=\"close\" data-dismiss=\"alert\"><span aria-hidden=\"false\">&times;</span><span class=\"sr-only\">Close</span></button><strong>Error!</strong> " + error);
+                                      Parse.Cloud.run("sendIntroEmail", data, {
+                                          success: function(object) {
+                                            console.log('Intro email sent successfully to ' + getEmail());
+                                          },
+                                          error: function(object, error) {
+                                            console.log('Something went wrong: ' + error);
+                                          }
+                                      });
+                                  },
+                                  error: function(model, error) {
+                                    $('#warningAlert').html("<button type=\"button\" class=\"close\" data-dismiss=\"alert\"><span aria-hidden=\"false\">&times;</span><span class=\"sr-only\">Close</span></button><strong>Error!</strong> " + error);
+                                    $('#warningAlert').attr('class','alert alert-danger alert-dismissible');
+                                    console.log('Something went wrong: ' + error);
+                                  }
+                                });
+                            } else {
+                                $('#warningAlert').html("<button type=\"button\" class=\"close\" data-dismiss=\"alert\"><span aria-hidden=\"false\">&times;</span><span class=\"sr-only\">Close</span></button><strong>Error!</strong> This email is already signed up for alerts!");
                                 $('#warningAlert').attr('class','alert alert-danger alert-dismissible');
-                                console.log('Something went wrong: ' + error);
-                              }
-                            });
-                        } else {
-                            $('#warningAlert').html("<button type=\"button\" class=\"close\" data-dismiss=\"alert\"><span aria-hidden=\"false\">&times;</span><span class=\"sr-only\">Close</span></button><strong>Error!</strong> This email address is already signed up for updates!");
+                                console.log('Something went wrong: Your email is already in the system.');
+                            }
+                          },
+                          error: function(error) {
+                             $('#warningAlert').html("<button type=\"button\" class=\"close\" data-dismiss=\"alert\"><span aria-hidden=\"false\">&times;</span><span class=\"sr-only\">Close</span></button><strong>Error!</strong> " + error);
                             $('#warningAlert').attr('class','alert alert-danger alert-dismissible');
-                            console.log('Something went wrong: Your email already exists in the system.');
-                        } 
+                            console.log('Something went wrong: ' + error);
+                          }
+                        });
                     } else {
                         $('#warningAlert').html("<button type=\"button\" class=\"close\" data-dismiss=\"alert\"><span aria-hidden=\"false\">&times;</span><span class=\"sr-only\">Close</span></button><strong>Error!</strong> Check your email and try again!");
                         $('#warningAlert').attr('class','alert alert-danger alert-dismissible');
