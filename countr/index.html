@@ -4,17 +4,20 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <!-- The above 2 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <meta name="description" content="">
-        <meta name="author" content="">
+        <meta name="description" content="Countr - the Countdown App">
+        <meta name="author" content="Akshay Easwaran">
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@akeaswaran" />
+        <meta name="twitter:title" content="Countr - the Countdown App" />
+        <meta name="twitter:description" content="Introducing a whole new way to look forward to things. Available July 17th." />
+        <meta name="twitter:image" content="images/COUNTRTWAD.png" />
         <title>Countr | The Countdown App</title>
         <link rel="stylesheet" href="js/bootstrap/css/bootstrap.min.css">
         <link href="main.css" rel="stylesheet"/>
     </head>
 
     <body>
-    
-        
-        <div class="container">
+      <div class="container">
             <div class="row">
                 <img class="main-img" src="images/COUNTRPhone.png">
                 <div class="col-xs-4 titles">
@@ -31,11 +34,11 @@
                             <input type="email" class="form-control" id="emailEntry" placeholder="Email" value="">
                             <button type="submit" class="btn btn-primary" id="submitButton">Submit</button>
                           </div>
-                        </form> 
+                        </form>
                         <div id ="warningAlert" class="alert alert-danger alert-dismissible hide" role="alert" aria-hidden="false">
                             <button type="button" class="close" data-dismiss="alert"><span aria-hidden="false">&times;</span><span class="sr-only">Close</span></button>
                           <strong>Error!</strong> Check your email and try again!
-                        </div>        
+                        </div>
                         <div id ="successAlert" class="alert alert-success alert-dismissible hide" role="alert" aria-hidden="true">
                             <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
                           <strong>Sign-up successful!</strong> You'll now get emails from Countr's Developers!
@@ -44,7 +47,7 @@
                 </div>
 			</div>
         </div>
-        
+
         <footer class="bs-docs-footer">
 		  <div class="container">
             <p>© 2015 Akshay Easwaran</p>
@@ -54,22 +57,22 @@
 		    </ul>
 		  </div>
 		</footer>
-        
+
         <script src="js/jquery-1.11.1.min.js"></script>
         <script src="js/bootstrap/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.4.2.min.js"></script>
-        
+
           <script type="text/javascript">
             $(document).ready(function() {
                 Parse.initialize("eDxafJJ7OYKu7R3HK8tTKfUvAUkwkJVpBQbhMxRs", "7J9k8bZIhlKumAIjouZgDqklE5bOj0VuGx4VTpaw");
                 var Email = Parse.Object.extend("Email");
-                
+
                 function getEmail() {
                     var emailText = $('#emailEntry').val();
                     return emailText;
                 }
-              
-                function validateEmail() 
+
+                function validateEmail()
                 {
                  if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(getEmail()))
                   {
@@ -77,7 +80,7 @@
                   }
                     return (false)
                 }
-                
+
                 function emailIsUnique(emailAddress) {
                     var query = new Parse.Query(Email);
                     query.equalTo("emailAddress", emailAddress);
@@ -95,7 +98,7 @@
                       }
                     });
                 }
-                
+
                 $('#emailEntry').on('submit', function(event) {
                     event.preventDefault();
                     console.log($(this).val);
@@ -106,7 +109,7 @@
                     $('#successAlert').attr('class','alert alert-success alert-dismissible hide');
                     $('#warningAlert').attr('class','alert alert-danger alert-dismissible hide');
                     if(getEmail() != null && getEmail() != '' && validateEmail()) {
-                        
+
                         var query = new Parse.Query(Email);
                         query.equalTo("emailAddress", getEmail());
                         var returnableResult;
@@ -118,7 +121,7 @@
                                 email.save(null, {
                                   success: function(object) {
                                     $('#successAlert').attr('class','alert alert-success alert-dismissible');
-                                      var data = { 
+                                      var data = {
                                             email: getEmail()
                                       };
 
@@ -156,7 +159,7 @@
                     }
                 });
             });
-              
+
         </script>
     </body>
 </html>
