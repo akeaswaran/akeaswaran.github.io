@@ -3,12 +3,16 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <!-- The above 2 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <meta name="description" content="Countr - the Countdown App">
         <meta name="author" content="Akshay Easwaran">
         <title>Countr | The Countdown App</title>
         <link rel="stylesheet" href="js/bootstrap/css/bootstrap.min.css">
         <link href="main.css" rel="stylesheet"/>
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@akeaswaran">
+        <meta name="twitter:title" content="Countr - the Countdown App">
+        <meta name="twitter:description" content="Introducing a simpler way to look forward to things. Available July 17th.">
+        <meta name="twitter:image" content="images/COUNTRTWAD.png">'
     </head>
 
     <body>
@@ -44,6 +48,11 @@
           var releaseDay = new Date(2015,6,17);
           if (now >= releaseDay) {
             $('#downloader').prop('disabled', false);
+            $("meta[name='twitter:card']").remove();
+            $("meta[name='twitter:site']").remove();
+            $("meta[name='twitter:title']").remove();
+            $("meta[name='twitter:description']").remove();
+            $("meta[name='twitter:image']").remove();
             $('head').append('<meta name="twitter:card" content="app"><meta name="twitter:site" content="@akeaswaran"><meta name="twitter:description" content="Introducing a simpler way to look forward to things. Available today."><meta name="twitter:app:country" content="US"><meta name="twitter:app:name:iphone" content="Countr - The Countdown App"><meta name="twitter:app:id:iphone" content="991230442">');
           } else {
             $('#downloader').prop('disabled', true);
@@ -53,7 +62,6 @@
               dayString = 'days';
             }
             $('#downloader').html('Available in ' + numberOfDays + ' ' + dayString);
-            $('head').append('<meta name="twitter:card" content="summary"><meta name="twitter:site" content="@akeaswaran"><meta name="twitter:title" content="Countr - the Countdown App"><meta name="twitter:description" content="Introducing a simpler way to look forward to things. Available July 17th."><meta name="twitter:image" content="images/COUNTRTWAD.png">')
           }
         </script>
     </body>
