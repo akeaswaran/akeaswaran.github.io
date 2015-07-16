@@ -42,23 +42,10 @@ body {
 
 .titles {
     margin-left: 20px;
-    margin-top: 135px;
+    margin-top: 200px;
     margin-bottom: 50px;
     display: inline-block;
     text-align: center;
-}
-
-.forms {
-   margin-left: 20px;
-    margin-top: 0px;
-    margin-bottom: 50px;
-    display: inline-block;
-    text-align: center;
-}
-
-.forms h3 {
-    font-size: 25px;
-    margin-bottom: 20px;
 }
 
 .titles h1 {
@@ -69,19 +56,4 @@ body {
 .titles h2 {
     font-size: 40px;
     margin-top: 0px;
-}
-
-.alert {
-    width: 400px;
-    margin-top: 50px;
-    margin-left: 20px;
-    align-content: center;
-}
-
-.form-inline h3 {
-    margin-bottom: 10px;
-}
-
-.form-inline p {
-    margin-bottom: 20px;
 }
