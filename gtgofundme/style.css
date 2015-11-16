@@ -188,6 +188,7 @@ img{border: none;}
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
+
 .custom_nav li a:hover,.custom_nav li a:focus{
 	color: #F3B30E !important;
 	text-decoration: none;
@@ -267,8 +268,8 @@ img{border: none;}
   display: inline;
   width: 40%;
 }
-.slide_descright{
-  float: right;
+.slide_descright {
+  float: center;
   display: inline;
   width: 58%;
   margin-top: 15%;
