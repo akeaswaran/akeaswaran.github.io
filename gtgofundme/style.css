@@ -269,7 +269,7 @@ img{border: none;}
   width: 40%;
 }
 .slide_descright {
-  float: center;
+  float: right;
   display: inline;
   width: 58%;
   margin-top: 15%;
@@ -279,6 +279,21 @@ img{border: none;}
   text-transform: uppercase;
 }
 .slide_descright p{
+  color: #fff;
+  font-size: 16px;
+}
+
+.slide_desccenter {
+  float: center;
+  display: inline;
+  width: 58%;
+  margin-top: 65%;
+}
+.slide_desccenter h1 {
+  font-size: 35px;
+  text-transform: uppercase;
+}
+.slide_desccenter p{
   color: #fff;
   font-size: 16px;
 }
@@ -1164,7 +1179,7 @@ img{border: none;}
   margin-right: 5px;
 }
 .slider_area{
-  float: left;
+  float: center;
   display: inline;
   width: 100%;
 }
