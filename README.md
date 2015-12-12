@@ -1,6 +1,8 @@
-akeaswaran.github.io - My Personal Site
+akeaswaran.github.io
 ==================
 
-If you want to use any of the code available here, please let me know before downloading.
-
 If you find something wrong with the site, please open an issue on the Github Issues page of this repo.
+
+# Credits
+
+* [StartBootstrap](http://startbootstrap.com/) for their Grayscale theme, off which my site is based. ([LICENSE]())
