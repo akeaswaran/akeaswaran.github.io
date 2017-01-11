@@ -150,7 +150,6 @@ a.download-button {
 	top: 8px;
 	right: 6px;
 	padding: 8px 12px;
-	color: #eeb211;
 	font-size: 13px;
 	/*font-weight: bold;*/
 	line-height: 1.35;
@@ -161,7 +160,8 @@ a.download-button {
 }
 
 a.download-button:hover {
-	background: #f5d376
+	color: #fff;
+	background: #f5d376;
 }
 
 a.big-download-button {
