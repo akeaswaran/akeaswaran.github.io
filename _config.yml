@@ -1,0 +1,43 @@
+name: Akshay Easwaran
+description: Sports Fan, Student, Developer
+meta_description: "Akshay Easwaran - Sports Fan, Student, Developer"
+
+aboutPage: true
+
+markdown: kramdown
+highlighter: rouge
+
+gems: [jekyll-paginate]
+paginate: 10
+baseurl:
+domain_name: 'http://akeaswaran.me'
+google_analytics: 'UA-72482077-2'
+disqus: false
+disqus_shortname: 'your-disqus-shortname'
+
+# Details for the RSS feed generator
+url:            'http://akeaswaran.me'
+author:         'Akshay Easwaran'
+authorTwitter:  'YourTwitterUsername'
+
+permalink:       /:title/
+
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: default
+    -
+        scope:
+            path: "" # empty string for all files
+            type: posts
+        values:
+            layout: post
+    -
+        scope:
+            path: ""
+            type: drafts
+        values:
+            layout: post
