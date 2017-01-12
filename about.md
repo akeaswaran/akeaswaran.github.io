@@ -9,6 +9,7 @@ profile: true
     <li><a href="#about">ABOUT</a></li>
     <li><a href="#work-experience">EXPERIENCE</a></li>
     <li><a href="#extracurriculars">ACTIVITIES</a></li>
+    <li><a href="#projects">PROJECTS</a></li>
     <li><a href="#resume">RESUME</a></li>
     </ul>
 </div>
@@ -71,6 +72,23 @@ Leading the development of the website for a student-led version of the TED conf
 ###### Atlanta, GA
 
 Part of a team focused on developing Atlanta’s startup culture from the ground up through student involvement at Georgia Tech. Producing media resources to connect students and community members with startup and entrepreneurial resources.
+
+### <a name="projects"></a>Projects
+
+All of my projects are available on [GitHub](https://github.com/akeaswaran). I mainly work with the Objective-C, Java, and JavaScript programming languages, but have a working knowledge of PHP, Apex, and Visualforce. I have also worked extensively with MySQL, MongoDB, the Salesforce CRM, and the Pardot web application. Some of my notable projects are:
+
+#### [TEDxGeorgiaTech Ticketing](https://github.com/akeaswaran/tedxgt-ticketing)
+An event-management platform built with NodeJS to help TEDxGeorgiaTech manage and market its events in-house.
+
+#### [Football Coach](https://github.com/akeaswaran/FootballCoach-iOS)
+A college football simulation game for iOS.
+
+#### [CFB Scoreboard API](https://github.com/akeaswaran/cfb-scoreboard-api)
+A NodeJS REST API built to reformat ESPN's "hidden" college football JavaScript API data into something more developer-friendly and integrate matchup history from [College Football API](https://collegefootballapi.com/).
+
+#### [ReachWeather](https://github.com/akeaswaran/ReachWeather)
+A software modification, or "tweak", for jailbroken iOS devices that puts local weather information in the empty screen space above the current app when Reachability is invoked.
+
 
 ### <a name="resume"></a>Resume
 Available below is a brief resume, summarizing my work experience, knowledge, and goals.
