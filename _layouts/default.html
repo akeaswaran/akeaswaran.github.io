@@ -9,7 +9,7 @@
       if ((host == window.location.host) && (window.location.protocol != "https:"))
           window.location.protocol = "https";
     </script>
-  <title>{{ site.name }}{% if page.title %} - {{ page.title }}{% endif %}</title>
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }}</title>
   <link rel="shortcut icon" href="{{ site.baseurl }}/assets/images/favicon.ico">
   <link href="{{ site.baseurl }}/assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
