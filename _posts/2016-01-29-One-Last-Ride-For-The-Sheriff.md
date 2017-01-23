@@ -1,6 +1,7 @@
 ---
 layout: post
-title: One Last Ride for the Sheriff? (Super Bowl 50 Preview)
+title: One Last Ride for the Sheriff?
+description: Super Bowl 50 Preview
 permalink: /super-bowl-50-preview/
 ---
 
