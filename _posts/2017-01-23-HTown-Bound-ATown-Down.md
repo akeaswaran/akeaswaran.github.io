@@ -146,7 +146,7 @@ This Super Bowl Sunday will be mark my 10th year living in Atlanta. I've watched
 It will be a battle in Houston, pitting one of the league's best defenses (that allows the fewest number of points per game) and one of the all-time great quarterbacks versus the league's best offense and a younger, poised, and electric offense for a shot at glory. For one team, winning would mark their leader's fifth Super Bowl victory, cementing him in the annals of football history, but for the other, a Super Bowl victory would be a statement - not only to the NFL, but also to the world: Atlanta is back, and we're here to stay.
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/images/quinn-gatorade-bath.jpg" alt="Atlanta Falcons coach Dan Quinn">
+  <img src="{{ site.baseurl }}/assets/images/quinn-gatorade-bath.jpeg" alt="Atlanta Falcons coach Dan Quinn">
 </figure>
 
 ---
