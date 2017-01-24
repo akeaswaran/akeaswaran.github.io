@@ -90,11 +90,8 @@ A NodeJS REST API built to reformat ESPN's "hidden" college football JavaScript 
 #### [ReachWeather](https://github.com/akeaswaran/ReachWeather)
 A software modification, or "tweak", for jailbroken iOS devices that puts local weather information in the empty screen space above the current app when Reachability is invoked.
 
+---
 
-### <a name="resume"></a>Resume
-Available below is a brief resume, summarizing my work experience, knowledge, and goals.
-
-<p style="text-align:center;"><a class="download-button" href="{{ site.baseurl }}/assets/downloads/resume.pdf">Download Resume</a></p>
-
+For more information or a resume, please [email me](mailto:akeaswaran@gatech.edu).
 
 {% include footer.html %}
