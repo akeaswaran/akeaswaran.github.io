@@ -75,6 +75,6 @@ I am Atlanta, and this is my story.
 
 ---
 
-**Author's note**: Thanks for the memories, 2016 Falcons. In a time where most people focus solely on what divides them, you brought this city together. You captivated us at every turn and brought us another trophy. While it may not be the one we all hoped for, we still love you, and I am still proud to wear your logo. You are, and forever will be, one of my favorite sports teams of all time.
+**Author's note**: Thanks for the memories, 2016 Falcons. In a time where most people focus solely on what divides them, you brought this city together. You captivated us at every turn and brought us another trophy. While it may not be the one we all hoped for, we still love you and are proud to wear your logo. You are, and forever will be, one of my favorite sports teams of all time.
 
 <p class="small" style="text-align:center;">#RiseUp</p>
