@@ -63,16 +63,14 @@ Helped fellow students learn about object-oriented programming and project-based
 
 Leading the development of the website for a student-led version of the TED conference series at Georgia Tech. Working with other executive committee members to drive UI design and build new features that make the website a central location for information about TEDx events at Georgia Tech.
 
-![TEDxGeorgiaTech]({{ site.baseurl }}/assets/images/sx.jpg)
-<h4 style="margin-bottom:10px;">Startup Exchange</h4>
+![Ramblin' Reck Club]({{ site.baseurl }}/assets/images/reck.jpg)
+<h4 style="margin-bottom:10px;">Ramblin' Reck Club</h4>
 
-###### Community Co-Coordinator
-
-###### Sept 2016 - Present
+###### Feburary 2017 - Present
 
 ###### Atlanta, GA
 
-Part of a team focused on developing Atlanta’s startup culture from the ground up through student involvement at Georgia Tech. Producing media resources to connect students and community members with startup and entrepreneurial resources. Leading the planning and production of "SX Lightning Talks", a talk series where members of the Startup Exchange community deliver 15-minute presentations on their passions.
+Part of an organization of students committed to the education and promotion of Georgia Tech spirit, history and tradition. Working together with other members to instill the student body with enthusiasm for all the facets of Tech, whether that be sports, events, or the school itself.
 
 ### <a name="projects"></a>Projects
 
