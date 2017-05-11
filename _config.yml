@@ -1,14 +1,15 @@
 name: Akshay Easwaran
-description: Sports Fan, Student, Developer
+description: A software engineer with a mild sports addiction.
 meta_description: "Akshay Easwaran - Sports Fan, Student, Developer"
 
 aboutPage: true
+future: true
 
 markdown: kramdown
 highlighter: rouge
 
 gems: [jekyll-paginate]
-paginate: 10
+paginate: 15
 baseurl:
 domain_name: 'http://akeaswaran.me'
 google_analytics: 'UA-72482077-2'

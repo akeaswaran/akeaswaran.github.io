@@ -2,6 +2,7 @@
 layout: post
 permalink: /projackets-2016/
 title: Yellow Jackets in the NFL
+description: Looking at Georgia Tech's 2016 NFL draft class
 ---
 
 _With Week 1 of the 2016 NFL season in the books, I take a look at how last year’s draft class of Yellow Jackets is adjusting to life in the NFL._

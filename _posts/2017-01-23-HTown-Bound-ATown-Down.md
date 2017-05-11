@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "A-Town Down, H-Town Bound"
+description: Super Sunday, here we come.
 permalink: /falcons-sb51/
 ---
 

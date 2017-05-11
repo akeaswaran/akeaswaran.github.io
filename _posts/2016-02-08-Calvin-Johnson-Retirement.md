@@ -1,6 +1,7 @@
 ---
 layout: post
 title: So Long and Thanks for All the Fish, Megatron
+description: An Ode to Calvin Johnson
 permalink: /megatron-retires/
 ---
 

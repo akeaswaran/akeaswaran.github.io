@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Win Big, Storm the Field
+description: The Story of October 24, 2015
 permalink: /miracle-on-techwood-drive/
 ---
 

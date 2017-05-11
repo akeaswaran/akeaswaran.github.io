@@ -2,6 +2,7 @@
 layout: post
 permalink: /kicking-and-screaming/
 title: Kicking and Screaming
+description: Understanding sports fandom
 ---
 
 <figure>

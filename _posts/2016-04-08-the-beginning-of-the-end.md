@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Beginning of the End
+description: The Turner Field Saga
 permalink: /the-ted/
 ---
 
