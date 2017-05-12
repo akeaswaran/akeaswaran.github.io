@@ -52,7 +52,7 @@ $$ \mathsf{EPG} = [(3 \times 0.483) + (1 \times 0.281)] \times 0.5080645161 = 0.
 
 Therefore, we can expect Giovinco to contribute 0.8789516129 of a point to Toronto FC's place in the table every time he plays.
 
-What about Darlington Nagbe (M, Portland Timbers)?
+What about Darlington Nagbe (M/F, Portland Timbers)?
 
 <p style="text-align:center">
 $$ \mathsf{PxG} = 0.25 $$
@@ -61,7 +61,7 @@ $$ \mathsf{PCxG} = \frac{PxG}{TxG} = \frac{0.25}{1.49} = 0.1677852349 $$
 $$ \mathsf{EPG} = [(3 \times 0.483) + (1 \times 0.281)] \times 0.1677852349 = 0.2902684564 $$
 </p>
 
-Nagbe produces 0.29 of a point every time he steps on to the field in a Timbers uniform. This seems low, but while Nagbe creates chances for the Timbers, he rarely finishes them, instead relying on strikers Diego Valeri and Fanendo Adi to put the ball in the back of the net. Since EPG relies heavily on Expected Goals, we necessarily don't see how Nagbe's passing and possession ability contribute to Portland's success.
+Nagbe produces 0.2902684564 of a point every time he steps on to the field in a Timbers uniform. This seems low, but while Nagbe creates chances for the Timbers, he rarely finishes them, instead relying on strikers Diego Valeri and Fanendo Adi to put the ball in the back of the net. Since EPG relies heavily on Expected Goals, we don't necessarily see how Nagbe's passing and possession ability contribute to Portland's success.
 
 ### Conclusion
 
