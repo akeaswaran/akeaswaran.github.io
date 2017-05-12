@@ -70,4 +70,4 @@ Nagbe produces 0.29 of a point every time he steps on to the field in a Timbers 
 
 Like I said before, EPG isn't perfect. It's likely that many other cases like Nagbe's exist, their contributions to their team underrepresented by their EPG rating. In the future, I hope to back this formula with hard data and make adjustments that reveal how non-scoring contributions affect a team's performance, turning EPG into the soccer equivalent of WAR and a good estimator of a player's value to their team.
 
-<p class="small">Data provided by <a href="https://americansocceranalysis.com">American Soccer Analysis</a>. Hat tip to them for being very transparent in how their stats are constructed and for providing advanced stats to the public for free.</p>
+<p class="small">Data provided by <a href="https://americansocceranalysis.com">American Soccer Analysis</a>. Thanks to them for being very transparent in how their stats are constructed and for providing advanced stats to the public for free.</p>
