@@ -1,9 +1,8 @@
 name: Akshay Easwaran
 description: A software engineer with a mild sports addiction.
-meta_description: "Akshay Easwaran - Sports Fan, Student, Developer"
+meta_description: "Akshay Easwaran - A software engineer with a mild sports addiction"
 
 aboutPage: true
-future: true
 
 markdown: kramdown
 highlighter: rouge

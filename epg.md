@@ -18,11 +18,11 @@ With this in mind, I propose a different statistic: Expected Points Generated (E
 
 ### Methodology
 
-First, calculate the player's contribution to their team's expected goals (PCxG):
+First, calculate PCxG, the player's contribution (expected goals and expected assists) to their team's expected goals scored every game:
 
 <p style="text-align: center">
-$$ \mathsf{PxG} = \text{Expected Goals plus Expected Assists per 96} $$
-$$ \mathsf{TxG} = \text{Team Expected Goals For per 96} $$
+$$ \mathsf{PxG = }\text{xGoals & xAssists} $$
+$$ \mathsf{TxG} = \text{Team xGoals For} $$
 $$ \mathsf{PCxG = } \frac{PxG}{TxG} $$
 </p>
 

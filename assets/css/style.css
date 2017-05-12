@@ -133,7 +133,8 @@ nav.main-nav a {
 }
 
 nav.main-nav a:hover {
-	color: #EBC98E
+	color: #EBC98E;
+	text-decoration: none;
 }
 
 nav.main-nav a.cta {
@@ -143,7 +144,8 @@ nav.main-nav a.cta {
 }
 
 nav.main-nav a.cta:hover {
-	background: #EBC98E
+	background: #EBC98E;
+	text-decoration: none;
 }
 
 a.download-button {
@@ -207,7 +209,8 @@ a,
 	color: #BBA071;
 }
 
-p a:hover { color: #EBC98E; }
+p a:hover { color: #EBC98E;
+text-decoration: none; }
 
 /*Transitions*/
 a,
@@ -498,6 +501,7 @@ Post List
 	margin-top: 40px;
 	color:#444;
 	border-bottom: 1px solid #eee;
+	vertical-align: middle;
 }
 
 #post-meta div span {
@@ -511,14 +515,18 @@ Post List
 
 }
 
+#post-meta div span.light {
+	color: #fff;
+
+}
+
 #post-meta div {
-	margin: 0 25px 0 0;
+	/*margin: 0 25px 0 0;*/
 	float: left;
 }
 
 #sharing {
 	float: right;
-	margin: -2px;
 }
 
 #sharing a {
@@ -534,6 +542,7 @@ Post List
 #sharing a:hover {
 	/*color: #444;*/
 	opacity: 0.8;
+	text-decoration: none;
 }
 
 /* Post Navigation */
@@ -619,15 +628,13 @@ h2.month {
 
 #archive-list li a:hover,#archive-list li:hover .dates {
 	color: #EBC98E;
+	text-decoration: none;
 }
 
 #post-meta img.avatar {
-  height: 36px;
-  width: 36px;
   float: left;
   border-radius: 50%;
   margin-top: 3px;
-  margin-right: 20px;
   box-shadow: 0 0 0 3px #fff, 0 0 0 4px #eee;
 }
 
@@ -644,6 +651,7 @@ h2.month {
 
 #post-list.archive.readmore a:hover{
 	opacity: 0.8;
+	text-decoration: none;
 }
 
 #post-list.archive.readmore .dates{
@@ -651,9 +659,11 @@ h2.month {
 }
 #sharing a.facebook {
   background: #4361b3;
+  display: block;
 }
 #sharing a.twitter {
   background: #4fafed;
+  display: block;
 }
 
 #sharing a {
@@ -728,5 +738,11 @@ height: 100%;
 }
 
 #nav ul li a:hover {
-	color: #EBC98E
+	color: #EBC98E;
+	text-decoration: none;
+}
+
+table a:hover {
+	color: #EBC98E;
+	text-decoration: none;
 }

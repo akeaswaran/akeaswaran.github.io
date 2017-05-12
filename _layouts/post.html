@@ -14,27 +14,28 @@ archive: true
         {{content}}
     </section>
 </article>
-<footer id="post-meta" class="clearfix">
-    <a href="{{ site.baseurl }}">
-        <img class="avatar" src="{{ site.baseurl }}/assets/images/avatar.jpg">
-        <div>
-            <span class="dark">{{ site.author }}</span>
-            <span>{{ site.description }}</span>
+<div id="post-meta" class="clearfix container-fluid">
+    <div class="row">
+        <div id="col1" class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+            <div class="row">
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                    <img class="avatar" src="{{ site.baseurl }}/assets/images/avatar.jpg">
+                </div>
+
+                <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                    <span class="dark">{{ site.author }}</span>
+                    <span>{{ site.description }}</span>
+                </div>
+            </div>
         </div>
-    </a>
-
-    <section id="sharing">
-        {% include share.html %}
-    </section>
-</footer>
-
-<!-- Disqus comments -->
-{% if site.disqus %}
-    <div class="archive readmore">
-        <h3>Comments</h3>
-        {% include disqus.html %}
+        <div id="col2" class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+            <section id="sharing">
+                {% include share.html %}
+            </section>
+        </div>
     </div>
-{% endif %}
+</div>
+<p class="small" style="text-align: center;">© {{ site.time | date: '%Y' }} {{ site.author }}</p>
 
 <!-- Archive post list -->
 {% if page.archive %}
