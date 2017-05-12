@@ -61,7 +61,7 @@ $$ \mathsf{PCxG} = \frac{PxG}{TxG} = \frac{0.25}{1.49} = 0.1677852349 $$
 $$ \mathsf{EPG} = [(3 \times 0.483) + (1 \times 0.281)] \times 0.1677852349 = 0.2902684564 $$
 </p>
 
-Nagbe produces 0.29 of a point every time he steps on to the field in a Timbers uniform. This seems low, but we have to realize that Nagbe creates chances for the Timbers but rarely finishes them, leaving strikers Diego Valeri and Fanendo Adi to put the ball in the back of the net. Since EPG relies heavily on Expected Goals, we necessarily don't see how Nagbe's passing and possession ability contribute to Portland's success.
+Nagbe produces 0.29 of a point every time he steps on to the field in a Timbers uniform. This seems low, but we have to realize that Nagbe creates chances for the Timbers but rarely finishes them, relying on strikers Diego Valeri and Fanendo Adi to put the ball in the back of the net. Since EPG relies heavily on Expected Goals, we necessarily don't see how Nagbe's passing and possession ability contribute to Portland's success.
 
 ### Conclusion
 
