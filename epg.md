@@ -31,13 +31,12 @@ Now that you have the player's PCxG, you can use the MLS match outcome probabili
 <p style="text-align: center">
 $$ \mathsf{ProbWin = 0.483} $$
 $$ \mathsf{ProbDraw = 0.281} $$
-$$ \mathsf{ProbLoss = 0.236} $$
 </p>
 
-...to generate the formula below:
+...to create the formula below:
 
 <p style="text-align: center">
-$$ \mathsf{EPG} = [(3 \times \mathsf{ProbWin}) + (1 \times \mathsf{ProbDraw}) + (0 \times \mathsf{ProbLoss})] \times \mathsf{PCxG} $$
+$$ \mathsf{EPG} = [(3 \times \mathsf{ProbWin}) + (1 \times \mathsf{ProbDraw})] \times \mathsf{PCxG} $$
 </p>
 
 ### Examples
@@ -48,8 +47,7 @@ We can use this formula to calculate EPG for a given player, like Sebastian Giov
 $$ \mathsf{PxG} = 0.63 $$
 $$ \mathsf{TxG} = 1.24 $$
 $$ \mathsf{PCxG} = \frac{PxG}{TxG} = \frac{0.63}{1.24} = 0.5080645161 $$
-$$ \mathsf{EPG} = [(3 \times 0.483) + (1 \times 0.281) + (0
-     \times 0.236)] \times 0.5080645161 = 0.8789516129 $$
+$$ \mathsf{EPG} = [(3 \times 0.483) + (1 \times 0.281)] \times 0.5080645161 = 0.8789516129 $$
 </p>
 
 Therefore, we can expect Giovinco to contribute 0.8789516129 of a point to Toronto FC's place in the table every time he plays.
@@ -60,8 +58,7 @@ What about Darlington Nagbe (M, Portland Timbers)?
 $$ \mathsf{PxG} = 0.25 $$
 $$ \mathsf{TxG} = 1.49 $$
 $$ \mathsf{PCxG} = \frac{PxG}{TxG} = \frac{0.25}{1.49} = 0.1677852349 $$
-$$ \mathsf{EPG} = [(3 \times 0.483) + (1 \times 0.281) + (0
-     \times 0.236)] \times 0.1677852349 = 0.2902684564 $$
+$$ \mathsf{EPG} = [(3 \times 0.483) + (1 \times 0.281)] \times 0.1677852349 = 0.2902684564 $$
 </p>
 
 Nagbe produces 0.29 of a point every time he steps on to the field in a Timbers uniform. This seems low, but we have to realize that Nagbe creates chances for the Timbers but rarely finishes them, leaving strikers Diego Valeri and Fanendo Adi to put the ball in the back of the net. Since EPG relies heavily on Expected Goals, we necessarily don't see how Nagbe's passing and possession ability contribute to Portland's success.
