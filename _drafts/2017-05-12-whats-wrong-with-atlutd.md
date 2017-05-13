@@ -9,7 +9,7 @@ permalink: /whats-wrong-with-atlutd/
   <p class="small">Pregame festivities before Atlanta United vs Chicago Fire at Bobby Dodd Stadium at Historic Grant Field, Atlanta, GA (March 18, 2017)</p>
 </figure>
 
-_If you're not familiar with the original "What's Wrong with Freddie Freeman" meme that this article's title is based on, [here's a short primer.](https://www.reddit.com/r/Braves/comments/67wyxu/happy_anniversary_its_been_a_year_and_we_still/)_
+_If you're not familiar with the original "What's Wrong with Freddie Freeman" meme that this article's title is based on, [here's a short primer](https://www.reddit.com/r/Braves/comments/67wyxu/happy_anniversary_its_been_a_year_and_we_still/). Hopefully, this piece will have the same effect as its predecessor..._
 
 Let's be clear: we all knew that in its inaugural season, Atlanta United was going to have some struggles, as common with most MLS expansion teams. Big-money signings, a fast-paced style of play, and a new stadium on the way sounded nice on paper, but no one knew how the team would perform on the field and an early-season slump while the team meshed together was not out of the question.
 
