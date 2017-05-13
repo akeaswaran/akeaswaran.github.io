@@ -32,7 +32,7 @@ There are two perceived points of failure I want to focus on: forward and centra
 
 ### Forward Woes
 
-Assuming Josef Martinez is healthy, Martino has three options at center forward: Martinez, 32-year-old T&T international Kenwyne Jones, and 18-year-old USYNT regular Brandon Vasquez. Let's compare the three.
+Assuming Josef Martinez is healthy, Martino has three options at center forward: Martinez, 32-year-old T&T international Kenwyne Jones, and 18-year-old USYNT regular Brandon Vazquez. Let's compare the three.
 
 |                         | Kenwyne Jones | Josef Martinez | Brandon Vazquez |
 |-------------------------|:-------------:|:--------------:|:---------------:|
@@ -45,7 +45,7 @@ Assuming Josef Martinez is healthy, Martino has three options at center forward:
 | **Key Passes per 96**  |    0.71    |      0.35      |       2.53      |
 | **Average WhoScored Rating**    |    6.6    |      8.36      |       6.34      |
 
-On the stat-sheet, it looks like Vasquez has the advantage over Jones as Martinez's replacement, but keep in mind that Vazquez has only played 26 total minutes (albeit, a rather successful 26 minutes) as a sub while Jones has started four games and come off the bench in four more. Since we can not rely on numbers to give one or the other an edge, let's look at performance.
+On the stat-sheet, it looks like Vazquez has the advantage over Jones as Martinez's replacement, but keep in mind that Vazquez has only played 26 total minutes (albeit, a rather successful 26 minutes) as a sub while Jones has started four games and come off the bench in four more. Since we can not rely on numbers to give one or the other an edge, let's look at performance.
 
 Let's take a look at the goals Jones has scored...
 
