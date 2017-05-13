@@ -22,6 +22,10 @@ authorTwitter:  'YourTwitterUsername'
 
 permalink:       /:title/
 
+collections:
+  drafts:
+    output: true
+
 defaults:
     -
         scope:
