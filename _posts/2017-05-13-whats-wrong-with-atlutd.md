@@ -32,7 +32,7 @@ There are two perceived points of failure I want to focus on: forward and centra
 
 ### Forward Woes
 
-Assuming Martinez is healthy, Martino has three options at center forward: Martinez, 32-year-old T&T international Kenwyne Jones, and 18-year-old USYNT regular Brandon Vasquez. Let's compare the three.
+Assuming Josef Martinez is healthy, Martino has three options at center forward: Martinez, 32-year-old T&T international Kenwyne Jones, and 18-year-old USYNT regular Brandon Vasquez. Let's compare the three.
 
 |                         | Kenwyne Jones | Josef Martinez | Brandon Vazquez |
 |-------------------------|:-------------:|:--------------:|:---------------:|
