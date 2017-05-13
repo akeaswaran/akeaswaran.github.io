@@ -15,11 +15,17 @@ Let's be clear: we all knew that in its inaugural season, Atlanta United was goi
 
 But then the team did this in March.
 
-<iframe style="margin-bottom: 25px;" width="560" height="315" src="https://www.youtube.com/embed/lBH8lO9X0eo" frameborder="0" allowfullscreen></iframe>
+<div class="video-box">
+    <iframe width="500" height="275" src="https://www.youtube.com/embed/lBH8lO9X0eo" frameborder="0" allowfullscreen></iframe>
+</div>
 
-<iframe style="margin-bottom: 25px;" width="560" height="315" src="https://www.youtube.com/embed/xXgnbzhJS08" frameborder="0" allowfullscreen></iframe>
+<div class="video-box">
+    <iframe width="500" height="275" src="https://www.youtube.com/embed/xXgnbzhJS08" frameborder="0" allowfullscreen></iframe>
+</div>
 
-<iframe style="margin-bottom: 25px;" width="560" height="315" src="https://www.youtube.com/embed/ofAKBy4jhm8" frameborder="0" allowfullscreen></iframe>
+<div class="video-box">
+    <iframe width="500" height="275" src="https://www.youtube.com/embed/ofAKBy4jhm8" frameborder="0" allowfullscreen></iframe>
+</div>
 
 In its first four matches, the Five Stripes posted a record of 2-1-1 with a +8 goal differential, and their only loss came at the hands of New York Red Bulls, who profited from a lucky own goal near the end of a match clearly dominated by Atlanta's fast attack.
 
@@ -49,29 +55,47 @@ On the stat-sheet, it looks like Vazquez has the advantage over Jones as Martine
 
 Let's take a look at the goals Jones has scored...
 
-<iframe style="margin-bottom: 25px;"  width="560" height="315" src="https://www.youtube-nocookie.com/embed/bAGqWtUa2NU?rel=0&amp;start=89" frameborder="0" allowfullscreen></iframe>
+<div class="video-box">
+    <iframe width="500" height="275" src="https://www.youtube-nocookie.com/embed/bAGqWtUa2NU?rel=0&amp;start=89" frameborder="0" allowfullscreen></iframe>
+</div>
 
-<blockquote class="twitter-video" data-lang="en" style="margin-bottom: 25px;" ><p lang="cy" dir="ltr">Classic Kenwyne 👌<a href="https://twitter.com/hashtag/ATLUTD?src=hash">#ATLUTD</a> 1 - 0 <a href="https://twitter.com/dcunited">@dcunited</a> <a href="https://t.co/Sz2BwwTYzx">pic.twitter.com/Sz2BwwTYzx</a></p>&mdash; Atlanta United FC (@ATLUTD) <a href="https://twitter.com/ATLUTD/status/858766216718143488">April 30, 2017</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<div style="margin-bottom: 25px;">
+    <blockquote class="twitter-tweet" data-lang="en"><p lang="cy" dir="ltr">Classic Kenwyne 👌<a href="https://twitter.com/hashtag/ATLUTD?src=hash">#ATLUTD</a> 1 - 0 <a href="https://twitter.com/dcunited">@dcunited</a> <a href="https://t.co/Sz2BwwTYzx">pic.twitter.com/Sz2BwwTYzx</a></p>&mdash; Atlanta United FC (@ATLUTD) <a href="https://twitter.com/ATLUTD/status/858766216718143488">April 30, 2017</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
 
-<iframe style="margin-bottom: 25px;"  width="560" height="315" src="https://www.youtube.com/embed/N6u0Ck7jryQ" frameborder="0" allowfullscreen></iframe>
+<div class="video-box">
+    <iframe width="500" height="275" src="https://www.youtube.com/embed/N6u0Ck7jryQ" frameborder="0" allowfullscreen></iframe>
+</div>
 
-<iframe style="margin-bottom: 25px;"  width="560" height="315" src="https://www.youtube.com/embed/D891e4ju2lU" frameborder="0" allowfullscreen></iframe>
+<div class="video-box">
+    <iframe width="500" height="275" src="https://www.youtube.com/embed/D891e4ju2lU" frameborder="0" allowfullscreen></iframe>
+</div>
 
-<iframe style="margin-bottom: 25px;"  width="560" height="315" src="https://www.youtube.com/embed/ryzH9Mt-oK0" frameborder="0" allowfullscreen></iframe>
+<div class="video-box">
+    <iframe width="500" height="275" src="https://www.youtube.com/embed/ryzH9Mt-oK0" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ...and compare them to some of Vazquez's work:
 
-<blockquote class="twitter-video" data-lang="en" style="margin-bottom: 25px;" ><p lang="en" dir="ltr">The finish that secured it 🔒<a href="https://twitter.com/Brvndonv">@Brvndonv</a> in his <a href="https://twitter.com/MLS">@MLS</a> debut! <a href="https://t.co/5g7BiVTi7z">pic.twitter.com/5g7BiVTi7z</a></p>&mdash; Atlanta United FC (@ATLUTD) <a href="https://twitter.com/ATLUTD/status/855993182923792384">April 23, 2017</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<div style="margin-bottom: 25px;">
+    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Our newest signing on the world stage 👌 <a href="https://twitter.com/hashtag/Brilliant?src=hash">#Brilliant</a> <a href="https://t.co/WLPCc8jdwo">pic.twitter.com/WLPCc8jdwo</a></p>&mdash; Atlanta United FC (@ATLUTD) <a href="https://twitter.com/ATLUTD/status/804719512473976834">December 2, 2016</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
 
-<blockquote class="twitter-video" data-lang="en" style="margin-bottom: 25px;" ><p lang="en" dir="ltr">Our newest signing on the world stage 👌 <a href="https://twitter.com/hashtag/Brilliant?src=hash">#Brilliant</a> <a href="https://t.co/WLPCc8jdwo">pic.twitter.com/WLPCc8jdwo</a></p>&mdash; Atlanta United FC (@ATLUTD) <a href="https://twitter.com/ATLUTD/status/804719512473976834">December 2, 2016</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<div class="video-box">
+    <iframe  width="500" height="275" src="https://www.youtube.com/embed/HEaoQMcRugc" frameborder="0" allowfullscreen></iframe>
+</div>
 
-<iframe style="margin-bottom: 25px;"  width="560" height="315" src="https://www.youtube.com/embed/HEaoQMcRugc" frameborder="0" allowfullscreen></iframe>
+<div style="margin-bottom: 25px;">
+    <blockquote class="twitter-tweet" style="margin-bottom: 25px;" data-lang="en"><p lang="en" dir="ltr">The finish that secured it 🔒<a href="https://twitter.com/Brvndonv">@Brvndonv</a> in his <a href="https://twitter.com/MLS">@MLS</a> debut! <a href="https://t.co/5g7BiVTi7z">pic.twitter.com/5g7BiVTi7z</a></p>&mdash; Atlanta United FC (@ATLUTD) <a href="https://twitter.com/ATLUTD/status/855993182923792384">April 23, 2017</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
 
 See the similarities? Both have two big strengths: heading and [goal poaching](https://www.quora.com/What-is-a-poacher-in-football-soccer).
 
 Now, let's compare these two to Martinez:
 
-<iframe style="margin-bottom: 25px;" width="560" height="315" src="https://www.youtube.com/embed/hAFRJC1nejQ" frameborder="0" allowfullscreen></iframe>
+<div class="video-box">
+    <iframe width="500" height="275" src="https://www.youtube.com/embed/hAFRJC1nejQ" frameborder="0" allowfullscreen></iframe>
+</div>
 
 At only 5'7", Martinez is shorter than both Jones (6'2") and Vazquez (6'3"), so he is not the same threat in the air that both of his counterparts are. But what he lacks in height he makes up for with his speed. The majority of Jones and Vazquez's goals are off set-pieces or from standing positions in the box, while Martinez makes his most dangerous plays on his feet streaking towards the opposing goal and creating his own chances. That kind of dynamic forward play is what the Five Stripes have been missing over the five weeks.
 
@@ -79,7 +103,9 @@ But compounding that lack of dynamic play is that Martino's offensive philosophy
 
 Neither Jones nor Vazquez gives Atlanta a particularly significant advantage on the field; both players just can't replicate the same dynamic chance creation that Martinez brings to the table. In starting Jones over Vazquez the past few weeks, Martino seems to be weighing experience over youth. Instead of trying to fit a round peg into a square hole by starting a poacher in Martinez's absence, Martino should consider returning to a 4-3-3, similar to what he did in Seattle:
 
-<blockquote class="twitter-tweet" data-lang="en" style="margin-bottom: 25px;"><p lang="en" dir="ltr">Today&#39;s starting XI against <a href="https://twitter.com/SoundersFC">@SoundersFC</a><a href="https://twitter.com/hashtag/UniteAndConquer?src=hash">#UniteAndConquer</a> <a href="https://t.co/Iy61wAjoKq">pic.twitter.com/Iy61wAjoKq</a></p>&mdash; Atlanta United FC (@ATLUTD) <a href="https://twitter.com/ATLUTD/status/847978889116700672">April 1, 2017</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<div style="margin-bottom: 25px;">
+    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Today&#39;s starting XI against <a href="https://twitter.com/SoundersFC">@SoundersFC</a><a href="https://twitter.com/hashtag/UniteAndConquer?src=hash">#UniteAndConquer</a> <a href="https://t.co/Iy61wAjoKq">pic.twitter.com/Iy61wAjoKq</a></p>&mdash; Atlanta United FC (@ATLUTD) <a href="https://twitter.com/ATLUTD/status/847978889116700672">April 1, 2017</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
 
 That lineup in Seattle was still able to play counterattacking soccer and push the Sounders' defense, even without Martinez on the field. At the end of the day, Martino needs to play his best and most effective XI week-in and week-out, and neither Jones nor Vazquez fit into that plan.
 
@@ -87,11 +113,17 @@ That lineup in Seattle was still able to play counterattacking soccer and push t
 
 Central defense has also been a sore spot for Atlanta throughout the season. Leandro González Pirez has earned high praise for his play throughout the last few weeks, and captain Michael Parkhurst brings a decade's worth of MLS experience to the backline, but their partnership hasn't been the most productive. Below are a few instances from last week's match vs NYCFC where opposing players were able to cut right through it towards goal:
 
-<blockquote class="twitter-video" data-lang="en"><p lang="en" dir="ltr" style="margin-bottom: 25px;">BIG save by <a href="https://twitter.com/akann90">@akann90</a> to keep it level <a href="https://twitter.com/hashtag/ATLUTD?src=hash">#ATLUTD</a> 0 - 0 <a href="https://twitter.com/NYCFC">@NYCFC</a> <a href="https://t.co/bQpxed5mG4">pic.twitter.com/bQpxed5mG4</a></p>&mdash; Atlanta United FC (@ATLUTD) <a href="https://twitter.com/ATLUTD/status/861315934417563648">May 7, 2017</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<div style="margin-bottom: 25px;">
+    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">BIG save by <a href="https://twitter.com/akann90">@akann90</a> to keep it level <a href="https://twitter.com/hashtag/ATLUTD?src=hash">#ATLUTD</a> 0 - 0 <a href="https://twitter.com/NYCFC">@NYCFC</a> <a href="https://t.co/bQpxed5mG4">pic.twitter.com/bQpxed5mG4</a></p>&mdash; Atlanta United FC (@ATLUTD) <a href="https://twitter.com/ATLUTD/status/861315934417563648">May 7, 2017</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
 
-<blockquote class="twitter-video" data-lang="en"><p lang="en" dir="ltr" style="margin-bottom: 25px;">Another Look: <a href="https://twitter.com/Guaje7Villa">@Guaje7Villa</a> with a goal reminiscent of his first ever for <a href="https://twitter.com/hashtag/NYCFC?src=hash">#NYCFC</a> <a href="https://twitter.com/hashtag/FromDayOne?src=hash">#FromDayOne</a> <a href="https://t.co/Nen2IxjslX">pic.twitter.com/Nen2IxjslX</a></p>&mdash; New York City FC (@NYCFC) <a href="https://twitter.com/NYCFC/status/861317234479820802">May 7, 2017</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<div style="margin-bottom: 25px;">
+    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Another Look: <a href="https://twitter.com/Guaje7Villa">@Guaje7Villa</a> with a goal reminiscent of his first ever for <a href="https://twitter.com/hashtag/NYCFC?src=hash">#NYCFC</a> <a href="https://twitter.com/hashtag/FromDayOne?src=hash">#FromDayOne</a> <a href="https://t.co/Nen2IxjslX">pic.twitter.com/Nen2IxjslX</a></p>&mdash; New York City FC (@NYCFC) <a href="https://twitter.com/NYCFC/status/861317234479820802">May 7, 2017</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
 
-<blockquote class="twitter-video" data-lang="en"><p lang="en" dir="ltr" style="margin-bottom: 25px;">😯<br><br>THREE goal-line clearances to start the second half. <a href="https://twitter.com/hashtag/NYCvATL?src=hash">#NYCvATL</a> <a href="https://t.co/jjwc85Gc7K">https://t.co/jjwc85Gc7K</a></p>&mdash; Major League Soccer (@MLS) <a href="https://twitter.com/MLS/status/861328656756391937">May 7, 2017</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<div style="margin-bottom: 25px;">
+    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">😯<br><br>THREE goal-line clearances to start the second half. <a href="https://twitter.com/hashtag/NYCvATL?src=hash">#NYCvATL</a> <a href="https://t.co/jjwc85Gc7K">https://t.co/jjwc85Gc7K</a></p>&mdash; Major League Soccer (@MLS) <a href="https://twitter.com/MLS/status/861328656756391937">May 7, 2017</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
 
 Time and time again, opposing offenses beat Parkhurst to the inside and burn him, or Pirez leaves too much space for an opposing player, allowing him to get in position to burn Parkhurst or for a shot on goal.
 
