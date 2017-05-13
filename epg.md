@@ -54,7 +54,7 @@ $$ \mathsf{PSPxG} = 67.2% $$
 $$ \mathsf{PPxG} = 25.1 $$
 $$ \mathsf{TSPxG} = 503.8651 $$
 $$ \mathsf{PCxG} = \frac{0.63}{1.24} + \frac{(\frac{67.2}{100}) \times 25.1} {503.8651} $$
-$$ \mathsf{EPG} = [(3 \times 0.483) + (1 \times 0.281)] \times 0.54160671 = 0.93697961 $$
+$$ \mathsf{EPG} = [(3 \times 0.483) + (1 \times 0.281)] \times 0.54154014 = 0.93686445 $$
 </p>
 
 Therefore, we can expect Giovinco to contribute 0.93697961 of a point to Toronto FC's place in the table every time he plays.
