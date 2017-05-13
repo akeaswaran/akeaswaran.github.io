@@ -40,7 +40,7 @@ Assuming Martinez is healthy, Martino has three options at center forward: Marti
 | **Appearances**         |    4(4)       |      3(0)      |       0(3)      |
 | **Goals**               |    2          |      5         |       1         |
 | **Expected Goals**      |    1.13    |      2.23      |       0.46      |
-| **[Expected Points Generated]({{ site.baseurl }}/epg/)**      |    0.45    |      1.12      |       1.77      |
+| **[Expected Points Generated]({{ site.baseurl }}/epg/)**      |    0.47    |      1.18     |       1.78      |
 | **Passing Efficiency**     |    61.3%    |      81%      |       75%      |
 | **Key Passes per 96**  |    0.71    |      0.35      |       2.53      |
 | **Average WhoScored Rating**    |    6.6    |      8.36      |       6.34      |
@@ -75,7 +75,7 @@ Now, let's compare these two to Martinez:
 
 At only 5'7", Martinez is shorter than both Jones (6'2") and Vazquez (6'3"), so he is not the same threat in the air that both of his counterparts are. But what he lacks in height he makes up for with his speed. The majority of Jones and Vazquez's goals are off set-pieces or from standing positions in the box, while Martinez makes his most dangerous plays on his feet streaking towards the opposing goal and creating his own chances. That kind of dynamic forward play is what the Five Stripes have been missing over the five weeks.
 
-But compounding that lack of dynamic play is that Martino's offensive philosophy preaches speedy counterattacking soccer, something that Martinez's speed complemented well. Jones and Vazquez have noses for goal and great positioning in the box, but to be most effective, they need consistent build-up play and service from the Atlanta midfield. With Martinez on the field, Miguel Almirón need only slot one pass through an opposing defense's midfield to Martinez for him to put in the back of the net. Without Martinez, Almirón and his midfield have had to do a lot more ball-control and possession work to get in the right position in the attacking third to make a final pass for Jones/Vazquez. More work for the midfield leads more opportunities to lose the ball, which is exactly what has been happening to Atlanta in the middle third of the field.
+But compounding that lack of dynamic play is that Martino's offensive philosophy preaches speedy counterattacking soccer, something that Martinez's speed complemented well. Both Jones and Vazquez have noses for goal and great positioning in the box, but to be most effective, they need consistent build-up play and service from the Atlanta midfield. With Martinez on the field, Miguel Almirón need only slot one pass through an opposing defense's midfield to Martinez for him to put in the back of the net. Without Martinez, Almirón and his midfield have had to do a lot more ball-control and possession work to get in the right position in the attacking third to make a final pass for Jones/Vazquez. While Vazquez is more of a middle ground between Jones and Martinez and can help out with the necessary build-up play, the fact remains that starting Jones or Vazquez creates more work for the midfield, which leads more opportunities to lose the ball and more turnovers from those opportunities, which is exactly what has been killing Atlanta in the middle third of the field.
 
 Neither Jones nor Vazquez gives Atlanta a particularly significant advantage on the field; both players just can't replicate the same dynamic chance creation that Martinez brings to the table. In starting Jones over Vazquez the past few weeks, Martino seems to be weighing experience over youth. Instead of trying to fit a round peg into a square hole by starting a poacher in Martinez's absence, Martino should consider returning to a 4-3-3, similar to what he did in Seattle:
 
@@ -93,7 +93,9 @@ Central defense has also been a sore spot for Atlanta throughout the season. Lea
 
 <blockquote class="twitter-video" data-lang="en"><p lang="en" dir="ltr" style="margin-bottom: 25px;">😯<br><br>THREE goal-line clearances to start the second half. <a href="https://twitter.com/hashtag/NYCvATL?src=hash">#NYCvATL</a> <a href="https://t.co/jjwc85Gc7K">https://t.co/jjwc85Gc7K</a></p>&mdash; Major League Soccer (@MLS) <a href="https://twitter.com/MLS/status/861328656756391937">May 7, 2017</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-If that doesn't convince you that Atlanta's central defending is porous, take a look at the following breakdown of shots taken against Atlanta:
+Time and time again, opposing offenses beat Parkhurst to the inside and burn him, or Pirez leaves too much space for an opposing player, allowing him to get in position to burn Parkhurst or for a shot on goal.
+
+If those videos doesn't convince you that Atlanta's central defending is porous, take a look at the following breakdown of shots taken against Atlanta:
 
 <figure>
   <img src="{{ site.baseurl }}/assets/images/shots-against-chart.png" alt="Breakdown of shots taken against ATLUTD - via WhoScored.com">
