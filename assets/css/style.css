@@ -125,7 +125,7 @@ nav.main-nav a {
 	top: 8px;
 	right: 6px;
 	padding: 8px 12px;
-	color: #BBA071;
+	color: #C59353;
 	font-size: 13px;
 	/*font-weight: bold;*/
 	line-height: 1.35;
@@ -133,18 +133,18 @@ nav.main-nav a {
 }
 
 nav.main-nav a:hover {
-	color: #EBC98E;
+	color: #DABB93;
 	text-decoration: none;
 }
 
 nav.main-nav a.cta {
-	background: #BBA071;
+	background: #C59353;
 	color: #fff;
 	margin-left: 12px;
 }
 
 nav.main-nav a.cta:hover {
-	background: #EBC98E;
+	background: #DABB93;
 	text-decoration: none;
 }
 
@@ -156,27 +156,27 @@ a.download-button {
 	/*font-weight: bold;*/
 	line-height: 1.35;
 	border-radius: 3px;
-	background: #BBA071;
+	background: #C59353;
 	color: #fff;
 	margin-left: 12px;
 }
 
 a.download-button:hover {
 	color: #fff;
-	background: #EBC98E;
+	background: #DABB93;
 }
 
 a.big-download-button {
 	top: 8px;
 	right: 6px;
 	padding: 15px 15px;
-	color: #BBA071;
+	color: #C59353;
 	font-size: 35px;
 	margin-left: 12px;
 }
 
 a.big-download-button:hover {
-	color: #EBC98E
+	color: #DABB93
 }
 
 #wrapper {
@@ -206,10 +206,10 @@ a,
 #post-list li:hover .dates,
 #title:hover {
 	text-decoration: none;
-	color: #BBA071;
+	color: #C59353;
 }
 
-p a:hover { color: #EBC98E;
+p a:hover { color: #DABB93;
 text-decoration: none; }
 
 /*Transitions*/
@@ -464,9 +464,9 @@ Post List
 }
 
 #archive-link:hover {
-	background: #EBC98E;
+	background: #DABB93;
 	color: #fff;
-	box-shadow: 0 0 0 1px #EBC98E;
+	box-shadow: 0 0 0 1px #DABB93;
 }
 
 #archive-link span {
@@ -627,7 +627,7 @@ h2.month {
 }
 
 #archive-list li a:hover,#archive-list li:hover .dates {
-	color: #EBC98E;
+	color: #DABB93;
 	text-decoration: none;
 }
 
@@ -646,7 +646,7 @@ h2.month {
 
 #post-list.archive.readmore a{
 	font: 400 16px/1.6 "Helvetica Neue",helvetica,Arial,sans-serif;
-	color: #EBC98E;
+	color: #DABB93;
 }
 
 #post-list.archive.readmore a:hover{
@@ -743,11 +743,11 @@ h2.month {
 }
 
 #nav ul li a:hover {
-	color: #EBC98E;
+	color: #DABB93;
 	text-decoration: none;
 }
 
 table a:hover {
-	color: #EBC98E;
+	color: #DABB93;
 	text-decoration: none;
 }
