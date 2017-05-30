@@ -57,7 +57,7 @@ $$ \mathsf{DCxG} = \frac{PlyrDefAvg - TeamDefAvg}{TeamDefAvg} $$
 $$ \mathsf{mapDCxG} = \frac{DCxG - minDCxG}{maxDCxG - minDCxG} $$
 </p>
 
-Finally, calculate AppWeight, a weighted proportion of possible minutes the player has played. Like ASA, I use an estimated game length of 96 minutes.
+Finally, calculate AppWeight, the proportion of possible minutes the player has played. Like ASA, I use an estimated game length of 96 minutes.
 
 <p style="text-align: center">
 $$ \mathsf{App} = \text{Appearances (including as Sub)} $$
