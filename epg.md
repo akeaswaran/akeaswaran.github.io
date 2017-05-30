@@ -91,7 +91,7 @@ With version 1.5, I've written an R script for EPG you can try out to generate E
 
 ### Conclusion
 
-Like I said before, EPG isn't perfect. It's likely that many other cases like Nagbe's exist, their contributions to their team underrepresented by their EPG rating. In the future, I hope to back this formula with hard data and make adjustments that reveal how non-scoring contributions affect a team's performance, turning EPG into the soccer equivalent of WAR and a good estimator of a player's value to their team.
+Like I said before, EPG isn't perfect. It's likely that in some cases, players' contributions to their team are underrepresented in their EPG rating. In the future, I hope to back this formula with hard data and make adjustments that reveal how non-scoring contributions affect a team's performance, turning EPG into the soccer equivalent of WAR and a good estimator of a player's value to their team.
 
 <p class="small">Version 1.5 - Updated 5/30/2017.</p>
 
