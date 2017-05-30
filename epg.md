@@ -33,10 +33,10 @@ $$ \mathsf{GF} = \text{Actual Goals For} $$
 $$ \mathsf{OF} = \text{Offensive Coefficient} $$
 
 $$ \mathsf{OF} = \frac{GA}{GF} $$
-$$ \mathsf{mapped OF} = \frac{OF - minOF}{maxOF - minOF} $$
+$$ \mathsf{mapOF} = \frac{OF - minOF}{maxOF - minOF} $$
 
-$$ \mathsf{OCxG} = (\frac{PxG}{TxG} + \frac{(\frac{PSPxG}{100}) \times PPxG} {TSPxG} + \frac{PTPxG}{100}) * mapped OF $$
-<!-- $$ \mathsf{mapped OCxG} = \frac{OCxG - minOCxG}{maxOCxG - minOCxG} $$ -->
+$$ \mathsf{OCxG} = (\frac{PxG}{TxG} + \frac{(\frac{PSPxG}{100}) \times PPxG} {TSPxG} + \frac{PTPxG}{100}) * mapOF $$
+<!-- $$ \mathsf{mappedOCxG} = \frac{OCxG - minOCxG}{maxOCxG - minOCxG} $$ -->
 </p>
 
 Next, calculate DCxG, each player's defensive contribution to their team every game, and map this vector to the range 0 to 1:
@@ -56,7 +56,7 @@ $$ \mathsf{TBlk} = \text{Team Total Blocks} $$
 $$ \mathsf{PlyrDefAvg} = \frac{Tkl + Int + Off + Clr + Blk}{5} $$
 $$ \mathsf{TeamDefAvg} = \frac{TTkl + TInt + TOff + TClr + TBlk}{5} $$
 $$ \mathsf{DCxG} = \frac{PlyrDefAvg - TeamDefAvg}{TeamDefAvg} $$
-$$ \mathsf{mappedDCxG} = \frac{DCxG - minDCxG}{maxDCxG - minDCxG} $$
+$$ \mathsf{mapDCxG} = \frac{DCxG - minDCxG}{maxDCxG - minDCxG} $$
 </p>
 
 Finally, calculate AppWeight, a weighted proportion of possible minutes the player has played. Like ASA, I use an estimated game length of 96 minutes.
@@ -82,7 +82,7 @@ $$ \mathsf{ProbDraw = 0.281} $$
 ...to create the formula below:
 
 <p style="text-align: center">
-$$ \mathsf{EPG} = [(3 \times \mathsf{ProbWin}) + (1 \times \mathsf{ProbDraw})] \times \mathsf{((OCxG + mappedDCxG) * AppWeight)} $$
+$$ \mathsf{EPG} = [(3 \times \mathsf{ProbWin}) + (1 \times \mathsf{ProbDraw})] \times \mathsf{((OCxG + mapDCxG) * AppWeight)} $$
 </p>
 
 ### Examples
