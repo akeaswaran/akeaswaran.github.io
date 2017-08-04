@@ -3,3 +3,4 @@ deploy.sh
 _site
 .sass-cache/
 .jekyll-metadata
+.jekyll-crosspost_to_medium

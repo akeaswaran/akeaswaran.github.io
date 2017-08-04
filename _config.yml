@@ -7,8 +7,8 @@ aboutPage: true
 markdown: kramdown
 highlighter: rouge
 
-gems: [jekyll-paginate]
-paginate: 15
+plugins: [jekyll-paginate, jekyll-crosspost-to-medium]
+paginate: 10
 baseurl:
 domain_name: 'http://akeaswaran.me'
 google_analytics: 'UA-72482077-2'
