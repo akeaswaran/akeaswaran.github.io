@@ -53,7 +53,7 @@
   {% if page.path contains '_posts' %}
   <script>
   var stats = readingTime("{{ content | strip_html | strip_newlines }}");
-  $('.headline').html($('.headline').html() + ' - ' + stats.text);
+  $('.headline').html($('.headline').html() + ' | ' + stats.text);
   </script>
   {% endif %}
   <script type="text/x-mathjax-config">
