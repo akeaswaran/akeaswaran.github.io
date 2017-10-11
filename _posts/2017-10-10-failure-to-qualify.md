@@ -22,9 +22,9 @@ US Soccer's social media referred to tonight's match as "heartbreak". I prefer "
 
 This is unacceptable from US Soccer. There is no replay, no review, no re-election, and no reconsideration for this. The United States is not going to the 2018 World Cup in Russia, and we can place the blame for that squarely on the shoulders of USSF president Sunil Gulati, interim USMNT manager Bruce Arena, his staff, and the 13 American players that participated in some part in tonight's disastrous match. May tonight be a lesson for the future of American soccer, and let us hope our future leaders take it to heart.
 
-But if you don't want to hear it from me, listen to what US Soccer personality [Taylor Twellman](https://twitter.com/TaylorTwellman?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor) had to say:
+But if you don't want to hear it from me, listen to [what US Soccer personality Taylor Twellman had to say](http://www.espnfc.us/video/latest-videos/600/video/3226307):
 
-<iframe width="500" height="282" style="margin-bottom: 10px;" src="http://www.espn.com/core/video/iframe?id=3226307&endcard=false" allowfullscreen frameborder="0"></iframe>
+<div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;margin-bottom:10px;"><iframe src="https://streamable.com/s/87nrw/ukgcjg" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 
 Moral of the story: don't be bad; be better.
 
