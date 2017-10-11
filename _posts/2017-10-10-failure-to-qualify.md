@@ -28,4 +28,4 @@ But if you don't want to hear it from me, listen to what US Soccer personality [
 
 Moral of the story: don't be bad; be better.
 
-See you for qualifiers in 2019.
+See you for qualifiers and the Women's World Cup in 2019.
