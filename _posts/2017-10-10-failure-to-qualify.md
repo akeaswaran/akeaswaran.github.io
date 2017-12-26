@@ -7,7 +7,7 @@ permalink: /failure-to-qualify/
 
 <figure>
   <img src="{{ site.baseurl }}/assets/images/sadsunil.jpg" alt="US Soccer president Sunil Gulati's reaction after the US national team is eliminated from 2018 World Cup qualifying - October 10, 2017 (credit: Steven Goff on Twitter)">
-  <p class="small">US Soccer president Sunil Gulati's reaction after the US national team is eliminated from 2018 World Cup qualifying - October 10, 2017 (credit: <a href="https://twitter.com/SoccerInsider/status/917936005352710145/photo/1">Steven Goff on Twitter</a>)</p>
+  <p class="caption">US Soccer president Sunil Gulati's reaction after the US national team is eliminated from 2018 World Cup qualifying - October 10, 2017 (credit: <a href="https://twitter.com/SoccerInsider/status/917936005352710145/photo/1">Steven Goff on Twitter</a>)</p>
 </figure>
 
 On a night that was supposed to see American soccer fans breathe a sigh of relief as the Yanks slid blissfully into an automatically-qualifying World Cup berth in CONCACAF, we instead bore witness to the worst American performance in years as the United States failed to qualify for the World Cup for the first time since 1986.

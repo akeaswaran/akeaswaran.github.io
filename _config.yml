@@ -1,26 +1,28 @@
+# Site settings
 name: Akshay Easwaran
+title: "Akshay Easwaran"
 description: A software engineer with a mild Atlanta sports addiction.
 meta_description: "Akshay Easwaran - A software engineer with a mild Atlanta sports addiction"
 
-aboutPage: true
-
-markdown: kramdown
-highlighter: rouge
-
-plugins: [jekyll-paginate]
-paginate: 10
-baseurl:
+author: Akshay Easwaran
+email: akeaswaran@me.com
 domain_name: 'http://akeaswaran.me'
-google_analytics: 'UA-72482077-2'
-disqus: false
-disqus_shortname: 'your-disqus-shortname'
+github_username: akeaswaran
 
-# Details for the RSS feed generator
-url:            'http://akeaswaran.me'
-author:         'Akshay Easwaran'
-authorTwitter:  'YourTwitterUsername'
+baseurl: # the subpath of your site, e.g. /blog
+url: "http://akeaswaran.me" # the base hostname & protocol for your site
 
-permalink:       /:title/
+google_analytics_id: 'UA-72482077-2'
+
+# Build settings
+include: [_pages]
+markdown: kramdown
+permalink: /:title/
+
+sass:
+    style: compressed
+
+exclude: [vendor]
 
 collections:
   drafts:
@@ -29,7 +31,7 @@ collections:
 defaults:
     -
         scope:
-            path: "" # empty string for all files
+            path: "pages" # empty string for all files
             type: pages
         values:
             layout: default

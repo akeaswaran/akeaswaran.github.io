@@ -8,7 +8,7 @@ description: Understanding sports fandom
 <figure>
   <img src="{{ site.baseurl }}/assets/images/will-ferrell-ks.jpg" alt="Will Ferrell in Kicking and Screaming (photo via
   http://www.sky.com/tv/movie/kicking-and-screaming-2005)">
-  <p class="small" style="text-align: center">Will Ferrell in <i>Kicking and Screaming</i> (photo via
+  <p class="caption" style="text-align: center">Will Ferrell in <i>Kicking and Screaming</i> (photo via
   <a href="http://www.sky.com/tv/movie/kicking-and-screaming-2005">Sky</a>)</p>
 </figure>
 
@@ -22,7 +22,7 @@ Atlanta Olympics, someone cut through my mental fog:
 
 <figure>
   <img src="{{ site.baseurl }}/assets/images/meem.png" alt="Thanks Meem!">
-  <p class="small" style="text-align: center">Thanks Meem!</p>
+  <p class="caption" style="text-align: center">Thanks Meem!</p>
 </figure>
 
 Indirectly, she had revealed something that I hadn’t really considered: instead
@@ -52,7 +52,7 @@ and guide the rest of your life.
 
 <figure>
 <img src="{{ site.baseurl }}/assets/images/dyson.jpg" alt="Kevin Dyson reaches for the end zone at the end of Super Bowl XXXIV">
-<p class="small" style="text-align: center;">Kevin Dyson reaches for the end zone at the end of Super Bowl XXXIV (photo via
+<p class="caption" style="text-align: center;">Kevin Dyson reaches for the end zone at the end of Super Bowl XXXIV (photo via
 <a href="http://www.realclearsports.com/lists/worst_nfl_draft_picks/1998_kevin_dyson_oilers.html">RealClearSports</a>).</p>
 </figure>
 
@@ -88,7 +88,7 @@ I decided to take the deep dive into fanhood.
 <iframe width="520" height="300" src="https://www.youtube.com/embed/buxGDyHdNO4?autoplay=0" frameborder="0" allowfullscreen>
   </iframe>
 </div>
-<p class="small" style="text-align:center;">AT&T’s 2016 <i>College Football Fandemonium</i> commercial</p>
+<p class="caption" style="text-align:center;">AT&T’s 2016 <i>College Football Fandemonium</i> commercial</p>
 
 Fanhood is a very hard social concept to nail down. Wikitionary defines a sports
 fan as [“admirer of a sport”](https://en.wiktionary.org/wiki/fan#Noun_2), but
@@ -137,7 +137,7 @@ everyone hates bandwagon fans).
 <figure>
 <img src="{{ site.baseurl }}/assets/images/miracle-on-techwood.jpg" alt="The aftermath of the Miracle on Techwood
 Drive">
-<p class="small" style="text-align:center;">The aftermath of the <a href="https://www.youtube.com/watch?v=Sm6eZ9V9RbM">Miracle on Techwood
+<p class="caption" style="text-align:center;">The aftermath of the <a href="https://www.youtube.com/watch?v=Sm6eZ9V9RbM">Miracle on Techwood
 Drive</a>.</p>
 </figure>
 
@@ -174,7 +174,7 @@ normalcy that grounds them in reality.
 
 <figure>
 <img src="{{ site.baseurl }}/assets/images/atl.jpeg" alt="Long exposure of Atlanta, GA, via https://unsplash.com/photos/45FJgZMXCK8">
-<p class="small" style="text-align:center;">Long exposure of Atlanta, GA (photo via
+<p class="caption" style="text-align:center;">Long exposure of Atlanta, GA (photo via
 <a href="https://unsplash.com/photos/45FJgZMXCK8">Unsplash</a>)</p>
 </figure>
 

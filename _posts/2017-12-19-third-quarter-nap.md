@@ -25,7 +25,7 @@ This is abysmal across the board. Almost all of these teams are in and around th
 This begs the question:
 
 <div class="video-box">
-    <iframe width="500" height="275" src="https://www.youtube.com/embed/4V0TYIO6yv4" frameborder="0" allowfullscreen></iframe>
+    <iframe width="100%" height="400px" src="https://www.youtube.com/embed/4V0TYIO6yv4" frameborder="0" allowfullscreen></iframe>
 </div>
 
-But seriously, what is going on during the third quarter? Is there something in the Gatorade that makes our teams come out of halftime with a whimper? Are the locker rooms too comfy? Something has to be causing such deplorable play right out of the gate during the second half. I'm sure [the engineers at Tech](https://www.youtube.com/watch?v=MYwm7XQQq9k) will figure out what's bugging these teams eventually, but for now, I guess the 3rd Quarter Nap will remain a part of Atlanta sports culture, for better or for worse. 
+But seriously, what is going on during the third quarter? Is there something in the Gatorade that makes our teams come out of halftime with a whimper? Are the locker rooms too comfy? Something has to be causing such deplorable play right out of the gate during the second half. I'm sure [the engineers at Tech](https://www.youtube.com/watch?v=MYwm7XQQq9k) will figure out what's bugging these teams eventually, but for now, I guess the 3rd Quarter Nap will remain a part of Atlanta sports culture, for better or for worse.

@@ -1,7 +1,9 @@
 ---
 title: About
+layout: content
 permalink: /about/
 profile: true
+noShowTitle: true
 ---
 
 <div id="nav">
@@ -30,73 +32,48 @@ From July 2014 to August 2017, I worked at Pardot, a Salesforce company based in
 
 Since December 2017, I have been an DevOps intern in T-Mobile's TechX Intership Program, enabling innovation in the company's digital transformation by building new internal tools and streamlining existing processes.
 
-### <a name="extracurriculars"></a>Extracurricular Activities
-
-![Georgia Tech SGA]({{ site.baseurl }}/assets/images/sga.jpg)
-<h4 style="margin-bottom:10px;">Georgia Tech Student Government Association</h4>
-
-###### IT Development Committee Member ('15), Chair ('16), and Project Lead ('17)
-
-###### Sept 2015 – Present
-
-###### Atlanta, GA
-
-Communicating with campus officials and outside IT contacts in order to improve existing infrastructure and working with third parties to establish new working relationships to build a better future for Georgia Tech students.
-
-![Georgia Tech]({{ site.baseurl }}/assets/images/gt-fisheye.jpg)
-<h4 style="margin-bottom:10px;">Georgia Tech College of Computing</h4>
-
-###### Undergraduate Teaching Assistant (CS 2340: Objects and Design)
-
-###### Aug – Dec 2016
-
-###### Atlanta, GA
-
-Helped fellow students learn about object-oriented programming and project-based teamwork and taught them about JavaFX development and Agile Scrum methodologies for their first foray into team-based software development.
-
-![TEDxGeorgiaTech]({{ site.baseurl }}/assets/images/tedx.jpg)
-<h4 style="margin-bottom:10px;">TEDxGeorgiaTech</h4>
-
-###### Webmaster
-
-###### Sept 2016 - Present
-
-###### Atlanta, GA
-
-Leading the development of the website for a student-led version of the TED conference series at Georgia Tech. Working with other executive committee members to drive UI design and build new features that make the website a central location for information about TEDx events at Georgia Tech.
-
+### <a name="extracurriculars"></a>Extracurricular Activities'
 ![Ramblin' Reck Club]({{ site.baseurl }}/assets/images/reck.jpg)
-<h4 style="margin-bottom:10px;">Ramblin' Reck Club</h4>
 
-###### Reck Driver Aide ('17) and Member-at-Large ('18)
-
-###### Feburary 2017 - Present
-
-###### Atlanta, GA
+<h3 style="margin-bottom:0px;">Ramblin' Reck Club</h3>
+<ul style="list-style:none;list-style-type: none;margin: 0;padding-bottom:10px;">
+<li><h4 style="color:#869395 !important">Reck Driver Aide ('17), Member-at-Large ('18)</h4></li>
+<li><h5 style="color:#869395 !important">Feb 2017 - Present</h5></li>
+<li><h5 style="color:#869395 !important">Atlanta, GA</h5></li>
+</ul>
 
 Part of an organization of students committed to the education and promotion of Georgia Tech spirit, history and tradition. Working together with other members to instill the student body with enthusiasm for all the facets of Tech, whether that be sports, events, or the school itself. Built a website that details the history of the Ramblin' Reck since its inception in 1961, and in charge of planning events that foster a sense of community within the organization.
 
-### <a name="projects"></a>Projects
+![TEDxGeorgiaTech]({{ site.baseurl }}/assets/images/tedx.jpg)
+<h3 style="margin-bottom:0px;">TEDxGeorgiaTech</h3>
+<ul style="list-style:none;list-style-type: none;margin: 0;padding-bottom:10px;">
+<li><h4 style="color:#869395 !important">Webmaster</h4></li>
+<li><h5 style="color:#869395 !important">Sept 2016 - Present</h5></li>
+<li><h5 style="color:#869395 !important">Atlanta, GA</h5></li>
+</ul>
 
-All of my projects are available on [GitHub](https://github.com/akeaswaran). I mainly work with the Objective-C, Java, and JavaScript programming languages, but have a working knowledge of PHP, Apex, and Visualforce. I have also worked extensively with MySQL, MongoDB, the Salesforce CRM, and the Pardot web application. Some of my notable projects are:
+Leading the development of the website for a student-led version of the TED conference series at Georgia Tech. Working with other executive committee members to drive UI design and build new features that make the website a central location for information about TEDx events at Georgia Tech.
 
-#### [Ramblin' Reck history site](https://akeaswaran.me/reck/)
-A static website built with Jekyll detailing the storied history of Georgia Tech's beloved mascot car.
+![Georgia Tech SGA]({{ site.baseurl }}/assets/images/sga.jpg)
+<h3 style="margin-bottom:0px;">Georgia Tech Student Government Association</h3>
+<ul style="list-style:none;list-style-type: none;margin: 0;padding-bottom:10px;">
+<li><h4 style="color:#869395 !important">IT Development Committee Member ('15), Chair ('16), and Project Lead ('17)</h4></li>
+<li><h5 style="color:#869395 !important">Sept 2015 - Dec 2017</h5></li>
+<li><h5 style="color:#869395 !important">Atlanta, GA</h5></li>
+</ul>
 
-#### [TEDxGeorgiaTech Ticketing](https://github.com/tedxgeorgiatech/tedxgt-ticketing)
-An event-management platform built with NodeJS to help TEDxGeorgiaTech manage and market its events in-house.
+Worked with campus officials and outside IT contacts in order to improve existing infrastructure and established new working relationships to build a better future for Georgia Tech students.
 
-#### [Football Coach](https://github.com/akeaswaran/FootballCoach-iOS)
-A college football simulation game for iOS.
+![Georgia Tech]({{ site.baseurl }}/assets/images/gt-fisheye.jpg)
+<h3 style="margin-bottom:0px;">Georgia Tech College of Computing</h3>
+<ul style="list-style:none;list-style-type: none;margin: 0;padding-bottom:10px;">
+<li><h4 style="color:#869395 !important">Undergraduate Teaching Assistant (CS 2340: Objects and Design)</h4></li>
+<li><h5 style="color:#869395 !important">Aug - Dec 2016</h5></li>
+<li><h5 style="color:#869395 !important">Atlanta, GA</h5></li>
+</ul>
 
-#### [CFB Scoreboard API](https://github.com/akeaswaran/cfb-scoreboard-api)
-A NodeJS REST API built to reformat ESPN's "hidden" college football JavaScript API data into something more developer-friendly and integrate matchup history from [College Football API](https://collegefootballapi.com/).
-
-#### [ReachWeather](https://github.com/akeaswaran/ReachWeather)
-A software modification, or "tweak", for jailbroken iOS devices that puts local weather information in the empty screen space above the current app when Reachability is invoked.
+Helped fellow students learn about object-oriented programming and project-based teamwork and taught them about JavaFX development and Agile Scrum methodologies for their first foray into team-based software development.
 
 ---
 
 For more information or a resume, please [email me](mailto:akeaswaran@gatech.edu).
-
-{% include footer.html %}

@@ -7,12 +7,12 @@ permalink: /pro-rel-usa-not-yet/
 
 <figure>
   <img src="{{ site.baseurl }}/assets/images/atlutd-may-28.jpeg" alt="PAtlanta United vs NYCFC (Bobby Dodd Stadium, Atlanta, GA) — May 28, 2017">
-  <p class="small">Atlanta United vs NYCFC (Bobby Dodd Stadium, Atlanta, GA) — May 28, 2017</p>
+  <p class="caption">Atlanta United vs NYCFC (Bobby Dodd Stadium, Atlanta, GA) — May 28, 2017</p>
 </figure>
 
 Earlier today, Miami FC of the NASL and Kingston Stockade of the NPSL sued the US Soccer Federation in the Court of Arbitration for Sport over the lack of a promotion/relegation system in American soccer.
 
-<blockquote class="twitter-tweet" data-lang="en" style="margin-bottom: 20px;"><p lang="en" dir="ltr">Miami FC and Kingston Stockade FC are going to court for pro/rel. Notes from press release below: <a href="https://t.co/fuq0uNwhhR">pic.twitter.com/fuq0uNwhhR</a></p>&mdash; Kyle Schnitzer (@Kyle_Schnitzer) <a href="https://twitter.com/Kyle_Schnitzer/status/893099695492534273">August 3, 2017</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="en" style="margin-bottom: 25px;text-align:center;margin:0 auto;"><p lang="en" dir="ltr">Miami FC and Kingston Stockade FC are going to court for pro/rel. Notes from press release below: <a href="https://t.co/fuq0uNwhhR">pic.twitter.com/fuq0uNwhhR</a></p>&mdash; Kyle Schnitzer (@Kyle_Schnitzer) <a href="https://twitter.com/Kyle_Schnitzer/status/893099695492534273">August 3, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 

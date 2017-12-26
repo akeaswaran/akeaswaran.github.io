@@ -6,7 +6,10 @@ permalink: /don’t-call-it-a-rivalry/
 ---
 *This post originally appeared at [Route 41 Resurgens](https://medium.com/route-41-resurgens/terminus-episode-1-655988d84ebb), my new sports blog.*
 
-![“Orlando ain’t the South” banner in front of Bobby Dodd Stadium before Atlanta United vs Orlando City (7/29/17 — credit: Akshay Easwaran)](https://cdn-images-1.medium.com/max/4606/1*42FWrqWibvo3CN2Yzu5SOA@2x.jpeg)*“Orlando ain’t the South” banner in front of Bobby Dodd Stadium before Atlanta United vs Orlando City (7/29/17 — credit: Akshay Easwaran)*
+<figure>
+  <img src="https://cdn-images-1.medium.com/max/4606/1*42FWrqWibvo3CN2Yzu5SOA@2x.jpeg" alt="Orlando ain’t the South” banner in front of Bobby Dodd Stadium before Atlanta United vs Orlando City (7/29/17 — credit: Akshay Easwaran)">
+  <p class="caption">“Orlando ain’t the South” banner in front of Bobby Dodd Stadium before Atlanta United vs Orlando City (7/29/17 — credit: Akshay Easwaran)</p>
+</figure>
 
 Let me preface this piece with this:
 > # **Orlando City vs Atlanta United is not a rivalry.**

@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<div class="c-page">
+    {% if page.profile %}
+    {% include header.html %}
+    {% endif %}
+    <div class="c-page__main">
+    {{ content }}
+    </div>
+    {% include footer.html %}
+</div>

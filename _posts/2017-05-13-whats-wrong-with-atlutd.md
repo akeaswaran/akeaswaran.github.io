@@ -6,7 +6,7 @@ permalink: /whats-wrong-with-atlutd/
 ---
 <figure>
   <img src="{{ site.baseurl }}/assets/images/atlutd-mar-18.jpg" alt="Pregame festivities before Atlanta United vs Chicago Fire at Bobby Dodd Stadium at Historic Grant Field, Atlanta, GA (March 18, 2017)">
-  <p class="small">Pregame festivities before Atlanta United vs Chicago Fire at Bobby Dodd Stadium at Historic Grant Field, Atlanta, GA (March 18, 2017)</p>
+  <p class="caption">Pregame festivities before Atlanta United vs Chicago Fire at Bobby Dodd Stadium at Historic Grant Field, Atlanta, GA (March 18, 2017)</p>
 </figure>
 
 _If you're not familiar with the original "What's Wrong with Freddie Freeman" meme that this article's title is based on, [here's a short primer](https://www.reddit.com/r/Braves/comments/67wyxu/happy_anniversary_its_been_a_year_and_we_still/). Hopefully, this piece will have the same effect as its predecessor..._
@@ -16,15 +16,15 @@ Let's be clear: we all knew that in its inaugural season, Atlanta United was goi
 But then the team did this in March.
 
 <div class="video-box">
-    <iframe width="500" height="275" src="https://www.youtube.com/embed/lBH8lO9X0eo" frameborder="0" allowfullscreen></iframe>
+    <iframe width="100%" height="400px" src="https://www.youtube.com/embed/lBH8lO9X0eo" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <div class="video-box">
-    <iframe width="500" height="275" src="https://www.youtube.com/embed/xXgnbzhJS08" frameborder="0" allowfullscreen></iframe>
+    <iframe width="100%" height="400px" src="https://www.youtube.com/embed/xXgnbzhJS08" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <div class="video-box">
-    <iframe width="500" height="275" src="https://www.youtube.com/embed/ofAKBy4jhm8" frameborder="0" allowfullscreen></iframe>
+    <iframe width="100%" height="400px" src="https://www.youtube.com/embed/ofAKBy4jhm8" frameborder="0" allowfullscreen></iframe>
 </div>
 
 In its first four matches, the Five Stripes posted a record of 2-1-1 with a +8 goal differential, and their only loss came at the hands of New York Red Bulls, who profited from a lucky own goal near the end of a match clearly dominated by Atlanta's fast attack.
@@ -56,7 +56,7 @@ On the stat-sheet, it looks like Vazquez has the advantage over Jones as Martine
 Let's take a look at the goals Jones has scored...
 
 <div class="video-box">
-    <iframe width="500" height="275" src="https://www.youtube-nocookie.com/embed/bAGqWtUa2NU?rel=0&amp;start=89" frameborder="0" allowfullscreen></iframe>
+    <iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/bAGqWtUa2NU?rel=0&amp;start=89" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <div style="margin-bottom: 25px;">
@@ -64,15 +64,15 @@ Let's take a look at the goals Jones has scored...
 </div>
 
 <div class="video-box">
-    <iframe width="500" height="275" src="https://www.youtube.com/embed/N6u0Ck7jryQ" frameborder="0" allowfullscreen></iframe>
+    <iframe width="100%" height="400px" src="https://www.youtube.com/embed/N6u0Ck7jryQ" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <div class="video-box">
-    <iframe width="500" height="275" src="https://www.youtube.com/embed/D891e4ju2lU" frameborder="0" allowfullscreen></iframe>
+    <iframe width="100%" height="400px" src="https://www.youtube.com/embed/D891e4ju2lU" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <div class="video-box">
-    <iframe width="500" height="275" src="https://www.youtube.com/embed/ryzH9Mt-oK0" frameborder="0" allowfullscreen></iframe>
+    <iframe width="100%" height="400px" src="https://www.youtube.com/embed/ryzH9Mt-oK0" frameborder="0" allowfullscreen></iframe>
 </div>
 
 ...and compare them to some of Vazquez's work:
@@ -82,7 +82,7 @@ Let's take a look at the goals Jones has scored...
 </div>
 
 <div class="video-box">
-    <iframe  width="500" height="275" src="https://www.youtube.com/embed/HEaoQMcRugc" frameborder="0" allowfullscreen></iframe>
+    <iframe width="100%" height="400px" src="https://www.youtube.com/embed/HEaoQMcRugc" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <div style="margin-bottom: 25px;">
@@ -94,7 +94,7 @@ See the similarities? Both have two big strengths: heading and [goal poaching](h
 Now, let's compare these two to Martinez:
 
 <div class="video-box">
-    <iframe width="500" height="275" src="https://www.youtube.com/embed/hAFRJC1nejQ" frameborder="0" allowfullscreen></iframe>
+    <iframe width="100%" height="400px" src="https://www.youtube.com/embed/hAFRJC1nejQ" frameborder="0" allowfullscreen></iframe>
 </div>
 
 At only 5'7", Martinez is shorter than both Jones (6'2") and Vazquez (6'3"), so he is not the same threat in the air that both of his counterparts are. But what he lacks in height he makes up for with his speed. The majority of Jones and Vazquez's goals are off set-pieces or from standing positions in the box, while Martinez makes his most dangerous plays on his feet streaking towards the opposing goal and creating his own chances. That kind of dynamic forward play is what the Five Stripes have been missing over the five weeks.
@@ -131,7 +131,7 @@ If those videos doesn't convince you that Atlanta's central defending is porous,
 
 <figure>
   <img src="{{ site.baseurl }}/assets/images/shots-against-chart.png" alt="Breakdown of shots taken against ATLUTD - via WhoScored.com">
-  <p class="small">Breakdown of shots taken against ATLUTD - via WhoScored.com</p>
+  <p class="caption">Breakdown of shots taken against ATLUTD - via WhoScored.com</p>
 </figure>
 
 An overwhelming majority of opponents' shots are taken from the center of the field and from within the penalty box, where central defense is supposedly most stalwart.

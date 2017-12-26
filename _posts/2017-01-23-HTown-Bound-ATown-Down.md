@@ -7,7 +7,7 @@ permalink: /falcons-sb51/
 
 <figure>
   <img src="{{ site.baseurl }}/assets/images/dome-sweet-dome.jpg" alt="the Atlanta Falcons' home the Georgia Dome">
-  <p class="small">The Georgia Dome - Atlanta, GA</p>
+  <p class="caption">The Georgia Dome - Atlanta, GA</p>
 </figure>
 
 When I moved to Atlanta in 2007, the Falcons were awful. That year, electric dual-threat QB Michael Vick had been tamed by NFL defenses and was jailed for running a dog-fighting ring; and Bobby Petrino was hired to right the ship after Jim Mora Jr. was fired after 3 years at the helm, but Petrino bolted for the University of Arkansas thirteen games into the NFL season, leaving behind locker room discord and a patchwork offense that helped Atlanta slip to a 4-12 record and the 3rd overall pick in the 2008 draft. Having lived in the Bay Area for most of my life at that point and having heard of the 49ers struggle year after year, I was used to a certain level of mediocrity from my local NFL team, but the straits the Falcons were in before the 2008 offseason were dire. The Falcons shifted from an offensive-minded coach in Petrino to a defensive guru in hiring Mike Smith, the defensive coordinator of the Jacksonville Jaguars, and the roster wasn't looking fantastic. Smith and new general manager Thomas Dimitroff (formerly of the Patriots) made the most of their 11 draft picks, selecting Boston College QB Matt Ryan to be the new face of the franchise in the wake of Michael Vick's imprisonment as well as a number of defensive players to shore up a weak front seven.
@@ -47,12 +47,12 @@ They came out fighting.
 
 <figure>
   <img src="{{ site.baseurl }}/assets/images/freeney-sack-car.jpg" alt="Atlanta Falcons DE Dwight Freeney sacks CAR QB Cam Newton">
-  <p class="small">DE Dwight Freeney sacks CAR QB Cam Newton in a 48-33 Falcons victory over the Carolina Panthers in Week 4.</p>
+  <p class="caption">DE Dwight Freeney sacks CAR QB Cam Newton in a 48-33 Falcons victory over the Carolina Panthers in Week 4.</p>
 </figure>
 
 <figure>
   <img src="{{ site.baseurl }}/assets/images/vic-beasley-den.jpg" alt="Atlanta Falcons OLB Vic Beasley">
-  <p class="small">OLB Vic Beasley gets in the face of Denver Broncos QB Trevor Simian in their Week 5 matchup.</p>
+  <p class="caption">OLB Vic Beasley gets in the face of Denver Broncos QB Trevor Simian in their Week 5 matchup.</p>
 </figure>
 
 Once again, the Falcons started strong out of the gate, winning four of their first five games and dominating some of the NFL's best teams - among them: a resurgent Oakland helmed by QB Derek Carr, the Super Bowl runner-up Carolina Panthes and their QB Cam Newton, and the new-look Super Bowl champion Denver Broncos led by vaunted ILB Von Miller. The Falcons were heating up, and Matt Ryan was slinging the ball all over the field without remorse, punishing opposing defenses for 30+ points per game. I began to believe in the team again; I thought we had a solid chance to make a name for ourselves during the season and build our way back up to success.
@@ -63,49 +63,49 @@ No one expected Atlanta to come out of their bye week and start to crush teams.
 
 <figure>
   <img src="{{ site.baseurl }}/assets/images/vic-beasley-kc.jpg" alt="Atlanta Falcons OLB Vic Beasley">
-  <p class="small">OLB Vic Beasley disrupts Kansas City Chiefs QB Alex Smith in their Week 13 matchup.</p>
+  <p class="caption">OLB Vic Beasley disrupts Kansas City Chiefs QB Alex Smith in their Week 13 matchup.</p>
 </figure>
 
 First up were the Arizona Cardinals, whom the Falcons quickly dispatched  38-19. After dropping another last-second heartbreaker to Kansas City, Atlanta wreaked havoc on the rest of its opponents, putting up an average of 38.5 points per game and only allowing 18.75 points per game versus the Rams, 49ers, Panthers, and Saints. Like the 2007 and 2011 New York Giants, the Falcons turned on the jets at the perfect time, riding that wave right into a 11-5 record and a first-round bye in the playoffs and capping the Georgia Dome's 25th and final regular season with a win over archrival New Orleans.
 
 <figure>
   <img src="{{ site.baseurl }}/assets/images/matt-ryan-td.jpg" alt="Atlanta Falcons QB Matt Ryan">
-  <p class="small">QB Matt Ryan - Probable 2016 NFL MVP and Atlanta's field general</p>
+  <p class="caption">QB Matt Ryan - Probable 2016 NFL MVP and Atlanta's field general</p>
 </figure>
 
 QB Matt Ryan was Atlanta's resident gunslinger, leading the NFL's top-ranked scoring offense into battle by posting incredible numbers and making almost zero mistakes on his way to the top of 2016 MVP projections.
 
 <figure>
   <img src="{{ site.baseurl }}/assets/images/julio-jones.jpg" alt="Atlanta Falcons WR Julio Jones">
-  <p class="small">WR Julio Jones - Ryan's best offensive weapon</p>
+  <p class="caption">WR Julio Jones - Ryan's best offensive weapon</p>
 </figure>
 
 WR Julio Jones fought off a nagging turf toe injury to light up opposing secondaries, coming in second place for the NFL receiving title but putting up only 39 fewer yards in 27 fewer targets than leader T.Y. Hilton of the Indianapolis Colts.
 
 <figure>
   <img src="{{ site.baseurl }}/assets/images/falcons-receiving-corps.jpg" alt="Falcons wide receiver Taylor Gabriel scores a 35-yard touchdown against the Cardinals for a 17-10 lead during the second quarter Sunday, Nov. 27, 2016, at the Georgia Dome in Atlanta. (Curtis Compton/ccompton@ajc.com)">
-  <p class="small">Falcons wide receiver Taylor Gabriel scores a 35-yard touchdown against the Cardinals.</p>
+  <p class="caption">Falcons wide receiver Taylor Gabriel scores a 35-yard touchdown against the Cardinals.</p>
 </figure>
 
 But Jones wasn't the only one wreaking havoc; WR Taylor Gabriel, WR Mohamed Sanu, TE Austin Hooper, TE Levine Toilolo, and a bevy of other receivers joined in on the fun, allowing Jones to be used as a decoy and Ryan to spread the ball around with great success, to the chagrin of many opposing defensive coordinators.
 
 <figure>
   <img src="{{ site.baseurl }}/assets/images/falcons-rbs.jpg" alt="Falcons RB Tevin Coleman celebrates a touchdown vs the Saints.">
-  <p class="small">RB Tevin Coleman celebrates a touchdown versus the Saints.</p>
+  <p class="caption">RB Tevin Coleman celebrates a touchdown versus the Saints.</p>
 </figure>
 
 A running back tandem of Devonta Freeman and Tevin Coleman lulled opposing defenses into focusing on stopping the run, unleashing a hellfire of play-action passing from Ryan to his litany of receivers.
 
 <figure>
   <img src="{{ site.baseurl }}/assets/images/falcons-oline.jpg" alt="Falcons offensive line celebrates a TD">
-  <p class="small">The Falcons offensive line celebrates a touchdown with RB Devonta Freeman.</p>
+  <p class="caption">The Falcons offensive line celebrates a touchdown with RB Devonta Freeman.</p>
 </figure>
 
 But we can't forget about the guys up front: the Falcons started the same five offensive linemen in every game this season, keeping Matt Ryan's pocket clean and giving him more than enough time to find open targets down field for big plays.
 
 <figure>
   <img src="{{ site.baseurl }}/assets/images/beasley-def.jpg" alt="Falcons OLB Vic Beasley sprints into action">
-  <p class="small">OLB Vic Beasley sprints into action.</p>
+  <p class="caption">OLB Vic Beasley sprints into action.</p>
 </figure>
 
 The Falcons defense stifled opposing offenses after the bye week. OLB Vic Beasley led the NFL in sacks, wrestling quarterbacks to the ground 15.5 times over the course of the year.
@@ -128,7 +128,7 @@ The game was over at halftime; the Falcons led 24-0 into the break and the team 
 
 <figure>
   <img src="{{ site.baseurl }}/assets/images/ga-dome-trophy-presentation.jpg" height="154px" alt="2016 NFC Championship game trophy presentation at GA Dome">
-  <p class="small">Confetti blankets the Georgia Dome field as the Atlanta Falcons hoist the George Halas NFC Championship trophy for only the second time in franchise history.</p>
+  <p class="caption">Confetti blankets the Georgia Dome field as the Atlanta Falcons hoist the George Halas NFC Championship trophy for only the second time in franchise history.</p>
 </figure>
 
 I watched championship Sunday anxiously. I kept waiting for the other shoe to drop, like it always had. I kept telling myself and my friends, "We need more points. No lead is safe with Aaron Rodgers on the field." I couldn't believe that the game was over and Atlanta was going to win until Green Bay head coach Mike McCarthy pulled Rodgers with 2:00 left in the game and allowed backup QB Brett Hundley to get some reps in garbage time.
@@ -137,7 +137,7 @@ The only things that fell yesterday afternoon were red and black confetti from t
 
 <figure>
   <img src="{{ site.baseurl }}/assets/images/sb51-promo.jpg" alt="Atlanta Falcons clinch berth in Super Bowl 51">
-  <p class="small">WE DID IT, ATLANTA!</p>
+  <p class="caption">WE DID IT, ATLANTA!</p>
 </figure>
 
 ---
