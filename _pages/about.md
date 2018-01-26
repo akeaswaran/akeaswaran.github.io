@@ -11,8 +11,6 @@ noShowTitle: true
     <li><a href="#about">ABOUT</a></li>
     <li><a href="#work-experience">EXPERIENCE</a></li>
     <li><a href="#extracurriculars">ACTIVITIES</a></li>
-    <li><a href="#projects">PROJECTS</a></li>
-    <li><a href="#resume">RESUME</a></li>
     </ul>
 </div>
 
@@ -28,11 +26,11 @@ In the summer of 2013, I worked at CloudSherpas, Inc., a cloud-computing and mob
 
 During the summer of 2014, I interned at AppsNMotion, Inc., a mobile application startup based in Atlanta, testing production code of the company’s restaurant discovery and rewards application, as well as writing logic to enhance the user experience and create new features.
 
-From July 2014 to August 2017, I worked at Pardot, a Salesforce company based in Atlanta, as an intern in the software engineering department. I helped maintain a large-scale sales and marketing web application to deliver marketing emails to businesses and people. During the summer of 2016, I worked with a scrum team of six other engineers to produce new features that tighten Pardot’s Salesforce CRM integration and played a key role in directing Intern Hack Week, a week-long hackathon for the six Salesforce interns posted in Atlanta, and oversaw the creation of a basic machine-learning project that leveraged analytics data from Pardot to find trends in customer activity behind closed deals. During the summer of 2017, I leveraged Apache Storm and Kafka to build a prototype that streams Salesforce change events to MySQL.
+From July 2014 to August 2017, I worked at Pardot, a Salesforce company based in Atlanta, as an intern in the software engineering department. I helped maintain a large-scale sales and marketing web application to deliver marketing emails to businesses and people. During the summer of 2016, I worked with a scrum team of six other engineers to produce new features that tighten Pardot’s Salesforce CRM integration and played a key role in directing Intern Hack Week, a week-long hackathon for the six Salesforce interns posted in Atlanta, and oversaw the creation of a basic machine-learning project that analyzed analytics data from Pardot to find trends in customer activity behind closed deals. During the summer of 2017, I leveraged Apache Storm and Kafka to build a prototype that streamed Salesforce change events to MySQL.
 
-Since December 2017, I have been an DevOps intern in T-Mobile's TechX Intership Program, enabling innovation in the company's digital transformation by building new internal tools and streamlining existing processes.
+Since December 2017, I have been an DevOps intern in T-Mobile's TechX Internship Program, enabling innovation in the company's digital transformation by building and managing internal tools and streamlining existing processes.
 
-### <a name="extracurriculars"></a>Extracurricular Activities'
+### <a name="extracurriculars"></a>Extracurricular Activities
 ![Ramblin' Reck Club]({{ site.baseurl }}/assets/images/reck.jpg)
 
 <h3 style="margin-bottom:0px;">Ramblin' Reck Club</h3>
