@@ -104,4 +104,9 @@ But Stansbury makes it a point to involve the strengths of the Institute in buil
 Stansbury's technocratic approach is a refreshing take on the winding saga of Georgia Tech athletics. Even with its high academic standards for athletes, Tech has always had the potential to become an athletic powerhouse like Stanford - we're in one of the best and fastest-growing cities in America, we have a top-class academic reputation, and we have a tradition of success in the classroom and industry. Now, with Stansbury at the helm and a renewed emphasis on technology and innovation in the athletics program, we have the opportunity to build a tradition of winning on the Flats.
 
 ---
+
+If you're interested, here's a recording of the entire talk:
+<iframe width="100%" height="400px" src="https://www.youtube.com/embed/hKHEn23LjfU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+---
 <p class="small">h/t to <a href="http://create-x.gatech.edu/">CREATE-X</a> for putting on this event!</p>
