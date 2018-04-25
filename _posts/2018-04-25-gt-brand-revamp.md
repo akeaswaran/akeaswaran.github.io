@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  50 Shades of Gold No More
-description: Some ramblings on importance of gold in Georgia Tech's branding and GTAA's new branding.
+description: Some ramblings on importance of Tech gold and Georgia Tech's new branding.
 permalink: /gt-brand-revamp/
 ---
 
