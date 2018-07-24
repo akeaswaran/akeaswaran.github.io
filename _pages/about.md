@@ -30,7 +30,7 @@ From July 2014 to August 2017, I worked at Pardot, a **Salesforce** company base
 
 Between December 2017 and May 2018, I was a DevOps intern in **T-Mobile**'s TechX Internship Program, building Tableau dashboards to visualize project health and Agile metrics and support executive and managerial decision making.
 
-For summer 2018, I returned to **Salesforce** as a software engineering intern with the Pardot team, but this time based out of San Francisco, CA.
+For summer 2018, I returned to **Salesforce** as a software engineering intern with Pardot, this time based out of San Francisco, CA. In my spare time, I write for Georgia Tech sports blog *[From the Rumble Seat](https://fromtherumbleseat.com)*.
 
 ### <a name="extracurriculars"></a>Extracurricular Activities
 ![Ramblin' Reck Club]({{ site.baseurl }}/assets/images/reck.jpg)
