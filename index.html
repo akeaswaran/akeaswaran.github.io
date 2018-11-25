@@ -15,7 +15,11 @@ profile: true
     {% endif %}
         <li class="c-archives__item">
             <h3>
+              {% if post.permalink contains 'https:' %}
+              <a href="{{ post.permalink }}" style="text-decoration:none;">{{post.title}}</a>
+              {% else %}
               <a href="{{ post.url | prepend: site.baseurl }}" style="text-decoration:none;">{{post.title}}</a>
+              {% endif %}
               <br>
               <p style="color: #869395; font-size:15px;">{{post.description}}</small>
             </h3>
