@@ -30,44 +30,48 @@ From July 2014 to August 2017, I worked at Pardot, a **Salesforce** company base
 
 Between December 2017 and May 2018, I was a DevOps intern in **T-Mobile**'s TechX Internship Program, building Tableau dashboards to visualize project health and Agile metrics and support executive and managerial decision making.
 
-For summer 2018, I returned to **Salesforce** as a software engineering intern with Pardot, this time based out of San Francisco, CA. In my spare time, I write for Georgia Tech sports blog *[From the Rumble Seat](https://fromtherumbleseat.com)*.
+For summer 2018, I returned to **Salesforce** as a software engineering intern with Pardot, this time based out of San Francisco, CA. In this stint, I helped improve Pardot’s Salesforce integration by building Java and PHP features for a version of the Pardot experience accessible from within Salesforce.
+
+In fall 2018, I worked with **The Coca-Cola Company** as an intern with _The Bridge by Coca-Cola_, connecting customer and internal teams with startups to solve their most pressing business challenges.
+
+In my spare time, I write for Georgia Tech sports blog _[From the Rumble Seat](https://fromtherumbleseat.com/)_. You can view all of my work [here](https://fromtherumbleseat.com/authors/akeaswaran).
 
 ### <a name="extracurriculars"></a>Extracurricular Activities
 ![Ramblin' Reck Club]({{ site.baseurl }}/assets/images/reck.jpg)
 
 <h3 style="margin-bottom:0px;">Ramblin' Reck Club</h3>
 <ul style="list-style:none;list-style-type: none;margin: 0;padding-bottom:10px;">
-<li><h4 style="color:#869395 !important">Reck Driver Aide ('17), Member-at-Large ('18)</h4></li>
+<li><h4 style="color:#869395 !important"><i>Reck Driver Aide ('17), Member-at-Large ('18)</i></h4></li>
 <li><h5 style="color:#869395 !important">Feb 2017 - Present</h5></li>
 <li><h5 style="color:#869395 !important">Atlanta, GA</h5></li>
 </ul>
 
-Part of an organization of students committed to the education and promotion of Georgia Tech spirit, history and tradition. Working together with other members to instill the student body with enthusiasm for all the facets of Tech, whether that be sports, events, or the school itself. Built a website that details the history of the Ramblin' Reck since its inception in 1961, and in charge of planning events that foster a sense of community within the organization.
+Part of an organization of students committed to the education and promotion of Georgia Tech spirit, history and tradition. Working together with other members to instill the student body with enthusiasm for all the facets of Tech, whether that be sports, events, or the school itself. <a href="https://reckclub.org/reckhistory">Built a website that details the history of the Ramblin' Reck mascot since its inception in 1961</a> and planned events and activities that fostered a sense of community and strengthened the internal culture of the organization.
 
 ![TEDxGeorgiaTech]({{ site.baseurl }}/assets/images/tedx.jpg)
 <h3 style="margin-bottom:0px;">TEDxGeorgiaTech</h3>
 <ul style="list-style:none;list-style-type: none;margin: 0;padding-bottom:10px;">
-<li><h4 style="color:#869395 !important">Webmaster</h4></li>
-<li><h5 style="color:#869395 !important">Sept 2016 - Present</h5></li>
+<li><h4 style="color:#869395 !important"><i>Webmaster</i></h4></li>
+<li><h5 style="color:#869395 !important">Sept 2016 - May 2018</h5></li>
 <li><h5 style="color:#869395 !important">Atlanta, GA</h5></li>
 </ul>
 
-Leading the development of the website for a student-led version of the TED conference series at Georgia Tech. Working with other executive committee members to drive UI design and build new features that make the website a central location for information about TEDx events at Georgia Tech.
+Led the development of the website for a student-led version of the TEDx conference series at Georgia Tech. Worked with other executive committee members to drive UI/UX design and feature development to make the website a central location for information about TEDx events at Georgia Tech.
 
 ![Georgia Tech SGA]({{ site.baseurl }}/assets/images/sga.jpg)
 <h3 style="margin-bottom:0px;">Georgia Tech Student Government Association</h3>
 <ul style="list-style:none;list-style-type: none;margin: 0;padding-bottom:10px;">
-<li><h4 style="color:#869395 !important">IT Development Committee Member ('15), Chair ('16), and Project Lead ('17)</h4></li>
+<li><h4 style="color:#869395 !important"><i>IT Development Committee Member ('15), Chair ('16), and Project Lead ('17)</i></h4></li>
 <li><h5 style="color:#869395 !important">Sept 2015 - Dec 2017</h5></li>
 <li><h5 style="color:#869395 !important">Atlanta, GA</h5></li>
 </ul>
 
-Worked with campus officials and outside IT contacts in order to improve existing infrastructure and established new working relationships to build a better future for Georgia Tech students.
+Worked with campus officials and external IT contacts to improve existing infrastructure and established new working relationships to build a better future for Georgia Tech students.
 
 ![Georgia Tech]({{ site.baseurl }}/assets/images/gt-fisheye.jpg)
 <h3 style="margin-bottom:0px;">Georgia Tech College of Computing</h3>
 <ul style="list-style:none;list-style-type: none;margin: 0;padding-bottom:10px;">
-<li><h4 style="color:#869395 !important">Undergraduate Teaching Assistant (CS 2340: Objects and Design)</h4></li>
+<li><h4 style="color:#869395 !important"><i>Undergraduate Teaching Assistant (CS 2340: Objects and Design)</i></h4></li>
 <li><h5 style="color:#869395 !important">Aug - Dec 2016</h5></li>
 <li><h5 style="color:#869395 !important">Atlanta, GA</h5></li>
 </ul>
