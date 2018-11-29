@@ -9,11 +9,11 @@ permalink: /gt-cpj-retires/
 
 Paul Johnson is the only Georgia Tech football coach I (and many recent Tech graduates) have ever known. In his 11 years at the Institute, he has done an admirable job with the situation he has had with regards to the academic standards of the Institute for its athletes and the lack of investment in the program. All of my most cherished memories watching Georgia Tech football have been under Paul Johnson: the Miracle on Techwood Drive, beating georgia in 2014, and beating georgia in 2016 (to name a few). For these moments (and those of all of the Tech men and women that came before me in the last 11 years), thank you.
 
-Coach Johnson's retirement or lack of success this season isn’t an indictment of his brand of offense (despite its controversial nature) or what he has done while on the Flats. If you look at [his track record over the last 11 years](http://ramblinwreck.com/johnson-steps-down-as-head-coach/), he’s done a pretty good job. Coach Johnson has been a valuable asset for Tech, and even as someone who called for his head earlier this season (and this past weekend), I am sad to see him go.
-
 <div style="margin-bottom: 25px;">
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Y’all wouldn’t understand what he did for this program , he gave hope to kids that was overlooked by other programs and turned them into something special , can thank you Coach Johnson enough <a href="https://twitter.com/hashtag/Legend?src=hash&amp;ref_src=twsrc%5Etfw">#Legend</a> <a href="https://t.co/dCXomR6B8B">https://t.co/dCXomR6B8B</a></p>&mdash; L4TL (@Juanyehthomas1) <a href="https://twitter.com/Juanyehthomas1/status/1067873295339536386?ref_src=twsrc%5Etfw">November 28, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
+
+Coach Johnson's retirement or lack of success this season isn’t an indictment of his brand of offense (despite its controversial nature) or what he has done while on the Flats. If you look at [his track record over the last 11 years](http://ramblinwreck.com/johnson-steps-down-as-head-coach/), he’s done a pretty good job. Coach Johnson has been a valuable asset for Tech, and even as someone who called for his head earlier this season (and this past weekend), I am sad to see him go.
 
 
 ### Coaching Search
