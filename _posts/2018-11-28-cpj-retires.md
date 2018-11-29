@@ -5,7 +5,7 @@ description: Paul Johnson's retirement and the realities of the Georgia Tech job
 permalink: /gt-cpj-retires/
 ---
 
-## [So long Paul, we hardly knew ye.](https://twitter.com/GeorgiaTech/status/1067874008941674496)
+### [So long Paul, we hardly knew ye.](https://twitter.com/GeorgiaTech/status/1067874008941674496)
 
 Paul Johnson is the only Georgia Tech football coach I (and many recent Tech graduates) have ever known. In his 11 years at the Institute, he has done an admirable job with the situation he has had with regards to the academic standards of the Institute for its athletes and the lack of investment in the program. All of my most cherished memories watching Georgia Tech football have been under Paul Johnson: the Miracle on Techwood Drive, beating georgia in 2014, and beating georgia in 2016 (to name a few). For these moments (and those of all of the Tech men and women that came before me in the last 11 years), thank you.
 
