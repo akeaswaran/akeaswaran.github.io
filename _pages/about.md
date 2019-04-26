@@ -8,9 +8,9 @@ noShowTitle: true
 
 <div id="nav">
     <ul>
-    <li><a href="#about">ABOUT</a></li>
-    <li><a href="#work-experience">EXPERIENCE</a></li>
-    <li><a href="#extracurriculars">ACTIVITIES</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#work-experience">EXPERIENCE</a></li>
+        <li><a href="#extracurriculars">ACTIVITIES</a></li>
     </ul>
 </div>
 
@@ -26,7 +26,7 @@ In the summer of 2013, I worked at **CloudSherpas, Inc.**, a cloud-computing and
 
 During the summer of 2014, I interned at **AppsNMotion, Inc.**, a mobile application startup based in Atlanta, testing production code of the company’s restaurant discovery and rewards application, as well as writing logic to enhance the user experience and create new features.
 
-From July 2014 to August 2017, I worked at Pardot, a **Salesforce** company based in Atlanta, as an intern in the software engineering department. I helped maintain a large-scale sales and marketing web application to deliver marketing emails to businesses and people. During the summer of 2016, I worked with a scrum team of six other engineers to produce new features that tighten Pardot’s Salesforce CRM integration and played a key role in directing Intern Hack Week, a week-long hackathon for the six Salesforce interns posted in Atlanta, and oversaw the creation of a basic machine-learning project that analyzed analytics data from Pardot to find trends in customer activity behind closed deals. During the summer of 2017, I leveraged Apache Storm and Kafka to build a prototype that streamed Salesforce change events to MySQL.
+From July 2014 to August 2017, I worked at Pardot, a **Salesforce** company based in Atlanta, as a software engineering intern. I helped maintain a large-scale sales and marketing web application to deliver marketing emails to businesses and people. During the summer of 2016, I worked with a scrum team of six other engineers to produce new features that tighten Pardot’s Salesforce CRM integration and played a key role in directing Intern Hack Week, a week-long hackathon for the six Salesforce interns posted in Atlanta, and oversaw the creation of a basic machine-learning project that analyzed analytics data from Pardot to find trends in customer activity behind closed deals. During the summer of 2017, I leveraged Apache Storm and Kafka to build a prototype that streamed Salesforce change events to MySQL.
 
 Between December 2017 and May 2018, I was a DevOps intern in **T-Mobile**'s TechX Internship Program, building Tableau dashboards to visualize project health and Agile metrics and support executive and managerial decision making.
 
@@ -41,12 +41,12 @@ In my spare time, I write for Georgia Tech sports blog _[From the Rumble Seat](h
 
 <h3 style="margin-bottom:0px;">Ramblin' Reck Club</h3>
 <ul style="list-style:none;list-style-type: none;margin: 0;padding-bottom:10px;">
-<li><h4 style="color:#869395 !important"><i>Reck Driver Aide ('17), Member-at-Large ('18)</i></h4></li>
-<li><h5 style="color:#869395 !important">Feb 2017 - Present</h5></li>
+<li><h4 style="color:#869395 !important"><i>Reck Driver Aide ('17), Member-at-Large ('18), Technology Chair (Spring '19)</i></h4></li>
+<li><h5 style="color:#869395 !important">Feb 2017 - May 2019</h5></li>
 <li><h5 style="color:#869395 !important">Atlanta, GA</h5></li>
 </ul>
 
-Part of an organization of students committed to the education and promotion of Georgia Tech spirit, history and tradition. Working together with other members to instill the student body with enthusiasm for all the facets of Tech, whether that be sports, events, or the school itself. <a href="https://reckclub.org/reckhistory">Built a website that details the history of the Ramblin' Reck mascot since its inception in 1961</a> and planned events and activities that fostered a sense of community and strengthened the internal culture of the organization.
+Alumnus of an organization of students committed to the education and promotion of Georgia Tech spirit, history and tradition. While a member, worked together with other members and student organizations to instill the student body with enthusiasm for all the facets of Tech, whether that be sports, events, or the school itself. Built a [website that details the history of the Ramblin' Reck mascot](http://reckclub.org/reckhistory) since its inception in 1961, planned events and activities that fostered a sense of community and strengthened the internal culture of the organization, and refreshed [the organization's web presence](http://reckclub.org/).
 
 ![TEDxGeorgiaTech]({{ site.baseurl }}/assets/images/tedx.jpg)
 <h3 style="margin-bottom:0px;">TEDxGeorgiaTech</h3>
