@@ -30,6 +30,8 @@ if m:
         if a.published_parsed > last_date.isoformat():
             print 'Formatting and writing \"' + a.title + '\" to _posts...'
             title = a.title
+            if len(title) > 56:
+                title = title[:56].rstrip() + "..."
             link = a.link
 
             # The dek/subtitle for the article is always the first <p> tag, so use BeautifulSoup to retreive this.
@@ -40,7 +42,7 @@ if m:
 
             # Parse and format the date (ISO format) of the article to use in the file name.
             post_date = parse(a.published)
-            new_file_path = './_posts/' + post_date.strftime("%Y") + '-' + post_date.strftime("%m") + '-' + post_date.strftime("%d") + '-'+title.lower().replace(' ', '-').replace('!', '').replace(':','').replace('?','').replace('/','-')+'.md'
+            new_file_path = './_posts/' + post_date.strftime("%Y") + '-' + post_date.strftime("%m") + '-' + post_date.strftime("%d") + '-'+title.lower().replace(' ', '-').replace('!', '').replace(':','').replace('?','').replace('/','-').replace(',','').replace('&','and')+'.md'
 
             # Write the article's metadata to a Markdown file for Jekyll publishing.
             f = open(new_file_path, 'w')
