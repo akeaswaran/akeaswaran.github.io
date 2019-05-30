@@ -22,7 +22,7 @@ if m:
     print 'Last blog post date: ' + found
 
     print 'Retrieving latest FTRS articles written by self...'
-    d = feedparser.parse('https://www.fromtherumbleseat.com/rss/current')
+    d = feedparser.parse('https://www.fromtherumbleseat.com/authors/akeaswaran/rss')
     self_articles = filter(lambda x: {'name' : 'Akshay Easwaran'} in x.authors, d.entries)
 
     print 'Parsing FTRS articles...'
@@ -35,10 +35,12 @@ if m:
             # The dek/subtitle for the article is always the first <p> tag, so use BeautifulSoup to retreive this.
             soup = BeautifulSoup(a.summary, "html.parser")
             dek = [p.get_text() for p in soup.find_all("p", text=True)][0]
+            if len(dek) > 54:
+                dek = dek[:54].rstrip() + "..."
 
             # Parse and format the date (ISO format) of the article to use in the file name.
             post_date = parse(a.published)
-            new_file_path = './_posts/' + str(post_date.year) + '-' + str(post_date.month) + '-' + str(post_date.day) + '-'+title.lower().replace(' ', '-').replace('!', '').replace(':','').replace('?','')+'.md'
+            new_file_path = './_posts/' + post_date.strftime("%Y") + '-' + post_date.strftime("%m") + '-' + post_date.strftime("%d") + '-'+title.lower().replace(' ', '-').replace('!', '').replace(':','').replace('?','').replace('/','-')+'.md'
 
             # Write the article's metadata to a Markdown file for Jekyll publishing.
             f = open(new_file_path, 'w')
