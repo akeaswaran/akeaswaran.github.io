@@ -1,0 +1,46 @@
+/* ==========================================================================
+   Dark Mode
+   ========================================================================== */
+
+.c-page__footer p {
+   color: #AAAAAA
+}
+
+.c-archives__item p {
+   color: #869395;
+}
+
+@media (prefers-color-scheme: dark) {
+    .u-separate, hr {
+        background: #3A3B3B
+    }
+
+    .profile #header {
+        border-bottom: 1px solid #3A3B3B;
+    }
+
+    .c-archives__item {
+        border-top: 1px solid #3A3B3B;
+    }
+
+    body, nav.main-nav {
+        background: #0E1112
+    }
+
+    h1, .c-article__title, .profile h1  {
+        color: #FFF;
+    }
+
+    h2, h3, h4, h5, h6{
+        color: #BBB;
+    }
+
+    p, .c-article__time, .c-page__footer p, .c-archives__item p, .profile h2  {
+        color: #555555
+    }
+
+    .c-article__main p, ul, .c-article__main strong {
+        color: #888;
+    }
+
+}
