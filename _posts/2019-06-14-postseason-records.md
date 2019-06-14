@@ -41,7 +41,7 @@ To satisfy the "major city" requirement of the reader's question, I selected the
 
 Well...
 
-![I don't know what I expected](/assets/images/i-dont-know-what-i-expected.gif)
+![I don't know what I expected](/assets/images/I-dont-know-what-I-expected.gif)
 
 But, on the other hand, it's interesting to see how other cities have performed overall in some of the nation's most popular sports. This dataset could probably be improved by including college sports (specifically, college football and basketball), and more analysis could be done to generate some ["misery index"](https://www.espn.com/nhl/story/_/id/24367000/the-top-25-most-miserable-fan-bases-professional-sports) that considers the number of years since a team's last championship, as well as how much that sport _means_ to a city (e.g.: how important would winning an NBA title be compared to winning a World Series). Taking these factors into consideration would make this composite data more meaningful.
 
