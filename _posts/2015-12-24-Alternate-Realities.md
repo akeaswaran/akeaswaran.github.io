@@ -3,6 +3,7 @@ layout: post
 title: Alternate Realities
 description: A deep dive into a common sci-fi trope
 permalink: /alt-realities/
+published: false
 ---
 
 For 2016, one of my New Year’s Resolutions is to get off my lazy behind and do something productive with my free time. I have a few hobbies that I want to develop as I get older, the foremost being my writing. That brings me here to Medium. My goal is to write a short-form article every week about something that interests me. Maybe this will last a while, and maybe it won’t; either way, it doesn’t hurt to try.
