@@ -15,7 +15,7 @@ noShowTitle: true
 </div>
 
 ### <a name="about"></a>About Me
-I'm Akshay Easwaran, and I'm an undergraduate Computer Science student at the Georgia Institute of Technology.
+I'm Akshay Easwaran, and I'm a software engineer at Salesforce, having completed my BS in Computer Science at the Georgia Institute of Technology in May 2019.
 
 I fell in love with computer science long ago. I've been working with computers for most of my life and have developed a genuine fascination with how they and their software work.
 
@@ -34,9 +34,11 @@ For summer 2018, I returned to **Salesforce** as a software engineering intern w
 
 In fall 2018, I worked with **The Coca-Cola Company** as an intern with _The Bridge by Coca-Cola_, connecting customer and internal teams with startups to solve their most pressing business challenges.
 
+As of summer 2019, I returned to **Salesforce** again, building tools and end-to-end automation systems to maximize the quality of new features on the Salesforce platform.
+
 In my spare time, I write for Georgia Tech sports blog _[From the Rumble Seat](https://fromtherumbleseat.com/)_. You can view all of my work [here](https://fromtherumbleseat.com/authors/akeaswaran).
 
-### <a name="extracurriculars"></a>Extracurricular Activities
+### <a name="extracurriculars"></a>College Extracurricular Activities
 ![Ramblin' Reck Club]({{ site.baseurl }}/assets/images/reck.jpg)
 
 <h3 style="margin-bottom:0px;">Ramblin' Reck Club</h3>
@@ -80,4 +82,4 @@ Helped fellow students learn about object-oriented programming and project-based
 
 ---
 
-For more information or a resume, please [email me](mailto:akeaswaran@gatech.edu).
+For more information or a resume, please [email me](mailto:akeaswaran@me.com).
