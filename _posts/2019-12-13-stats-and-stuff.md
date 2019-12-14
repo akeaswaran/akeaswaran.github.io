@@ -3,7 +3,7 @@ layout: post
 title: Exploring College Football Analytics
 description: "AKA: should I have been an industrial engineer?"
 permalink: /exploring-cfb-analytics/
-published: false
+published: true
 ---
 
 _[Skip to the actual data analysis.](#markdown-toc)_
@@ -14,7 +14,7 @@ Despite being a freshly-minted adult, this is a continuing-education hill I will
 
 Picking up a new skill is tough, but what makes it _harder_ is not being able to **practice using it**. I've always had trouble retaining skills that I never use (Spanish, cursive, ~~soccer~~, etc.), so whenever I pick up something new nowadays, I try to marry it to something familiar to ease myself into it.
 
-In a roundabout, semi-didatic way, that brings us to when I signed up for a one-week crash course on data science in Python through [work](https://salesforce.com/careers/). Data science is, of course, today's [new hotness](https://www.youtube.com/watch?v=jn_P13FkQYw), and as a new grad in the software industry that didn't pick up much in the way of statistics or math knowledge as part of my education[^1], I felt it best to learn a thing or two about the field.
+In a roundabout, semi-didatic way, that brings us to when I signed up for a one-week crash course on data science in Python through [work](https://salesforce.com/careers/). Data science is, of course, today's [new hotness](https://www.youtube.com/watch?v=jn_P13FkQYw), and as a new grad in the software industry that didn't pick up much in the way of statistics or math knowledge as part of my education[^1] (but had [dabbled a little with R in the past](/epg)), I felt it best to learn a thing or two about the field.
 
 But the real reason I signed up for the course and took copious amounts of notes during it is simple: _I wanted to understand college football better_.
 
