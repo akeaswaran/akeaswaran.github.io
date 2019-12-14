@@ -2,6 +2,7 @@
 layout: post
 title:  "I am Atlanta"
 permalink: /i-am-atlanta/
+published: false
 ---
 
 I am Atlanta, and this is my story.
