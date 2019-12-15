@@ -146,7 +146,9 @@ On the other hand, Team B is working its way down the field methodically in smal
 
 ### Adapted Advanced Box Scores
 
-Like I mentioned before, Connelly tweets out [advanced box scores](https://twitter.com/ESPN_BillC/status/1204109548304424961?s=20) after every week's worth of games for a subset of games he finds interesting[^13]. After working with stats for a while and putting them into his format every week for _[From the Rumble Seat](https://fromtherumbleseat.com)_, I felt comfortable enough to start iterating off it. Here are the changes I made:
+Like I mentioned before, Connelly tweets out [advanced box scores](https://twitter.com/ESPN_BillC/status/1204109548304424961?s=20) after every week's worth of games for a subset of games he finds interesting[^13]. After working with stats for a while and putting them into his format every week for _[From the Rumble Seat](https://fromtherumbleseat.com)_, I felt comfortable enough to start iterating off it.
+
+### Major changes
 
 1. I removed the IsoPPP comparison in favor of adding success rate by down, mostly because I hadn't generated IsoPPP values I was happy with when I started tinkering. Success rate by down doesn't fulfill the same purpose as IsoPPP, but I figured if you're going to give the people a breakdown of success rate by quarter, you might as well also give them one by down.
 
@@ -154,21 +156,26 @@ Like I mentioned before, Connelly tweets out [advanced box scores](https://twitt
 
 3. I added pace stats like time of possession, time per play, time per drive, and time between scoring opportunities. Pacy offenses are going to put up more yards (and probably score more points) because they run more plays in the same amount of time as an average offense, so I figured it would be nice to see that broken down clearly.
 
-4. I added stats around third- and fourth-down conversions and conversion rates. This might be a bit of traditional football convention holding me back, but I believe understanding how well teams did in these "leverage" situations and the clip at which they extended drives helps create more informed offensive analysis.
+4. I added success rate on scoring opportunities to the basics table. Connelly notes that it plays a role in the "finishing drives" portion of the "Five Factors", so I'm somewhat confused that as to why it wasn't there before.
 
-5. I added sack yards and explosiveness rates to the passing stats. Having sack yards built-in to the spreadsheet made calculating a sack-adjusted yards/attempt number much easier, and I've found it useful to see how dangerous teams were throwing the ball down the field.
-
-6. I added carries and yardage totals, as well as explosiveness rates, to the rushing stats for more or less the same reasons as the above changes to passing stats -- easier calculations and use of explosiveness as a metric.
-
-7. I added success rate on scoring opportunities to the basics table. Connelly notes that it plays a role in the "finishing drives" portion of the "Five Factors", so I'm somewhat confused that as to why it wasn't there before.
-
-8. I added havoc rate and stop rate columns to the defensive stats. Havoc rate is calculated by aggregating tackles-for-loss, passes-broken-up, and forced fumbles (the base categories of "havoc plays"), then dividing that sum by the total number of defensive plays. Stop rate is a little trickier -- [I'll let my past self explain](https://www.fromtherumbleseat.com/2019/12/13/21004327/georgia-tech-football-the-numbers-game-d-st-college-football-advanced-stats-cfp-nola-clemson-ohio-st#comments):
+5. I added havoc rate and stop rate columns to the defensive stats. Havoc rate is calculated by aggregating tackles-for-loss, passes-broken-up, and forced fumbles (the base categories of "havoc plays"), then dividing that sum by the total number of defensive plays. Stop rate is a little trickier -- [I'll let my past self explain](https://www.fromtherumbleseat.com/2019/12/13/21004327/georgia-tech-football-the-numbers-game-d-st-college-football-advanced-stats-cfp-nola-clemson-ohio-st#comments):
 
 > [S]top rate, a defensive effectiveness metric pioneered by The Athletic’s Max Olson, measures the proportion of defensive drives that ended in punts, turnovers, or turnovers-on-downs. Essentially, this number puts data behind the colloquial football belief that teams who get more stops win more games — thus, a higher stop rate is better.
 
+#### Minor changes
+
+1. I added stats around third- and fourth-down conversions and conversion rates. This might be a bit of traditional football convention holding me back, but I believe understanding how well teams did in these "leverage" situations and the clip at which they extended drives helps create more informed offensive analysis.
+
+2. I added sack yards and explosiveness rates to the passing stats. Having sack yards built-in to the spreadsheet made calculating a sack-adjusted yards/attempt number much easier, and I've found it useful to see how dangerous teams were throwing the ball down the field.
+
+3. I added carries and yardage totals, as well as explosiveness rates, to the rushing stats for more or less the same reasons as the above changes to passing stats -- easier calculations and use of explosiveness as a metric.
+
 Together, these changes allowed me to put together [a really nice spreadsheet](https://docs.google.com/spreadsheets/d/1kFjDoTUzGYcWLupj4SSRHCZCuxGXGQY5PgKYCPxGkXU/edit?usp=sharing) for my off-season stat breakdowns for the Georgia Tech [offense](https://www.fromtherumbleseat.com/2019/12/12/21002278/georgia-tech-football-the-numbers-game-offense-advanced-statistics-college-football-stats-cfp-nola) and [defense](https://www.fromtherumbleseat.com/2019/12/13/21004327/georgia-tech-football-the-numbers-game-d-st-college-football-advanced-stats-cfp-nola-clemson-ohio-st#comments).
 
-Further work can most definitely be done to iterate on these. One next step might be to put special teams efficiencies on there, since that "third" of the game isn't covered at all by our current set of metrics. Another might be to generate and display post-game win-expectancies like Connelly does, which brings us to my next project.
+I definitely want to iterate on these a bit further. There seem to be a couple of obvious next steps:
+
+1. Add special teams efficiencies to the box score. That "third" of the game isn't covered at all by our current set of metrics, and the derivation of those stats isn't super complex either.
+2. Generate and display post-game win-expectancies like Connelly does, which brings us to my next project.
 
 ---
 
