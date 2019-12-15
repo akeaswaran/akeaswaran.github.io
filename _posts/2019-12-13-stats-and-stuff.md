@@ -245,7 +245,6 @@ A fun sidebar to generating these post-game win expectancies is that I've been a
 More iteration on this model should yield more accurate predictions and post-game projections. However, in the meantime, one could bet on money-lines with some success using this data..._if you were into that sort of thing, of course_.
 
 ---
-<h5>Footnotes</h5>
 
 [^1]: Well, I did -- I just never bothered to remember any of it because _I never used it again_.
 [^2]: This is a detour you can really ignore. Skip to [here](#fnref:5).
