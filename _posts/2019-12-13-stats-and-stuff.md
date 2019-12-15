@@ -199,7 +199,7 @@ A formula for post-game win expectancy is truly my white whale. Conceptually, it
 
 ##### Notes & Limitations
 
-**Current Status: R<sup>2</sup> of 0.85 and R of 0.92**
+**Current Best Performance: R<sup>2</sup> of 0.85 and R of 0.92**
 
 It might be important to note some pretty obvious things wrong with what I've built:
 
