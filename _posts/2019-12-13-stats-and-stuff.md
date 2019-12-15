@@ -16,7 +16,7 @@ Despite being a freshly-minted adult, this is a continuing-education hill I will
 
 Picking up a new skill is tough, but what makes it _harder_ is not being able to **practice using it**. I've always had trouble retaining skills that I never use (Spanish, cursive, ~~soccer~~, etc.), so whenever I pick up something new nowadays, I try to marry it to something familiar to ease myself into it.
 
-In a roundabout, semi-didatic way, that brings us to when I signed up for a one-week crash course on data science in Python through [work](https://salesforce.com/careers/). Data science is, of course, today's [new hotness](https://www.youtube.com/watch?v=jn_P13FkQYw), and as a new grad in the software industry that didn't pick up much in the way of statistics or math knowledge as part of my education[^1] (but had [dabbled a little with R in the past](/epg) and now had a ton of free time after [the end of other personal projects](https://www.reddit.com/r/FootballCoach/comments/dl1s60/cfc_40_update/)), I felt it best to learn a thing or two about the field .
+In a roundabout, semi-didatic way, that brings us to when I signed up for a one-week crash course on data science in Python through [work](https://salesforce.com/careers/). Data science is, of course, today's [new hotness](https://www.youtube.com/watch?v=jn_P13FkQYw), and as a new grad in the software industry that didn't pick up much in the way of statistics or math knowledge as part of my education[^1] (but had [dabbled a little with R in the past](/epg) and now had a ton of free time after [the end of other personal projects](https://www.reddit.com/r/FootballCoach/comments/dl1s60/cfc_40_update/)), I felt it best to learn a thing or two about the field.
 
 But the real reason I signed up for the course and took copious amounts of notes during it is simple: _I wanted to understand college football better_.
 
@@ -30,7 +30,7 @@ I've been an ardent reader of any and all material from [Bill Connelly](https://
 
 3. **He ties the concept back to the real world**, providing a relevant example of how the data he's presented can be applied.
 
-These points seem very simple, and you'd think that a lot of other writers follow them -- sadly, I've found a number of sources that just do the first two[^3]: while neglecting the third. Being able to apply a conclusion to a relevant example in the problem space is critical to understanding the conclusion itself and what it represents[^4] (do you see where I'm going with this now?)
+These points seem very simple, and you'd think that a lot of other writers follow them -- sadly, I've found a number of sources that just do the first two[^3]: while neglecting the third. Being able to apply a conclusion to a relevant example in the problem space is critical to understanding the conclusion itself and what it represents[^4] (do you see where I'm going with this now?).
 
 Back once more to the purpose of the data science course at hand[^5]:
 
