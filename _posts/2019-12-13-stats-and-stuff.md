@@ -6,6 +6,8 @@ permalink: /exploring-cfb-analytics/
 published: true
 ---
 
+_Fair warning: lots of words and no pictures below._
+
 _[Skip to the actual data analysis.](#markdown-toc)_
 
 Despite being a freshly-minted adult, this is a continuing-education hill I will die on:
@@ -148,7 +150,7 @@ On the other hand, Team B is working its way down the field methodically in smal
 
 Like I mentioned before, Connelly tweets out [advanced box scores](https://twitter.com/ESPN_BillC/status/1204109548304424961?s=20) after every week's worth of games for a subset of games he finds interesting[^13]. After working with stats for a while and putting them into his format every week for _[From the Rumble Seat](https://fromtherumbleseat.com)_, I felt comfortable enough to start iterating off it.
 
-### Major changes
+#### Major changes
 
 1. I removed the IsoPPP comparison in favor of adding success rate by down, mostly because I hadn't generated IsoPPP values I was happy with when I started tinkering. Success rate by down doesn't fulfill the same purpose as IsoPPP, but I figured if you're going to give the people a breakdown of success rate by quarter, you might as well also give them one by down.
 
@@ -175,34 +177,33 @@ Together, these changes allowed me to put together [a really nice spreadsheet](h
 I definitely want to iterate on these a bit further. There seem to be a couple of obvious next steps:
 
 1. Add special teams efficiencies to the box score. That "third" of the game isn't covered at all by our current set of metrics, and the derivation of those stats isn't super complex either.
-2. Generate and display post-game win-expectancies like Connelly does, which brings us to my next project.
+2. Generate and display post-game win-expectancies like Connelly does, which brings us to my next venture.
 
 ---
 
-### Post-Game Win Expectancy and Matchup Predictions
-A formula for post-game win expectancy is truly my white whale. Given that I have limited statistical and machine learning knowledge, I've tried to cobble together concepts from Connelly's back-catalog to synthesize "Five Factors" ratings for both teams in a given game. Given a dataset of play-by-play, drive, and game data from 2012-2019, I calculate the difference between the ratings for each game and then use the set of those differences as the input to a linear regression model. The output that this model is trained on is the final score of each game -- more specifically, the difference between the teams' scores. Here are the stats I use, why I use them, and a link to where I got the idea to use them from:
+### Post-Game Win Expectancy
 
-#### Efficiency
-_Weight: 35%_
+#### Five Factors Ratings → Probabilities
 
-#### Explosiveness
-_Weight: 30%_
+A formula for post-game win expectancy is truly my white whale. Conceptually, it's incredibly valuable to be able to say "given your performance, here's the chance that you would have won this game". Given that I have limited statistical and machine learning knowledge, I've tried to cobble together concepts from Connelly's back-catalog to synthesize "Five Factors" ratings for both teams in a given game. Given a dataset of play-by-play, drive, and game data from 2012-2019, I calculate the difference between the ratings for each game and then use the set of those differences as the input to a linear regression model. The output that this model is trained on is the final score of each game -- more specifically, the difference between the teams' scores. The model is based around [Connelly's "Five Factors"](https://www.footballstudyhall.com/2014/1/24/5337968/college-football-five-factors), and each factor is numerically evaluated like so:
 
-#### Finishing Drives
-_Weight: 15%_
+1. Efficiency - _Weight: 35%_
 
-#### Field Position
-_Weight: 10%_
+2. Explosiveness - _Weight: 30%_
 
-#### Turnovers
-_Weight: 10%_
+3. Finishing Drives - _Weight: 15%_
 
-#### Other Notes & Limitations
+4. Field Position - _Weight: 10%_
+
+5. Turnovers - _Weight: 10%_
+
+##### Notes & Limitations
 
 **Current Status: R<sup>2</sup> of 0.85 and R of 0.92**
 
-It might be important to notes some pretty obvious things wrong with what I've built:
+It might be important to note some pretty obvious things wrong with what I've built:
 
+- The model technically generates a point-spread, not a win probability. I calculate the z-score of this point-spread and use that to generate the probability of that outcome, assuming a historically normal distribution of point-spreads.
 - The model does not account for offenses beginning to evolve towards more spread-based attacks circa 2014-15, nor does it apply tweaks between years. Every game in every year is treated the same. Applying lower weight to games in earlier years would be a nice adjustment.
 - This dataset is being analyzed by a statistical novice that used a very simple univariate linear regression. There's probably a number of tools in the stats toolbox I'm pretty much oblivious to.
 - The dataset used to test the model is a random sample of 20% of the whole thing. Depending on what games are in this bunch, the results could get screwy.
@@ -214,11 +215,34 @@ It might be important to notes some pretty obvious things wrong with what I've b
 
 **TL;DR**: This work lacks a lot of statistical nuance that would take many moons of statistical education to learn, but I'm going to keep tinkering to see how close to an R<sup>2</sup> of 0.90 or higher I can get to while maintaining that 90+% correlation.
 
----
+#### Matchup Predictions
 
-### 2019 Georgia Tech Stat Breakdowns
+A fun sidebar to generating these post-game win expectancies is that I've been able to find the difference between two teams' average "Five Factors" ratings in a given year and generate a prediction for that matchup. This isn't particularly complex and could certainly be improved (EX: a four- to six-game rolling average rating probably reveals more about a team's current status than the average), but for now, it's fun to play around with and compare pre-game projections to post-game outcomes.
 
-These are based on my version of the advanced box score and are ~2000 words each, so it might be best if you just read both of them: [Offense](https://www.fromtherumbleseat.com/2019/12/12/21002278/georgia-tech-football-the-numbers-game-offense-advanced-statistics-college-football-stats-cfp-nola) and [Defense/Special Teams](https://www.fromtherumbleseat.com/2019/12/13/21004327/georgia-tech-football-the-numbers-game-d-st-college-football-advanced-stats-cfp-nola-clemson-ohio-st).
+##### Examples
+
+**2013 Georgia Tech vs Syracuse** (Actual MOV: +56)
+
+* Pregame - Win probability: 54.2%, MOV: +2
+* Postgame - Win expectancy: 96.8%, MOV: +41
+
+
+**2015 Florida State vs Georgia Tech** (Actual MOV: +6)
+
+* Pregame - Win probability: 24.2%, MOV: -15
+* Postgame - Win expectancy: 26.1%, MOV: -14
+
+**2015 Georgia Tech vs georgia** (Actual MOV: -6)
+
+* Pregame - Win probability: 32.7%, MOV: -10
+* Postgame - Win expectancy: 30.4%, MOV: -12
+
+**2016 Georgia Tech vs georgia** (Actual MOV: +1)
+
+* Pregame - Win probability: 45.8%, MOV: -3
+* Postgame - Win expectancy: 59.6%, MOV: +5
+
+More iteration on this model should yield more accurate predictions and post-game projections. However, in the meantime, one could bet on money-lines with some success using this data..._if you were into that sort of thing, of course_.
 
 ---
 <h5>Footnotes</h5>
