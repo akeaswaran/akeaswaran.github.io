@@ -49,7 +49,7 @@ I haven't come close to replicating Connelly's numbers[^8], but that's not reall
 
 Enough of the high-level philosophical talk -- let's get to the data. The following are a few of the explorations/experiments/problems/whatever I've looked at over the past few months. I'm providing Connelly's "three principles" where appropriate because:
 
-1. He's one of the few media personalities that explains their stats methodologies in any capacity, so I want to do the same
+1. He's one of the few media personalities that explains their stats methodologies in any capacity, so I want to do the same.
 2. It would be cool for this to be a collaborative venture to build a more educated college football fandom[^10] (not that I have any clout to do that, per se).
 3. This stuff can get really interesting and I like writing about it, even when it's not Tech-related.
 
