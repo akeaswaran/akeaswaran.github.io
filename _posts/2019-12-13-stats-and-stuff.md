@@ -95,7 +95,52 @@ BUT: if you consider these improvements significant, it’s clear that halftime 
 
 ---
 
-### Expected Points Added
+### EqPPP and IsoPPP
+
+#### Background
+
+There's a lot of literature on Expected Points Added (or EPA; examples [here](http://insidethepylon.com/football-101/glossary-football-101/2019/10/25/glossary-entry-expected-points-added/), [here](https://www.advancedfootballanalytics.com/index.php/home/stats/stats-explained/expected-points-and-epa-explained), [here](https://github.com/903124/CFB_EPA_data/blob/master/EPA_CFB.ipynb), and [here](https://www.sports-reference.com/blog/2012/03/features-expected-points/)), and calculating EPA can get very complicated depending on what factors you want to consider. However, one core idea remains: not all gains are equal. Gaining five yards from your own 30-yard line is much different and less important than gaining five yards on your opponent's 30-yard line. spfleming at _[Frogs o' War](https://www.frogsowar.com)_ expands on the importance of this concept further (emphasis theirs):
+
+> **[A]ll yards are not created equal.**
+> Using EPA allows us to compare performance across context, punishing teams more for making mistakes in high leverage areas and rewarding them more for excelling in those high leverage areas.
+
+#### Deriving EqPPP
+
+Considering that EPA requires weighting a lot of different factors, I just wanted to re-derive [IsoPPP and Equivalent Points per Play (EqPPP)](https://www.footballstudyhall.com/2014/1/27/5349762/five-factors-college-football-efficiency-explosiveness-isoppp). Based on the way Connelly describes EqPPP, calculating it should be pretty simple:
+
+Throw out plays that don't actually matter -- most of these are non-FG special teams plays. Then, at each yard line:
+1. Bin together the plays that start there.
+2. Calculate the probability of a scoring play (offensive touchdown, defensive touchdown, safety, or field goal).
+3. Calculate the expected value of a scoring play based on those scoring probabilities.
+
+Thus, you get the amount of points (usually a decimal) that you expect from a play that starts at a specific yard line, and if you subtract the EqPPP value for a yard line a play ends at from the value for the yard line it starts at, you get the EqPPP value added for that play. This number is fundamentally different from EPA -- it's independent of down, distance, or quarter, and is simply a measure of efficiency in zones of various leverage levels on the field.
+
+#### Deriving IsoPPP
+
+But the problem with a sum or average of EqPPP values is that it confounds explosiveness and efficiency. Yes, it shows you how an offense is performing on aggregate, but chunk plays are going to have higher EqPPP values by nature. We already have a pure efficiency metric in success rate, so how do we get a pure explosiveness metric from EqPPP to pair with it?
+
+In comes Connelly's [IsoPPP (Isolated Points per Play)](https://www.footballstudyhall.com/2014/1/27/5349762/five-factors-college-football-efficiency-explosiveness-isoppp) -- what if we simply considered EqPPP on successful plays? We know how efficient a team can be, so ["when (a team is) successful, how successful are (they)?"](https://www.footballstudyhall.com/2014/1/27/5349762/five-factors-college-football-efficiency-explosiveness-isoppp#). Connelly (at least circa early 2014)  calculates IsoPPP[^11] by:
+
+1. Splitting out successful plays from the total set. Successful plays are defined as those that earn[^12]:
+    - 50% of the yards to go on first down
+    - 70% of the yards to go on second down
+    - 100% of the yards to go on third and fourth downs
+2. Find the average EqPPP across those successful plays.
+
+Now, we have a number that is strictly focused on explosiveness, and we can back up claims about a team's effectiveness in leverage situations with data.
+
+#### Application (AKA: Why does this matter?)
+
+Again, IsoPPP answers the question, ["when you were successful, how successful were you?"](https://www.footballstudyhall.com/2014/1/27/5349762/five-factors-college-football-efficiency-explosiveness-isoppp#). When we talk about IsoPPP, we're talking about the advantage a team has created when it's operating at peak efficiency. It also helps provide in-game context to success rate; for example, take these two teams:
+
+* Team A: below-average success rate, high IsoPPP
+* Team B: above-average success rate, low IsoPPP
+
+Which team is doing better? Arguably: neither.
+
+Team A might only be successful in spurts, but it's maximizing what they do in those spurts -- you might see this in flex-bone offenses (think service academies or pre-2019 Georgia Tech); each run play may only go for three yards (usually not hitting the 50% or 70% of yards-to-go mark for success), but each pass play (pass plays are usually more likely to be explosive) is usually a deep ball.
+
+On the other hand, Team B is working its way down the field methodically in small chunks. Teams like Iowa and Stanford grind down opposing defenses this way: they don't try to stretch the field in limited opportunities, they aim for four to five yards per carry on the ground and short to medium gains through the air.
 
 ---
 
@@ -124,3 +169,5 @@ These are based on my version of the advanced box score and are ~2000 words each
 [^8]: Nor might I ever, considering the statistical methods that may be involved, the differences in his data source and mine, difference in weighting various factors, etc.
 [^9]: Well, at least not the primary goal. I've made [a lot of progress](https://github.com/akeaswaran/cfb-pbp-analysis) towards that, but just need to tinker more (and maybe learn some more math) to get it just right.
 [^10]: [But I do dabble in the dark art of college basketball too](https://github.com/akeaswaran/cbb_pbp_analysis).
+[^11]: Said method wasn't clear to me on the first read: is it the average EqPPP per successful play, or is it the total EqPPP for the game divided by the number of successful plays? Am I bad at reading comprehension? Who knows?
+[^12]: You can also sum these successful plays and divide by the total number of plays to get the aforementioned success rate.
