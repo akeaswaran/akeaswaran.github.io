@@ -146,9 +146,66 @@ On the other hand, Team B is working its way down the field methodically in smal
 
 ### Adapted Advanced Box Scores
 
+Like I mentioned before, Connelly tweets out [advanced box scores](https://twitter.com/ESPN_BillC/status/1204109548304424961?s=20) after every week's worth of games for a subset of games he finds interesting[^13]. After working with stats for a while and putting them into his format every week for _[From the Rumble Seat](https://fromtherumbleseat.com)_, I felt comfortable enough to start iterating off it. Here are the changes I made:
+
+1. I removed the IsoPPP comparison in favor of adding success rate by down, mostly because I hadn't generated IsoPPP values I was happy with when I started tinkering. Success rate by down doesn't fulfill the same purpose as IsoPPP, but I figured if you're going to give the people a breakdown of success rate by quarter, you might as well also give them one by down.
+
+2. I removed the player-level stat boxes, aggregating into simpler tables -- I had automated retrieving passing and rushing stats from the play-by-play, but it was getting tedious to manually copy and paste the defensive stats from ESPN.com into the spreadsheet. You lose a level of detail, but since I usually want the 30,000-foot view of the game and understand general game flow, this is fine.
+
+3. I added pace stats like time of possession, time per play, time per drive, and time between scoring opportunities. Pacy offenses are going to put up more yards (and probably score more points) because they run more plays in the same amount of time as an average offense, so I figured it would be nice to see that broken down clearly.
+
+4. I added stats around third- and fourth-down conversions and conversion rates. This might be a bit of traditional football convention holding me back, but I believe understanding how well teams did in these "leverage" situations and the clip at which they extended drives helps create more informed offensive analysis.
+
+5. I added sack yards and explosiveness rates to the passing stats. Having sack yards built-in to the spreadsheet made calculating a sack-adjusted yards/attempt number much easier, and I've found it useful to see how dangerous teams were throwing the ball down the field.
+
+6. I added carries and yardage totals, as well as explosiveness rates, to the rushing stats for more or less the same reasons as the above changes to passing stats -- easier calculations and use of explosiveness as a metric.
+
+7. I added success rate on scoring opportunities to the basics table. Connelly notes that it plays a role in the "finishing drives" portion of the "Five Factors", so I'm somewhat confused that as to why it wasn't there before.
+
+8. I added havoc rate and stop rate columns to the defensive stats. Havoc rate is calculated by aggregating tackles-for-loss, passes-broken-up, and forced fumbles (the base categories of "havoc plays"), then dividing that sum by the total number of defensive plays. Stop rate is a little trickier -- [I'll let my past self explain](https://www.fromtherumbleseat.com/2019/12/13/21004327/georgia-tech-football-the-numbers-game-d-st-college-football-advanced-stats-cfp-nola-clemson-ohio-st#comments):
+
+> [S]top rate, a defensive effectiveness metric pioneered by The Athletic’s Max Olson, measures the proportion of defensive drives that ended in punts, turnovers, or turnovers-on-downs. Essentially, this number puts data behind the colloquial football belief that teams who get more stops win more games — thus, a higher stop rate is better.
+
+Together, these changes allowed me to put together [a really nice spreadsheet](https://docs.google.com/spreadsheets/d/1kFjDoTUzGYcWLupj4SSRHCZCuxGXGQY5PgKYCPxGkXU/edit?usp=sharing) for my off-season stat breakdowns for the Georgia Tech [offense](https://www.fromtherumbleseat.com/2019/12/12/21002278/georgia-tech-football-the-numbers-game-offense-advanced-statistics-college-football-stats-cfp-nola) and [defense](https://www.fromtherumbleseat.com/2019/12/13/21004327/georgia-tech-football-the-numbers-game-d-st-college-football-advanced-stats-cfp-nola-clemson-ohio-st#comments).
+
+Further work can most definitely be done to iterate on these. One next step might be to put special teams efficiencies on there, since that "third" of the game isn't covered at all by our current set of metrics. Another might be to generate and display post-game win-expectancies like Connelly does, which brings us to my next project.
+
 ---
 
 ### Post-Game Win Expectancy and Matchup Predictions
+A formula for post-game win expectancy is truly my white whale. Given that I have limited statistical and machine learning knowledge, I've tried to cobble together concepts from Connelly's back-catalog to synthesize "Five Factors" ratings for both teams in a given game. Given a dataset of play-by-play, drive, and game data from 2012-2019, I calculate the difference between the ratings for each game and then use the set of those differences as the input to a linear regression model. The output that this model is trained on is the final score of each game -- more specifically, the difference between the teams' scores. Here are the stats I use, why I use them, and a link to where I got the idea to use them from:
+
+#### Efficiency
+_Weight: 35%_
+
+#### Explosiveness
+_Weight: 30%_
+
+#### Finishing Drives
+_Weight: 15%_
+
+#### Field Position
+_Weight: 10%_
+
+#### Turnovers
+_Weight: 10%_
+
+#### Other Notes & Limitations
+
+**Current Status: R<sup>2</sup> of 0.85 and R of 0.92**
+
+It might be important to notes some pretty obvious things wrong with what I've built:
+
+- The model does not account for offenses beginning to evolve towards more spread-based attacks circa 2014-15, nor does it apply tweaks between years. Every game in every year is treated the same. Applying lower weight to games in earlier years would be a nice adjustment.
+- This dataset is being analyzed by a statistical novice that used a very simple univariate linear regression. There's probably a number of tools in the stats toolbox I'm pretty much oblivious to.
+- The dataset used to test the model is a random sample of 20% of the whole thing. Depending on what games are in this bunch, the results could get screwy.
+- The model doesn't factor in special teams play, which is especially critical when generating field position metrics.
+- There's a key difference between the work Connelly is doing and what I've tinkered with: I have no desire to be predictive (although that could be fun) -- I just wanted to reverse-engineer his post-game win expectancy stat to know how bad a team screwed up (or dominated!) in a game.
+- This model and its results have no cool, possibly trademark-infringing name.
+- The model still doesn't account for 15% of its test dataset. I don't know enough about statistics to say if this is an acceptable margin of error.
+- The model is off by about a touchdown (+/-) on average. I know enough about football to say that this is not an acceptable margin of error.
+
+**TL;DR**: This work lacks a lot of statistical nuance that would take many moons of statistical education to learn, but I'm going to keep tinkering to see how close to an R<sup>2</sup> of 0.90 or higher I can get to while maintaining that 90+% correlation.
 
 ---
 
@@ -171,3 +228,4 @@ These are based on my version of the advanced box score and are ~2000 words each
 [^10]: [But I do dabble in the dark art of college basketball too](https://github.com/akeaswaran/cbb_pbp_analysis).
 [^11]: Said method wasn't clear to me on the first read: is it the average EqPPP per successful play, or is it the total EqPPP for the game divided by the number of successful plays? Am I bad at reading comprehension? Who knows?
 [^12]: You can also sum these successful plays and divide by the total number of plays to get the aforementioned success rate.
+[^13]: [He used to provide them for all games](https://www.footballstudyhall.com/2019/1/2/18165332/college-football-bowl-scores-stats-five-factors), but that hasn't continued after he moved over to ESPN.
