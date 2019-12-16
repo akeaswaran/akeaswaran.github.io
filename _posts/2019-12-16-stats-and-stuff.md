@@ -49,7 +49,7 @@ I haven't come close to replicating Connelly's numbers[^8], but that's not reall
 
 Enough of the high-level philosophical talk -- let's get to the data. The following are a few of the explorations/experiments/problems/whatever I've looked at over the past few months. I'm providing Connelly's "three principles" where appropriate because:
 
-1. He's one of the few media personalities that explains their stats methodologies in any capacity, so I want to do the same.
+1. He's one of the few media personalities that explains their stats methodologies in any capacity[^14], so I want to do the same.
 2. It would be cool for this to be a collaborative venture to build a more educated college football fandom[^10] (not that I have any clout to do that, per se).
 3. This stuff can get really interesting and I like writing about it, even when it's not Tech-related.
 
@@ -185,17 +185,43 @@ I definitely want to iterate on these a bit further. There seem to be a couple o
 
 #### Five Factors Ratings → Probabilities
 
-A formula for post-game win expectancy is truly my white whale. Conceptually, it's incredibly valuable to be able to say "given your performance, here's the chance that you would have won this game". Despite having limited statistical and machine learning knowledge, I've tried to cobble together concepts from Connelly's back-catalog to synthesize "Five Factors" ratings for both teams in a given game. Given a dataset of play-by-play, drive, and game data from 2012-2019, I calculate the difference between the ratings for each game and then use the set of those differences as the input to a linear regression model. The output that this model is trained on is the final score of each game -- more specifically, the difference between the teams' scores. The model is based around [Connelly's "Five Factors"](https://www.footballstudyhall.com/2014/1/24/5337968/college-football-five-factors), and each factor is numerically evaluated like so (subject to change, check [here](https://github.com/akeaswaran/cfb-pbp-analysis) for the latest weights and formulas):
+A formula for post-game win expectancy is truly my white whale. Conceptually, it's incredibly valuable to be able to say "given your performance, here's the chance that you would have won this game". Despite having limited statistical and machine learning knowledge, I've tried to cobble together concepts from Connelly's back-catalog to synthesize "Five Factors" ratings for both teams in a given game. Given a dataset of play-by-play, drive, and game data from 2012-2019, I calculate the difference between the ratings for each game and then use the set of those differences as the input to a linear regression model. The output that this model is trained on is the final score of each game -- more specifically, the difference between the teams' scores. The model is based around [Connelly's "Five Factors"](https://www.footballstudyhall.com/2014/1/24/5337968/college-football-five-factors), and each factor is numerically evaluated like so (subject to change, check [here](https://github.com/akeaswaran/cfb-pbp-analysis) for the latest weights and formulas). Each factor is an in-game margin, so for every metric, subtract one team's value from the other's to get the margin.
 
 1. Efficiency - _Weight: 35%_
 
+    * Offensive Success Rate Margin (100%): this one's easy enough; to get success rate, find the number of total successful offensive plays and divide by the total number of offensive plays.
+
 2. Explosiveness - _Weight: 30%_
+
+    *  IsoPPP Margin (100%): see [Deriving IsoPPP](#deriving-isoppp) above.
 
 3. Finishing Drives - _Weight: 15%_
 
+    * Points Per Scoring Opportunity Margin (45%): this is the average number of points a team is scoring on a scoring opportunity (IE: a drive that goes inside the opponent's 40-yard line). For simplicity's sake, I assume that each touchdown is automatically worth seven points. Take the total number of points that a team has scored in a game, and divide it by the number of scoring opportunities it has generated in that game.
+    * Scoring Opportunity Rate Margin (30%): this is how often a team generates scoring opportunities, so take the number of scoring opportunities a team creates and divide it by their total number of drives in a game.
+    * Scoring Opportunity Success Rate Margin (25%): this is just success rate on scoring opportunities, so use the same formula but limit the plays under consideration to just those on scoring opportunities.
+
 4. Field Position - _Weight: 10%_
 
+    * Average Starting Field Position Margin (100%): this one's pretty straightforward -- average together the yard lines at which each team's offense starts their drives.
+
 5. Turnovers - _Weight: 10%_
+
+    * Turnover Luck Margin (100%): this is where things get a little complicated. Let's establish some key facts:
+        - Turnover luck is this difference between expected turnovers and actual turnovers.
+        - The number of expected turnovers is calculated using expected fumbles and expected interceptions.
+        - The number of expected fumbles in a game for both teams is generated by halving the total number of fumbles lost between both teams.
+        - The number of expected interceptions in a game for each team is generated by multiplying the sum of the number of passes broken up (PBUs) suffered by each team's offense (AKA: the number of PBUs generated by the opposing defense) and the number of actual interceptions by 0.22.
+        - Here's how it all shakes out formulaically:
+    <p style="text-align: center">
+    $$ \mathsf{ExpTeamFum = 0.5 * TotalFum} $$
+    $$ \mathsf{ExpTeamINT = 0.22 * (TeamOffensivePBUs + TeamOffensiveINTs)} $$
+    $$ \mathsf{ExpTO = ExpTeamFum + ExpTeamINT} $$
+    $$ \mathsf{TOLuck = ExpTO - ActualTO} $$
+    </p>
+
+
+Once you have all five values, we can use them to generate a weighted mean with the given weights. We then get the margin for this mean (which is called the "Five Factors Rating", or 5FR), using this margin as the input variable for our linear regression. The points margin (or point-spread) for the game is our output variable.
 
 ##### Notes & Limitations
 
@@ -217,7 +243,7 @@ It might be important to note some pretty obvious things wrong with what I've bu
 
 #### Matchup Predictions
 
-A fun sidebar to generating these post-game win expectancies is that I've been able to find the difference between two teams' average "Five Factors" ratings in a given year and generate a prediction for that matchup. This isn't particularly complex and could certainly be improved (EX: a four- to six-game rolling average rating probably reveals more about a team's current status than the average), but for now, it's fun to play around with and compare pre-game projections to post-game outcomes.
+A fun sidebar to generating these post-game win expectancies is that I've been able to find the difference between two teams' average "Five Factors" ratings in their last four available games and generate a prediction for that matchup in a given season. This isn't particularly complex and could certainly be improved, but for now, it's fun to play around with and compare pre-game projections to post-game outcomes.
 
 ##### Examples
 
@@ -225,7 +251,6 @@ A fun sidebar to generating these post-game win expectancies is that I've been a
 
 * Pregame - Win probability: 54.2%, MOV: +2
 * Postgame - Win expectancy: 96.8%, MOV: +41
-
 
 **2015 Florida State vs Georgia Tech** (Actual MOV: +6)
 
@@ -259,3 +284,4 @@ More iteration on this model should yield more accurate predictions and post-gam
 [^11]: Said method wasn't clear to me on the first read: is it the average EqPPP per successful play, or is it the total EqPPP for the game divided by the number of successful plays? Am I bad at reading comprehension? Who knows?
 [^12]: You can also sum these successful plays and divide by the total number of plays to get the aforementioned success rate.
 [^13]: [He used to provide them for all games](https://www.footballstudyhall.com/2019/1/2/18165332/college-football-bowl-scores-stats-five-factors), but that hasn't continued after he moved over to ESPN.
+[^14]: Despite his descriptions being sometimes unclear...
