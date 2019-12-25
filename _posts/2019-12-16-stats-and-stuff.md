@@ -189,13 +189,15 @@ I definitely want to iterate on these a bit further. There seem to be a couple o
 
 A formula for post-game win expectancy is truly my white whale. Conceptually, it's incredibly valuable to be able to say "given your performance, here's the chance that you would have won this game". Despite having limited statistical and machine learning knowledge, I've tried to cobble together concepts from Connelly's back-catalog to synthesize "Five Factors" ratings for both teams in a given game. Given a dataset of play-by-play, drive, and game data from 2012-2019, I calculate the difference between the ratings for each game and then use the set of those differences as the input to a linear regression model. The output that this model is trained on is the final score of each game -- more specifically, the difference between the teams' scores. The model is based around [Connelly's "Five Factors"](https://www.footballstudyhall.com/2014/1/24/5337968/college-football-five-factors), and each factor is numerically evaluated like so (subject to change, check [here](https://github.com/akeaswaran/cfb-pbp-analysis) for the latest weights and formulas). Each factor is an in-game margin, so for every metric, subtract one team's value from the other's to get the margin.
 
+_Updated: 25-Dec-2019_
+
 1. Efficiency - _Weight: 35%_
 
     * Offensive Success Rate Margin (100%): this one's easy enough; to get success rate, find the number of total successful offensive plays and divide by the total number of offensive plays.
 
 2. Explosiveness - _Weight: 30%_
 
-    *  IsoPPP Margin (100%): see [Deriving IsoPPP](#deriving-isoppp) above.
+    *  Average EqPPP Margin (100%): see [Deriving EqPPP](#deriving-eqppp) for the derivation. This is just the in-game average EqPPP for each team.
 
 3. Finishing Drives - _Weight: 15%_
 
@@ -217,13 +219,21 @@ A formula for post-game win expectancy is truly my white whale. Conceptually, it
         - Here's how it all shakes out formulaically:
     <p style="text-align: center">
     $$ \mathsf{ExpTeamFum = 0.5 * TotalFum} $$
-    $$ \mathsf{ExpTeamINT = 0.22 * (TeamOffensivePBUs + TeamOffensiveINTs)} $$
+    $$ \mathsf{TeamTotalPDs = (TeamOffensivePBUs + TeamOffensiveINTs)} $$
+    $$ \mathsf{ExpTeamINT = 0.22 * TeamTotalPDs} $$
     $$ \mathsf{ExpTO = ExpTeamFum + ExpTeamINT} $$
     $$ \mathsf{TOLuck = ExpTO - ActualTO} $$
     </p>
 
 
 Once you have all five values, we can use them to generate a weighted mean with the given weights. We then get the margin for this mean (which is called the "Five Factors Rating", or 5FR), using this margin as the input variable for our linear regression. The points margin (or point-spread) for the game is our output variable.
+
+Putting together a correlation matrix reveals the effect of each factor on the regression[^17]:
+
+<figure>
+    <img src="{{ site.baseurl }}/assets/images/25-dec-2019-correl-matx.png" alt="25-Dec-2019 Factor Correlation Matrix">
+    <p class="caption">Results circa 25-Dec-2019</p>
+</figure>
 
 ##### Notes & Limitations
 
@@ -240,36 +250,36 @@ It might be important to note some pretty obvious things wrong with what I've bu
 - This model and its results have no cool, possibly trademark-infringing name.
 - The model still doesn't account for 15% of its test dataset. I don't know enough about statistics to say if this is an acceptable margin of error.
 - The model is off by about a touchdown (+/-) on average. I know enough about football to say that this is not an acceptable margin of error.
+- Edit (25-Dec-2019): Based on the correlation matrix above, it's clear the calculations for the turnovers (R against actual point margin: 0.299) and field position factors (R against actual point margin: 0.471) are the weakest links in this model.
 
 **TL;DR**: This work lacks a lot of statistical nuance that would take many moons of statistical education to learn, but I'm going to keep tinkering to see how close to an R<sup>2</sup> of 0.90 or higher I can get to while maintaining that 90+% correlation.
 
 #### Matchup Predictions
 
-A fun sidebar to generating these post-game win expectancies is that I've been able to find the difference between two teams' average "Five Factors" ratings in their last four available games and generate a prediction for that matchup in a given season. This isn't particularly complex and could certainly be improved, but for now, it's fun to play around with and compare pre-game projections to post-game outcomes.
+A fun sidebar to generating these post-game win expectancies is that I've been able to find the difference between two teams' average 5FR in their last four available games and generate a prediction for that matchup in a given season. This isn't particularly complex and could certainly be improved, but for now, it's fun to play around with and compare pre-game projections to post-game outcomes.
+
+Edit (25-Dec-2019): I've made quite a few changes to how predictions are generated:
+
+1. FCS teams get the 5FR of the bottom 2% of FBS. Yes, this does not respect quality FCS teams like North Dakota State and James Madison, but by and large, the average FCS team is much worse than the average FBS team, so this seems like a reasonable way to represent that numerically.
+2. The four-game window is now adjustable -- specifying a week and year will predict the matchup given 5FR data that would have been available at the time. For example, a prediction for a game in Week 3 of 2019 will use 5FR values from Weeks 1 and 2 to generate a mean 5FR for each team, which will then thrown into the model for a prediction after a few more steps.
+3. The teams' 5FR values are adjusted by an overall strength of schedule (SoS) factor, which is generated by:
+    * Finding all of each team's opponents up to the week in question
+    * Calculating the average 5FR of the specified opponents
+    * If team 2's 5FR faced is higher, then team 1's 5FR is multiplied by team 1's opponent mean 5FR divided by team 2's opponent mean 5FR, and vice versa if team 1's 5FR faced is higher.
+4. The teams' 5FR values are then adjusted based on the "sub-division" of each team -- Power 5 or Group of 5. This follows the same process as adjusting for strength of schedule, except instead of only considering each team's opponents for the 5FR mean, the mean considers all of the teams in the same "sub-division" as the team in question.
+5. The 5FR values are adjusted one final time, this time considering the conference affiliations of the two teams. Same process as before -- now just considering the teams in each team's conference.
 
 ##### Examples
 
-**2013 Georgia Tech vs Syracuse** (Actual MOV: +56)
+The changes to the prediction algorithm[^15] allow us to compare pre-game projections to post-game data, which reveals some very interesting things, such as the gulf between Georgia Tech's 2019 projections and its performance:
 
-* Pregame - Win probability: 54.2%, MOV: +2
-* Postgame - Win expectancy: 96.8%, MOV: +41
+<img src="{{ site.baseurl }}/assets/images/2019-gt-perf.png" alt="2019 Georgia Tech Win Probability Projections" style="background:#FFF">
 
-**2015 Florida State vs Georgia Tech** (Actual MOV: +6)
+<img src="{{ site.baseurl }}/assets/images/2019-gt-mov-perf.png" alt="2019 Georgia Tech Win Probability Projections" style="background:#FFF">
 
-* Pregame - Win probability: 24.2%, MOV: -15
-* Postgame - Win expectancy: 26.1%, MOV: -14
+Neither paints a particularly rosy picture of the season that could have been or was.
 
-**2015 Georgia Tech vs georgia** (Actual MOV: -6)
-
-* Pregame - Win probability: 32.7%, MOV: -10
-* Postgame - Win expectancy: 30.4%, MOV: -12
-
-**2016 Georgia Tech vs georgia** (Actual MOV: +1)
-
-* Pregame - Win probability: 45.8%, MOV: -3
-* Postgame - Win expectancy: 59.6%, MOV: +5
-
-More iteration on this model should yield more accurate predictions and post-game projections. However, in the meantime, one could bet on money-lines with some success using this data..._if you were into that sort of thing, of course_.
+Like before, more iteration on this model should yield more accurate predictions and post-game projections. However, in the meantime, one could bet on money-lines with some success using this data..._if you were into that sort of thing, of course_[^16].
 
 ---
 
@@ -287,3 +297,6 @@ More iteration on this model should yield more accurate predictions and post-gam
 [^12]: You can also sum these successful plays and divide by the total number of plays to get the aforementioned success rate.
 [^13]: [He used to provide them for all games](https://www.footballstudyhall.com/2019/1/2/18165332/college-football-bowl-scores-stats-five-factors), but that hasn't continued after he moved over to ESPN.
 [^14]: Despite his descriptions being sometimes unclear...
+[^15]: Is it really an algorithm? I feel like that word implies complexity that none of my work really has...
+[^16]: As of 25-Dec-2019, the model is 7-3 picking bowl games straight-up and 5-5 picking them against the spread. [Not bad.](https://knowyourmeme.com/memes/not-bad-obama-face)
+[^17]: I'm probably explaining this incorrectly, but oh well...
