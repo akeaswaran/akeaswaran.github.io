@@ -1,11 +1,15 @@
 <nav class="main-nav">
-    <div class="row float-right" style="display:table; float:right;">
+    <div class="row float-right" style="display:table; float: right;">
         {% if page.url != "/" %}
             <a href="{{ site.baseurl }}/">Home</a>
         {% endif %}
 
         {% if page.url != "/about/" %}
             <a href="{{ site.baseurl }}/about">About</a>
+        {% endif %}
+
+        {% if page.url != "/2020-reading-list/" %}
+            <a href="{{ site.baseurl }}/2020-reading-list">Reading List</a>
         {% endif %}
 
         {% if page.url != "/projects/" %}
