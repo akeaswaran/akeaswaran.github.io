@@ -279,7 +279,15 @@ The changes to the prediction algorithm[^15] allow us to compare pre-game projec
 
 Neither paints a particularly rosy picture of the season that could have been or was.
 
-Like before, more iteration on this model should yield more accurate predictions and post-game projections. However, in the meantime, one could bet on money-lines with some success using this data..._if you were into that sort of thing, of course_[^16].
+Edit (17-Jan-2020): I've done some work to build out some more visualizations and a test harness to run back seasons of games to check predictive performance. Here's an example of the former -- charting the annual performance of the top 10 teams in average 5FR from 2012 to 2019, with Ohio State highlighted.
+
+<img src="{{ site.baseurl }}/assets/images/5fr-comparison.png" alt="Top 10 5FR Performance Chart" style="background:#FFF">
+
+Evaluating betting performance was complicated algorithmically, but the results turned out _very promising_ for potential "investments" next season.
+
+<img src="{{ site.baseurl }}/assets/images/17-Jan-2020-bet-perf.png" alt="Betting Performance circa 17-Jan-2020" style="background:#FFF">
+
+Like before, more iteration on this model should yield more accurate predictions and post-game projections. However, in the meantime, one could bet with some success using this data..._if you were into that sort of thing, of course_[^16].
 
 ---
 
@@ -298,5 +306,5 @@ Like before, more iteration on this model should yield more accurate predictions
 [^13]: [He used to provide them for all games](https://www.footballstudyhall.com/2019/1/2/18165332/college-football-bowl-scores-stats-five-factors), but that hasn't continued after he moved over to ESPN.
 [^14]: Despite his descriptions being sometimes unclear...
 [^15]: Is it really an algorithm? I feel like that word implies complexity that none of my work really has...
-[^16]: As of 25-Dec-2019, the model is 7-3 picking bowl games straight-up and 5-5 picking them against the spread. [Not bad.](https://knowyourmeme.com/memes/not-bad-obama-face)
+[^16]: During the 2019 bowl season, the model went 24-16 picking games straight up and 19-21 against the spread. Disappointing considering the average performance of the model in past seasons, but bowl season typically has some quirky results. On to 2020!
 [^17]: I'm probably explaining this incorrectly, but oh well...
