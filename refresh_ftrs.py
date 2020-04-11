@@ -23,7 +23,7 @@ if m:
 
     print 'Retrieving latest FTRS articles written by self...'
     d = feedparser.parse('https://www.fromtherumbleseat.com/authors/akeaswaran/rss')
-    self_articles = filter(lambda x: {'name' : 'Akshay Easwaran'} in x.authors, d.entries)
+    self_articles = d.entries # filter(lambda x: {'name' : 'Akshay Easwaran'} in x.authors, d.entries)
 
     print 'Parsing FTRS articles...'
     for a in self_articles:
