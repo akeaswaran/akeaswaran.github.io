@@ -2,5 +2,6 @@ deploy.sh
 .DS_Store
 _site
 .sass-cache/
+.jekyll-cache/
 .jekyll-metadata
 .jekyll-crosspost_to_medium
