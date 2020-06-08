@@ -321,7 +321,7 @@ let processingThread: Thread = {
 }
 ```
 
-This looks all well and good...until you try to run it. The thread starts, but never executes the given selector. (Why? Frankly, I have no idea, but my best guess (based on [this StackOverflow answer](https://stackoverflow.com/a/49853417/13457626)) is that the thread doesn't have a run-loop mode[^3] properly set).
+This looks all well and good...until you try to run it. The thread starts, but never executes the given selector. Why? Frankly, I have no idea, but my best guess (based on [this StackOverflow answer](https://stackoverflow.com/a/49853417/13457626)) is that the thread doesn't have a run-loop mode[^3] properly set.
 
 Let's try a different approach: what if we spawned a new thread ad-hoc? That might look something like this:
 
@@ -369,7 +369,7 @@ Can we do better, or at the very least, can we be better platform citizens and c
 
 ## Solution #3
 
-Let's try to simplify our design so that we only spawn one thread. I have no prior experience with NSThreads, but thanks to [this example built by DarkDust on StackOverflow](https://stackoverflow.com/questions/22091696/how-to-dispatch-code-blocks-to-the-same-thread-in-ios/22091859#22091859), we can use an NSThread just like a GCD serial queue, but with the added bonus of a modifiable stack size. I added some more OOP chrome to DarkDust's implementation, but all you'll need to add is a line to adjust the stack size of `workerThread` (EX: `self.workerThread?.stackSize = self.stackSize`).
+Let's try to simplify our design so that we only spawn one thread. I have no prior experience with NSThreads, but thanks to [this example built by DarkDust on StackOverflow](https://stackoverflow.com/questions/22091696/how-to-dispatch-code-blocks-to-the-same-thread-in-ios/22091859#22091859), we can use an NSThread just like a GCD serial queue, but with the added bonus of a modifiable stack size. I added some more OOP chrome to DarkDust's implementation, but all you'll need to add is a line to adjust the stack size of `workerThread` (EX: `workerThread?.stackSize = 8192 * 64 * 2`).
 
 With this in place, we can adjust our `splitToThread()` and `save()` methods like so:
 
