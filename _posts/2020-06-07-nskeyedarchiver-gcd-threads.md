@@ -280,7 +280,7 @@ DTS tipped me off to a way to create my own NSThread, adjust its stack size, and
 ```swift
 let processingThread: Thread = {
     let newThread: Thread = Thread()
-    newThread.stackSize = 8192 * 64
+    newThread.stackSize = 8192 * 64 * 2
     newThread.qualityOfService = .userInitiated
     return newThread
 }()
@@ -326,12 +326,12 @@ This looks all well and good...until you try to run it. The thread starts, but n
 Let's try a different approach: what if we spawned a new thread ad-hoc? That might look something like this:
 
 ```swift
-fileprivate static func splitToThread(logic: @escaping (Thread)->(), stackSize: Int = 8192 * 64) {
+fileprivate static func splitToThread(logic: @escaping (Thread)->(), stackSize: Int = 8192 * 64 * 2) {
     let newThread: Thread = Thread {
         logic(Thread.current) // pass the thread we're executing on to any logic to handle cancelling properly
     }
     newThread.name = "me.akeaswaran.example.io-expanded"
-    newThread.stackSize = stackSize //8192 * 64 // 1 MB
+    newThread.stackSize = stackSize //8192 * 64 * 2 // 1 MB
     newThread.qualityOfService = .userInitiated
     newThread.start()
 }
