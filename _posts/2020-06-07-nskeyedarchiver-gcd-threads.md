@@ -18,23 +18,23 @@ I was able to get saving files working pretty easily using this:
 
 ```swift
 @objc static func save(_ content: NSCoding, at fileName: String, completion: ((Bool, Error?) -> ())?) {  
-        CFCSerialQueue.processingQueue.async { // my own serial queue  
-            measureTime(operation: "[LocalService Save] Saving") { // just measures the time it takes for the logic in the closure to process  
-                do {  
-                    let data: Data = try NSKeyedArchiver.archivedData(withRootObject: content, requiringSecureCoding: false)  
-                    // targetDirectory here is defined earlier in the class as the local documents directory  
-                    try data.write(to: targetDirectory!.appendingPathComponent(fileName), options: .atomicWrite)  
-                    if (completion != nil) {  
-                        completion!(true, nil)  
-                    }  
-                } catch {  
-                    if (completion != nil) {  
-                        completion!(false, error)  
-                    }  
+    CFCSerialQueue.processingQueue.async { // my own serial queue  
+        measureTime(operation: "[LocalService Save] Saving") { // just measures the time it takes for the logic in the closure to process  
+            do {  
+                let data: Data = try NSKeyedArchiver.archivedData(withRootObject: content, requiringSecureCoding: false)  
+                // targetDirectory here is defined earlier in the class as the local documents directory  
+                try data.write(to: targetDirectory!.appendingPathComponent(fileName), options: .atomicWrite)  
+                if (completion != nil) {  
+                    completion!(true, nil)  
+                }  
+            } catch {  
+                if (completion != nil) {  
+                    completion!(false, error)  
                 }  
             }  
         }  
     }  
+}  
 ```
 
 And this works great -- it's pretty fast and the resulting file on disk can still be loaded back into memory using FCFileManager's minimal wrapper method around `+[NSKeyedUnarchiver unarchiveObjectWithFile:]`.
