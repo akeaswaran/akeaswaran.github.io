@@ -4,7 +4,7 @@ title: 2020 Reading List
 permalink: /2020-reading-list/
 ---
 
-Borrowing from the example of [David Sivers'](https://sivers.org/) [book notes](https://sivers.org/book), I wanted to keep track of the books I've read so far this year, along with a short snippet about what I gleaned from each one.
+Borrowing from the example of [David Sivers'](https://sivers.org/) [book notes](https://sivers.org/book), I wanted to keep track of the books I've read so far this year, along with a short snippet about what I gleaned from and/or my thoughts on each one.
 
 * TOC
 {:toc}
@@ -37,3 +37,50 @@ I found _Infomocracy_ to be lacking in some world-building and oddly paced. The 
 ### _Soccernomics (World Cup 2018 Edition)_
 
 A thesis on the socioeconomics and data analysis that have shaped modern soccer. There are a number of interesting tidbits in here, including an analysis of historic relative performance ("which countries over- and under-perform in international play given their resources?") and the Renaissance-like intellectual networks bridging together the soccer strongholds of western Europe and powering the fusion of various "national" soccer identities into an effective style of club play parroted across the continent (Said network does not include the British Isles, who continue to prefer to bully-ball their way to unsatisfying tournament finishes for both club and country -- the 2018 World Cup notwithstanding). I did find _Soccernomics_ a bit dry at points, but given that authors Simon Kuper and Stefan Szymanski have woven together data-driven analysis and the history of the sport, that is probably expected. The numbers, as always, tell the story. _[[Amazon]](https://www.amazon.com/Soccernomics-England-Germany-Australia-Destined/dp/1568584814)_
+
+## February
+
+### _Inverting the Pyramid: The History of Soccer_
+
+Incredibly meticulous historic review of the evolution of soccer tactics since the inception of the sport. Wilson emphasizes that tactics, like other elements of culture, was also subject to exchange -- the spread of the game and its traditionally isolated development in each country that now makes up the big 5 Euro leagues, along with the world's foremost non-European soccer nations, facilitated this wonderful blend of styles and diversity of play as the game grew and globalization progressed. _Inverting the Pyramid_ and _The Genius of Desperation_ are effectively the same book written for different sports; tactical innovation ebbs and flows between attack and defense, regardless of sporting context. On both ends, the goal is to build a better mousetrap, and like Farrar, Wilson spotlights individual innovators in the sport and how they meddled with contemporary notions of how to play the game to find a competitive edge.
+
+_[[Amazon]](https://www.amazon.com/Inverting-Pyramid-History-Soccer-Tactics/dp/1568587384)_
+
+## March
+
+### _The System: The Glory and Scandal of Big-Time College Football_
+
+College football is full of sleeze and scandal -- everyone who follows the sport knows this. However, much of that is often shrouded in legend and often violators of the so-called "social contract" of college sport often go unpunished. Why? It's typically in their (and their program's) best interest to lie, cheat, and steal -- whether that be to the NCAA about impermissible benefits, to recruits about various items, and to current players about compensation. _The System_ does a great job of shining a light on these shadowy parts of the sport and paints a vivid image of the underhanded underpinnings of the sport that keep the gravy train rolling in various football-crazed parts of the country. It seems that in college football, you don't just cheat to win or to get ahead -- you cheat to _keep up_, and everyone's doing it.
+
+_[[Amazon]](https://www.amazon.com/System-Scandal-Big-Time-College-Football/dp/0385536615)_
+
+### April
+
+### _Scorecasting: The Hidden Influences Behind How Sports Are Played and Games Are Won_
+
+Rigorous statistical analysis and validation of various sporting cliches written approachably for the non-statisticians among us (myself included). _Scorecasting_ does get dry and bogged down in minutiae at times, but for the most part, it's a good read to understand the numbers that prove (well, more often disprove) entrenched sporting ideology. 
+
+_[[Amazon]](https://www.amazon.com/Scorecasting-Hidden-Influences-Behind-Sports-ebook/dp/B004C43GC4/ref=pd_sbsd_14_1/147-3599399-2506405?_encoding=UTF8&pd_rd_i=B004C43GC4&pd_rd_r=6ceaaaa9-0f70-447d-86a1-959a4bb3a63f&pd_rd_w=SiexR&pd_rd_wg=pZOmG&pf_rd_p=2c2d0d3b-b3c5-4110-93fa-2c1270309ac1&pf_rd_r=X8H455TQDJAMNT6SASR0&psc=1&refRID=X8H455TQDJAMNT6SASR0)_
+
+### May
+
+### _Shoe Dog: A Memoir by the Creator of Nike_
+
+Tight, page-turning memoir by Phil Knight on the first 10ish years at Nike. Knight has a certain frenetic writing style that is initial off-putting, but ends up fitting the themes of entrepreneurship: business is fast-moving and you've got to think on your feet -- and in Knight's case, about his feet.
+
+I was a bit disappointed with the content Knight covers in _Shoe Dog_; I was expecting to get into the story of how Nike courted Michael Jordan and Knight's initial monetary and apparel contributions to the University of Oregon athletics program. Alas, it was not to be, but Knight does admit that the book isn't necessarily meant to be a true memoir -- it's meant to capture a moment in his life and for readers to grab a whiff of the thrill and anxiety that dominated the early days at Nike.
+
+_[[Amazon]](https://www.amazon.com/dp/B01CRJA470/ref=sr_1_1?dchild=1&keywords=shoe+dog&qid=1588729576&s=digital-text&sr=1-1)_
+
+### June
+
+### _Bad Blood_
+
+Great book on the rise and fall of biotech unicorn Theranos, as well as its figurehead and CEO Elizabeth Holmes. Carreyrou paints a stunning picture of a college dropout that wanted _so much_ to be the next Bill Gates or Steve Jobs that she was willing to lie, cheat, and silence anyone in her path. Carreyrou also shines a light on how Holmes politicked her way to being a billionaire: her Stanford connections and her father's contacts got her in the door with investors and potential directors, and her charisma sold them on what ended up being a pipe dream. Stories like these, and the whistleblowers behind them, continue to prove to me the importance of, and the difference between, believing in what you're doing at work and being ok with what you're doing at work.
+
+_[[Amazon]](https://www.amazon.com/Bad-Blood-Secrets-Silicon-Startup/dp/0525431993/ref=sr_1_1?crid=VBY7NTNQ7DYS&dchild=1&keywords=bad+blood&qid=1591414269&sprefix=bad+blood%2Caps%2C157&sr=8-1)_
+
+<!-- ### _Friday Night Lights_
+
+
+_[[Amazon]](https://www.amazon.com/Friday-Night-Lights-25th-Anniversary/dp/0306824205/ref=sr_1_5?dchild=1&keywords=friday+night+lights&qid=1591477765&sr=8-5)_ -->
