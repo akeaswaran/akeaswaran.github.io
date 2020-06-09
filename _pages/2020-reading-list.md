@@ -54,7 +54,7 @@ College football is full of sleeze and scandal -- everyone who follows the sport
 
 _[[Amazon]](https://www.amazon.com/System-Scandal-Big-Time-College-Football/dp/0385536615)_
 
-### April
+## April
 
 ### _Scorecasting: The Hidden Influences Behind How Sports Are Played and Games Are Won_
 
@@ -62,7 +62,7 @@ Rigorous statistical analysis and validation of various sporting cliches written
 
 _[[Amazon]](https://www.amazon.com/Scorecasting-Hidden-Influences-Behind-Sports-ebook/dp/B004C43GC4/ref=pd_sbsd_14_1/147-3599399-2506405?_encoding=UTF8&pd_rd_i=B004C43GC4&pd_rd_r=6ceaaaa9-0f70-447d-86a1-959a4bb3a63f&pd_rd_w=SiexR&pd_rd_wg=pZOmG&pf_rd_p=2c2d0d3b-b3c5-4110-93fa-2c1270309ac1&pf_rd_r=X8H455TQDJAMNT6SASR0&psc=1&refRID=X8H455TQDJAMNT6SASR0)_
 
-### May
+## May
 
 ### _Shoe Dog: A Memoir by the Creator of Nike_
 
@@ -72,7 +72,7 @@ I was a bit disappointed with the content Knight covers in _Shoe Dog_; I was exp
 
 _[[Amazon]](https://www.amazon.com/dp/B01CRJA470/ref=sr_1_1?dchild=1&keywords=shoe+dog&qid=1588729576&s=digital-text&sr=1-1)_
 
-### June
+## June
 
 ### _Bad Blood_
 
