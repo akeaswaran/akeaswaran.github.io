@@ -88,7 +88,7 @@ _[[Amazon]](https://www.amazon.com/Friday-Night-Lights-25th-Anniversary/dp/03068
 
 ### _None of the Above_
 
-This book is a tale of two ~cities~ halves: the first half mixes Robinson's teaching history and the timeline of the late-00s Atlanta Public Schools cheating scandal with the complicated (to say the absolutely _least_) relationship between corporate education interests, real estate developers, and race relations in Atlanta public policy and education decision-making. This part of the book is an incredibly historically-dense and scathing read about how Atlanta's academically-struggling communities became that way due to historic factors foisted upon them. 
+This book is a tale of two ~~cities~~ halves: the first half mixes Robinson's teaching history and the timeline of the late-00s Atlanta Public Schools cheating scandal with the complicated (to say the absolutely _least_) relationship between corporate education interests, real estate developers, and race relations in Atlanta public policy and education decision-making. This part of the book is an incredibly historically-dense and scathing read about how Atlanta's academically-struggling communities became that way due to historic factors foisted upon them. 
 
 The second half of the book is entirely about the trial for the scandal from Robinson's eyes, as well as life events that intertwined with appearing in court. This portion I liked much less -- not because of the author's perspective, but I didn't find the minutiae of the trial as interesting as I did the details on historic civic development. This is mostly a personal preference -- others may enjoy Robinson's unfurling of the legal drama she became embroiled in rather than the dry history lesson that preceded it.
 
