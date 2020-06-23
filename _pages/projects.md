@@ -20,6 +20,7 @@ A college football simulation game for iOS.
 * [Donovan](https://github.com/akeaswaran/mls-bar): A macOS menubar application written in Objective-C that displays live scores and updates from Major League Soccer matches. Named after US Soccer legend Landon Donovan.
 
 I've also done some basic data analysis work using Python and R, most of which can be found on GitHub [here](https://github.com/akeaswaran/cfb-pbp-analysis) and [here](https://github.com/akeaswaran/cbb_pbp_analysis).
+
 ---
 
 For more information or a resume, please [email me](mailto:akeaswaran@me.com).
