@@ -80,7 +80,22 @@ Great book on the rise and fall of biotech unicorn Theranos, as well as its figu
 
 _[[Amazon]](https://www.amazon.com/Bad-Blood-Secrets-Silicon-Startup/dp/0525431993/ref=sr_1_1?crid=VBY7NTNQ7DYS&dchild=1&keywords=bad+blood&qid=1591414269&sprefix=bad+blood%2Caps%2C157&sr=8-1)_
 
-<!-- ### _Friday Night Lights_
+### _Friday Night Lights_
+
+Source material for the 2004 eponymous NBC show -- a multi-layered narrative built into the context of high-school football. Bissinger does an amazing job of weaving together the threads of racial divisions (physical and psychological), economic development around oil, and adolescent egos to produce this rich story about a small Texas town and how it had almost entirely hitched its wagon to the success of its local football team. I also found it extremely ironic how Bissinger noted in the afterword that the Permian football team (at the center of the book) had fallen into consistent mediocrity in the 25+ years since he wrote _Friday Night Lights_. 
+
+_[[Amazon]](https://www.amazon.com/Friday-Night-Lights-25th-Anniversary/dp/0306824205/ref=sr_1_5?dchild=1&keywords=friday+night+lights&qid=1591477765&sr=8-5)_
+
+### _None of the Above_
+
+This book is a tale of two ~cities~ halves: the first half mixes Robinson's teaching history and the timeline of the late-00s Atlanta Public Schools cheating scandal with the complicated (to say the absolutely _least_) relationship between corporate education interests, real estate developers, and race relations in Atlanta public policy and education decision-making. This part of the book is an incredibly historically-dense and scathing read about how Atlanta's academically-struggling communities became that way due to historic factors foisted upon them. 
+
+The second half of the book is entirely about the trial for the scandal from Robinson's eyes, as well as life events that intertwined with appearing in court. This portion I liked much less -- not because of the author's perspective, but I didn't find the minutiae of the trial as interesting as I did the details on historic civic development. This is mostly a personal preference -- others may enjoy Robinson's unfurling of the legal drama she became embroiled in rather than the dry history lesson that preceded it.
+
+_[[Amazon]](https://www.amazon.com/None-Above-Corporate-Criminalization-Educators/dp/0807039918/ref=sr_1_3?dchild=1&keywords=none+of+the+above&qid=1592701577&sr=8-3)_
+
+<!-- ### _The Narrow Corridor_
 
 
-_[[Amazon]](https://www.amazon.com/Friday-Night-Lights-25th-Anniversary/dp/0306824205/ref=sr_1_5?dchild=1&keywords=friday+night+lights&qid=1591477765&sr=8-5)_ -->
+_[[Amazon]](https://www.amazon.com/Narrow-Corridor-States-Societies-Liberty-ebook/dp/B07MCRLV2K)_ -->
+
