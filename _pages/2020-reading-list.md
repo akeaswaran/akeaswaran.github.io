@@ -94,8 +94,15 @@ The second half of the book is entirely about the trial for the scandal from Rob
 
 _[[Amazon]](https://www.amazon.com/None-Above-Corporate-Criminalization-Educators/dp/0807039918/ref=sr_1_3?dchild=1&keywords=none+of+the+above&qid=1592701577&sr=8-3)_
 
-<!-- ### _The Narrow Corridor_
+## July
 
+I didn't finish a book in July, unfortunately.
 
-_[[Amazon]](https://www.amazon.com/Narrow-Corridor-States-Societies-Liberty-ebook/dp/B07MCRLV2K)_ -->
+## August
+
+### The Sinful Seven: Sci-Fi Western Legends of the NCAA
+
+The combined, rootin'-tootin', NCAA-hatin' brainchild of former members of SBNation's college football vertical, the Banner Society. It's more an anthology of stories than a cohesive narrative, but each story is rich with vibrant allegory that combines the historical misdeeds of the NCAA with biting satire and caricature. If you like college football, you'll _really_ like this book. It was worth every penny of the [$2.26](https://www.youtube.com/watch?v=j1_RzfIUVFs) I paid for it (when it was on preorder with a "name your own price" offer) and really worth much, much more. It's a shame these talented writers haven't found another home for their combined works yet (at time of writing, at least), and I really hope they find one soon.
+
+_[[Gumroad]](https://sinfulseven.com)_
 
