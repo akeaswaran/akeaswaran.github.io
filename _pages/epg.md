@@ -2,6 +2,7 @@
 layout: post
 title: Expected Points Generated
 permalink: /epg/
+published: false
 ---
 
 I have yet to find a good statistic to represent a soccer player's value to their team. Soccer has no parallel to baseball's Wins above Replacement (WAR) stat, which makes sense when you consider all the minute actions within a soccer game that make it hard to distill the ability and production of a player into a single number using a few key discrete metrics. [Expected Goals](http://www.americansocceranalysis.com/explanation/) is a good predictor of success, but only shows the expected scoring for a player, not how their performance contributes to their team's performance.

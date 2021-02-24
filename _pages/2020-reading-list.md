@@ -2,6 +2,7 @@
 layout: post
 title: 2020 Reading List
 permalink: /2020-reading-list/
+published: false
 ---
 
 Borrowing from the example of [David Sivers'](https://sivers.org/) [book notes](https://sivers.org/book), I wanted to keep track of the books I've read so far this year, along with a short snippet about what I gleaned from and/or my thoughts on each one.
