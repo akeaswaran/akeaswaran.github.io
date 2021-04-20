@@ -15,11 +15,13 @@ noShowTitle: true
 </div>
 
 ### <a name="about"></a>About Me
-I'm Akshay Easwaran, and I'm a software engineer at Salesforce, having completed my BS in Computer Science at the Georgia Institute of Technology in May 2019.
-
-I fell in love with computer science long ago. I've been working with computers for most of my life and have developed a genuine fascination with how they and their software work.
+I'm Akshay Easwaran, and I'm a software engineer at Salesforce. I completed my BS in Computer Science (with a minor in Sports, Society, and Technology) at the Georgia Institute of Technology in May 2019.
 
 I originally got into programming when my family first bought an iMac and suggested I learn how to create iPhone applications. I followed a few basic tutorials from online and was immediately hooked. I eventually bought a MacBook Pro and started developing apps as a hobby, hoping one day to be good enough at programming to turn my skills into a career.
+
+I'm especially interested in the intersection of technology and sport. My hobby computing projects have been centered around integrating sports information and sports data with technical resources to sharpen my skills with data and newer web and native technologies, while much of my remaining spare time is spent immersing myself in the world of sport, both as a fan and an armchair analyst for Georgia Tech sports blog _[From the Rumble Seat](https://fromtherumbleseat.com/)_ (you can view all of my work [here](https://fromtherumbleseat.com/authors/akeaswaran)). I have not only had the chance to build software around sport and using sports knowledge, I’ve also had the opportunity to think critical and objectively about sport, sporting events, sporting history, and sport sociology.
+
+In addition to my work and personal projects, I am an avid Atlanta sports fan and casual Atlanta sports historian. I find the development and evolution of sports in this city — especially how they have intertwined with the city’s political structures, demographics, and develop — an incredibly interesting and rich topic of study.
 
 ### <a name="work-experience"></a>Work Experience
 In the summer of 2013, I worked at **CloudSherpas, Inc.**, a cloud-computing and mobile application consulting company based in Atlanta, as an intern in the software engineering department. I helped create an iOS application that interacted with the Salesforce backend service for one of the company's clients.
@@ -35,50 +37,6 @@ For summer 2018, I returned to **Salesforce** as a software engineering intern w
 In fall 2018, I worked with **The Coca-Cola Company** as an intern with _The Bridge by Coca-Cola_, connecting customer and internal teams with startups to solve their most pressing business challenges.
 
 As of summer 2019, I returned to **Salesforce** again, building tools and end-to-end automation systems to maximize the quality of new features on the Salesforce platform.
-
-In my spare time, I write for Georgia Tech sports blog _[From the Rumble Seat](https://fromtherumbleseat.com/)_. You can view all of my work [here](https://fromtherumbleseat.com/authors/akeaswaran).
-
-### <a name="extracurriculars"></a>College Extracurricular Activities
-![Ramblin' Reck Club]({{ site.baseurl }}/assets/images/reck.jpg)
-
-<h3 style="margin-bottom:0px;">Ramblin' Reck Club</h3>
-<ul style="list-style:none;list-style-type: none;margin: 0;padding-bottom:10px;">
-<li><h4 style="color:#869395 !important"><i>Reck Driver Aide ('17), Member-at-Large ('18), Technology Chair (Spring '19)</i></h4></li>
-<li><h5 style="color:#869395 !important">Feb 2017 - May 2019</h5></li>
-<li><h5 style="color:#869395 !important">Atlanta, GA</h5></li>
-</ul>
-
-Alumnus of an organization of students committed to the education and promotion of Georgia Tech spirit, history and tradition. While a member, worked together with other members and student organizations to instill the student body with enthusiasm for all the facets of Tech, whether that be sports, events, or the school itself. Built a [website that details the history of the Ramblin' Reck mascot](http://reckclub.org/reckhistory) since its inception in 1961, planned events and activities that fostered a sense of community and strengthened the internal culture of the organization, and refreshed [the organization's web presence](http://reckclub.org/).
-
-![TEDxGeorgiaTech]({{ site.baseurl }}/assets/images/tedx.jpg)
-<h3 style="margin-bottom:0px;">TEDxGeorgiaTech</h3>
-<ul style="list-style:none;list-style-type: none;margin: 0;padding-bottom:10px;">
-<li><h4 style="color:#869395 !important"><i>Webmaster</i></h4></li>
-<li><h5 style="color:#869395 !important">Sept 2016 - May 2018</h5></li>
-<li><h5 style="color:#869395 !important">Atlanta, GA</h5></li>
-</ul>
-
-Led the development of the website for a student-led version of the TEDx conference series at Georgia Tech. Worked with other executive committee members to drive UI/UX design and feature development to make the website a central location for information about TEDx events at Georgia Tech.
-
-![Georgia Tech SGA]({{ site.baseurl }}/assets/images/sga.jpg)
-<h3 style="margin-bottom:0px;">Georgia Tech Student Government Association</h3>
-<ul style="list-style:none;list-style-type: none;margin: 0;padding-bottom:10px;">
-<li><h4 style="color:#869395 !important"><i>IT Development Committee Member ('15), Chair ('16), and Project Lead ('17)</i></h4></li>
-<li><h5 style="color:#869395 !important">Sept 2015 - Dec 2017</h5></li>
-<li><h5 style="color:#869395 !important">Atlanta, GA</h5></li>
-</ul>
-
-Worked with campus officials and external IT contacts to improve existing infrastructure and established new working relationships to build a better future for Georgia Tech students.
-
-![Georgia Tech]({{ site.baseurl }}/assets/images/gt-fisheye.jpg)
-<h3 style="margin-bottom:0px;">Georgia Tech College of Computing</h3>
-<ul style="list-style:none;list-style-type: none;margin: 0;padding-bottom:10px;">
-<li><h4 style="color:#869395 !important"><i>Undergraduate Teaching Assistant (CS 2340: Objects and Design)</i></h4></li>
-<li><h5 style="color:#869395 !important">Aug - Dec 2016</h5></li>
-<li><h5 style="color:#869395 !important">Atlanta, GA</h5></li>
-</ul>
-
-Helped fellow students learn about object-oriented programming and project-based teamwork and taught them about JavaFX development and Agile Scrum methodologies for their first foray into team-based software development.
 
 ---
 
