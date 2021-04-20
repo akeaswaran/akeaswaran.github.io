@@ -10,7 +10,6 @@ noShowTitle: true
     <ul>
         <li><a href="#about">ABOUT</a></li>
         <li><a href="#work-experience">EXPERIENCE</a></li>
-        <li><a href="#extracurriculars">ACTIVITIES</a></li>
     </ul>
 </div>
 
@@ -21,7 +20,7 @@ I originally got into programming when my family first bought an iMac and sugges
 
 I'm especially interested in the intersection of technology and sport. My hobby computing projects have been centered around integrating sports information and sports data with technical resources to sharpen my skills with data and newer web and native technologies, while much of my remaining spare time is spent immersing myself in the world of sport, both as a fan and an armchair analyst for Georgia Tech sports blog _[From the Rumble Seat](https://fromtherumbleseat.com/)_ (you can view all of my work [here](https://fromtherumbleseat.com/authors/akeaswaran)). I have not only had the chance to build software around sport and using sports knowledge, I’ve also had the opportunity to think critical and objectively about sport, sporting events, sporting history, and sport sociology.
 
-In addition to my work and personal projects, I am an avid Atlanta sports fan and casual Atlanta sports historian. I find the development and evolution of sports in this city — especially how they have intertwined with the city’s political structures, demographics, and develop — an incredibly interesting and rich topic of study.
+In addition to my work and personal projects, I am an avid Atlanta sports fan and casual Atlanta sports historian. I find the development and evolution of sports in this city — and especially how both have intertwined with the city’s political structures, demographics, and development — an incredibly interesting and rich topic of study.
 
 ### <a name="work-experience"></a>Work Experience
 In the summer of 2013, I worked at **CloudSherpas, Inc.**, a cloud-computing and mobile application consulting company based in Atlanta, as an intern in the software engineering department. I helped create an iOS application that interacted with the Salesforce backend service for one of the company's clients.
@@ -36,7 +35,7 @@ For summer 2018, I returned to **Salesforce** as a software engineering intern w
 
 In fall 2018, I worked with **The Coca-Cola Company** as an intern with _The Bridge by Coca-Cola_, connecting customer and internal teams with startups to solve their most pressing business challenges.
 
-As of summer 2019, I returned to **Salesforce** again, building tools and end-to-end automation systems to maximize the quality of new features on the Salesforce platform.
+As of summer 2019, I returned to **Salesforce** with Pardot again, building tools and end-to-end automation systems to maximize the quality of new features on the Salesforce platform.
 
 ---
 

@@ -8,7 +8,7 @@ noShowTitle: false
 
 All of my projects are available on [GitHub](https://github.com/akeaswaran). I mainly work with the Objective-C, Java, and JavaScript programming languages, but have a working knowledge of PHP, Apex, and Visualforce. I have also worked with Python, R, MySQL, the Salesforce CRM, and the Pardot web application. Some of my notable programming projects are:
 
-* [College Football Coach](https://github.com/akeaswaran/FootballCoach-iOS):
+* [College Football Coach](https://akeaswaran.me/cfc-ios):
 A college football simulation game for iOS.
 
 * [Game on Paper](https://gameonpaper.com): A site for advanced college football statistics.
