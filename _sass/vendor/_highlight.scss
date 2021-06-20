@@ -19,6 +19,7 @@ green     #859900  operators, other keywords
 pre, code {
     @include ff--code;
     @include fs--code;
+    white-space: pre-wrap;  
 }
 
 .highlight {
@@ -108,3 +109,14 @@ span.lineno {
 .highlight .vg { color: #268bd2 } /* Name.Variable.Global */
 .highlight .vi { color: #268bd2 } /* Name.Variable.Instance */
 .highlight .il { color: #2aa198 } /* Literal.Number.Integer.Long */
+
+@media (prefers-color-scheme: dark) {
+    .highlight {
+        background: #002b36;
+        border: 1px solid #171714;
+
+        .gutter {
+            border-right: 1px solid #171714;
+        }
+    }
+}
