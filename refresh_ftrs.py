@@ -18,6 +18,7 @@ from os.path import isfile, join
 import time
 from bs4 import BeautifulSoup
 from dateutil.parser import parse
+import html
 
 print('Starting update of blog with recent FTRS posts.')
 print('Checking date of last published blog post...')
@@ -31,7 +32,7 @@ if m:
     print('Last blog post date: ' + found)
 
     print('Retrieving latest FTRS articles written by self...')
-    d = feedparser.parse('https://www.fromtherumbleseat.com/authors/akeaswaran/rss')
+    d = feedparser.parse('https://www.fromtherumbleseat.com/authors/akeaswaran/rss') # ?paged= for pagination
     self_articles = d.entries # filter(lambda x: {'name' : 'Akshay Easwaran'} in x.authors, d.entries)
 
     print('Parsing FTRS articles...')
@@ -39,20 +40,21 @@ if m:
         # print(a.published_parsed)
         if a.published_parsed > last_date:
             print('Formatting and writing \"' + a.title + '\" to _posts...')
-            title = a.title
+            title = html.unescape(a.title)
             if len(title) > 56:
                 title = title[:56].rstrip() + "..."
             link = a.link
 
             # The dek/subtitle for the article is always the first <p> tag, so use BeautifulSoup to retreive this.
-            soup = BeautifulSoup(a.summary, "html.parser")
-            deks = [p.get_text() for p in soup.find_all("p", string=True)]
+            soup = BeautifulSoup(html.unescape(a.summary), "html.parser")
+            deks = [p.get_text() for p in soup.find_all("summary", string=True)]
             if len(deks) > 0:
                 dek = deks[0]
-                if len(dek) > 54:
-                    dek = dek[:54].rstrip() + "..."
             else:
-                dek = None
+                dek = html.unescape(a.summary)
+
+            if len(dek) > 54:
+                dek = dek[:54].rstrip() + "..."
 
             # Parse and format the date (ISO format) of the article to use in the file name.
             post_date = parse(a.published)
