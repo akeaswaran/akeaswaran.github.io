@@ -2,9 +2,9 @@ name: FTRS Weekly Update
 on:
   schedule:
     - cron: "0 0 * * *"
-  push:
-    branches:
-      - master
+  # push:
+  #   branches:
+  #     - master
   workflow_dispatch:
 
 jobs:
@@ -18,9 +18,9 @@ jobs:
           - name: Update articles
             run: uv run refresh_ftrs.py
           - name: Push updated files
-            uses: test-room-7/action-update-file@v1.5.0
+            uses: test-room-7/action-update-file@2.0.0
+            timeout-minutes: 2
             with:
-              file-path: |
-                _posts/*.md
+              file-path: _posts/*.md
               commit-msg: "Updated FTRS posts after latest bot run."
               github-token: ${{ secrets.GITHUB_TOKEN }}
