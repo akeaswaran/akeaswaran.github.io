@@ -1,0 +1,26 @@
+name: FTRS Weekly Update
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+    update_ftrs:
+        runs-on: ubuntu-latest
+        name: FTRS Articles Update
+        steps:
+          - uses: actions/checkout@v5
+          - name: Install uv
+            uses: astral-sh/setup-uv@v6
+          - name: Update articles
+            run: uv run refresh_ftrs.py
+          - name: Push updated files
+            uses: test-room-7/action-update-file@v1.5.0
+            with:
+              file-path: |
+                _posts/*.md
+              commit-msg: "Updated FTRS posts after latest bot run."
+              github-token: ${{ secrets.GITHUB_TOKEN }}

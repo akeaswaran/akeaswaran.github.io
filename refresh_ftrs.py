@@ -1,3 +1,12 @@
+# /// script
+# requires-python = ">=3.10"
+# dependencies = [
+#     "bs4",
+#     "feedparser",
+#     "python-dateutil",
+# ]
+# ///
+
 # FTRS Importer
 # Author: Akshay Easwaran <akeaswaran@me.com>
 # Description: I run this script with 'python refresh_ftrs.py' to add my recently written articles from From the Rumble Seat to my blog here.
@@ -37,17 +46,35 @@ if m:
 
             # The dek/subtitle for the article is always the first <p> tag, so use BeautifulSoup to retreive this.
             soup = BeautifulSoup(a.summary, "html.parser")
-            dek = [p.get_text() for p in soup.find_all("p", text=True)][0]
-            if len(dek) > 54:
-                dek = dek[:54].rstrip() + "..."
+            deks = [p.get_text() for p in soup.find_all("p", string=True)]
+            if len(deks) > 0:
+                dek = deks[0]
+                if len(dek) > 54:
+                    dek = dek[:54].rstrip() + "..."
+            else:
+                dek = None
 
             # Parse and format the date (ISO format) of the article to use in the file name.
             post_date = parse(a.published)
             new_file_path = './_posts/' + post_date.strftime("%Y") + '-' + post_date.strftime("%m") + '-' + post_date.strftime("%d") + '-'+title.lower().replace(' ', '-').replace('!', '').replace(':','').replace('?','').replace('/','-').replace(',','').replace('&','and')+'.md'
 
+            md_pieces = [
+                '---',
+                'layout: post',
+                f'title: "{title}"'
+            ]
+            
+            if dek is not None:
+                md_pieces.append(f'description: "{dek}"')
+
+            md_pieces += [
+                f'permalink: "{link}"',
+                '---'
+            ]
+
             # Write the article's metadata to a Markdown file for Jekyll publishing.
             f = open(new_file_path, 'w')
-            markdown_format = '---\nlayout: post\ntitle: "' + title + '"\ndescription: "' + dek + '"\npermalink: ' + link + '\n---'
+            markdown_format = "\n".join(md_pieces)
             f.write(markdown_format)
             print('Wrote \"' + a.title + '\" to _posts.')
 
