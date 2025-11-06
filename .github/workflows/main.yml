@@ -18,7 +18,7 @@ jobs:
           - name: Update articles
             run: uv run refresh_ftrs.py
           - name: Push updated files
-            uses: test-room-7/action-update-file@2.0.0
+            uses: test-room-7/action-update-file@v2.0.0
             timeout-minutes: 2
             with:
               file-path: _posts/*.md
