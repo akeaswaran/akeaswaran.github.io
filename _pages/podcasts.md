@@ -8,7 +8,7 @@ noShowTitle: false
 
 I've made some assorted podcast appearances through the years:
 
-- [Scions of the Southland](https://creators.spotify.com/pod/profile/scions/): (host) a weekly Georgia Tech sports podcast
+- [Scions of the Southland](https://creators.spotify.com/pod/profile/scions/): (host) a weekly Georgia Tech sports podcast from [From the Rumble Seat](https://fromtherumbleseat.com)
 - [American Soccer Analysis](https://www.americansocceranalysis.com/podcasts/2025/3/18/asa-acast-feed)
     - [2026-01-26](https://shows.acast.com/american-soccer-analysis/episodes/6976f91c79d88bc8eeb02e18): Release of U.S. Soccer's [Glass Onion](https://glass-onion.ussoccer.technology) project.
     - [2025-03-01](https://shows.acast.com/american-soccer-analysis/episodes/67ecaf9a02e789100fe466de)
