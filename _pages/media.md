@@ -1,12 +1,27 @@
 ---
-title: Podcasts
+title: Media
 layout: content
-permalink: /podcasts/
+permalink: /media/
 profile: true
 noShowTitle: false
 ---
 
-I've made some assorted podcast appearances through the years:
+I've been grateful to have the opportunity to appear in a few publications over the years:
+
+## Conference Presentations
+
+- [Connecticut Sports Analytics Symposium](https://statds.org/events/csas2026/)
+    - 2026: [Operationalizing Tracking Data](https://www.linkedin.com/posts/akeaswaran_operationalizing-tracking-data-csas-2026-activity-7451002315454468096-G8Dj)
+
+## News
+
+- [Atlanta Journal-Constitution](https://ajc.com)
+    - 2026-06-03: [Georgia Tech grad, Atlantan serves U.S. World Cup team in a most Tech way](https://www.ajc.com/sports/2026/06/georgia-tech-grad-atlantan-serves-us-world-cup-team-in-a-most-tech-way/)
+
+- [Georgia Tech Alumni Association](https://gtalumni.org)
+    - June 2026: [Georgia Tech’s 2026 World Cup Roster](https://www.gtalumni.org/news/2026/georgia-techs-2026-world-cup-roster.html)
+
+## Podcasts
 
 - [Scions of the Southland](https://creators.spotify.com/pod/profile/scions/): (host) a weekly Georgia Tech sports podcast from [From the Rumble Seat](https://fromtherumbleseat.com)
 - [American Soccer Analysis](https://www.americansocceranalysis.com/podcasts/2025/3/18/asa-acast-feed)
